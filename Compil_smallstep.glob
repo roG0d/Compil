@@ -1,0 +1,949 @@
+DIGEST 08ae924ccbb98eebdfd73acff2eb2317
+FSF.Compil_smallstep
+R15:34 Coq.Program.Equality <> <> lib
+R52:54 Coq.micromega.Lia <> <> lib
+R80:82 SF.Imp <> <> lib
+R108:116 SF.Sequences <> <> lib
+R142:150 SF.Semantics <> <> lib
+R176:181 SF.Compil <> <> lib
+def 811:821 <> compile_com
+R827:829 SF.Imp <> com ind
+binder 824:824 <> c:1
+R834:837 SF.Compil <> code def
+R850:850 SF.Compil_smallstep <> c:1 var
+R861:865 SF.Imp <> CSkip constr
+R876:878 Coq.Init.Datatypes <> nil constr
+R884:887 SF.Imp <> CAss constr
+R889:890 SF.SfLib <> id ind
+R917:920 SF.SfLib <> :::x_'++'_x not
+R903:914 SF.Compil <> compile_aexp def
+R931:934 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R921:927 SF.Compil <> Isetvar constr
+R935:937 Coq.Init.Datatypes <> nil constr
+R943:946 SF.Imp <> CSeq constr
+R977:980 SF.SfLib <> :::x_'++'_x not
+R963:973 SF.Compil_smallstep <> compile_com:2 def
+R981:991 SF.Compil_smallstep <> compile_com:2 def
+R1000:1002 SF.Imp <> CIf constr
+R1043:1053 SF.Compil_smallstep <> compile_com:2 def
+binder 1030:1038 <> code_ifso:4
+R1087:1097 SF.Compil_smallstep <> compile_com:2 def
+binder 1073:1082 <> code_ifnot:5
+R1157:1166 SF.SfLib <> :::x_'++'_x not
+R1114:1125 SF.Compil <> compile_bexp def
+R1129:1133 Coq.Init.Datatypes <> false constr
+R1152:1154 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1136:1141 Coq.Init.Datatypes <> length def
+R1143:1151 SF.Compil_smallstep <> code_ifso:4 var
+R1176:1185 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1167:1175 SF.Compil_smallstep <> code_ifso:4 var
+R1221:1230 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1186:1200 SF.Compil <> Ibranch_forward constr
+R1203:1208 Coq.Init.Datatypes <> length def
+R1210:1219 SF.Compil_smallstep <> code_ifnot:5 var
+R1231:1240 SF.Compil_smallstep <> code_ifnot:5 var
+R1246:1251 SF.Imp <> CWhile constr
+R1286:1296 SF.Compil_smallstep <> compile_com:2 def
+binder 1273:1281 <> code_body:6
+R1329:1340 SF.Compil <> compile_bexp def
+R1344:1348 Coq.Init.Datatypes <> false constr
+R1367:1369 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1351:1356 Coq.Init.Datatypes <> length def
+R1358:1366 SF.Compil_smallstep <> code_body:6 var
+binder 1316:1324 <> code_test:7
+R1400:1458 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1382:1397 SF.Compil <> Ibranch_backward constr
+R1468:1477 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1459:1467 SF.Compil_smallstep <> code_test:7 var
+R1487:1496 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1478:1486 SF.Compil_smallstep <> code_body:6 var
+R1555:1564 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1497:1512 SF.Compil <> Ibranch_backward constr
+R1550:1552 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1531:1533 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1515:1520 Coq.Init.Datatypes <> length def
+R1522:1530 SF.Compil_smallstep <> code_test:7 var
+R1534:1539 Coq.Init.Datatypes <> length def
+R1541:1549 SF.Compil_smallstep <> code_body:6 var
+R1565:1567 Coq.Init.Datatypes <> nil constr
+def 1588:1602 <> compile_program
+R1608:1610 SF.Imp <> com ind
+binder 1605:1605 <> p:8
+R1615:1618 SF.Compil <> code def
+R1638:1641 SF.SfLib <> :::x_'++'_x not
+R1625:1635 SF.Compil_smallstep <> compile_com def
+R1637:1637 SF.Compil_smallstep <> p:8 var
+R1647:1650 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1642:1646 SF.Compil <> Ihalt constr
+R1651:1653 Coq.Init.Datatypes <> nil constr
+ind 2432:2447 <> spec_compile_com
+constr 2493:2500 <> scc_skip
+constr 2554:2560 <> scc_ass
+constr 2768:2774 <> scc_seq
+constr 2926:2931 <> scc_if
+constr 3249:3257 <> scc_while
+constr 3726:3743 <> scc_branch_forward
+constr 3926:3944 <> scc_branch_backward
+R2453:2456 SF.Compil <> code def
+binder 2450:2450 <> C:9
+R2463:2466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2460:2462 SF.Imp <> com ind
+R2470:2473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2467:2469 Coq.Init.Datatypes <> nat ind
+R2477:2480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2474:2476 Coq.Init.Datatypes <> nat ind
+binder 2510:2511 <> pc:12
+R2520:2535 SF.Compil_smallstep <> spec_compile_com:10 ind
+R2547:2548 SF.Compil_smallstep <> pc:12 var
+R2544:2545 SF.Compil_smallstep <> pc:12 var
+R2539:2542 SF.Imp <> :::'SKIP' not
+R2537:2537 SF.Compil_smallstep <> C:9 var
+binder 2570:2571 <> id:13
+binder 2573:2573 <> a:14
+binder 2575:2576 <> pc:15
+R2617:2626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2585:2594 SF.Compil <> codeseq_at ind
+R2596:2596 SF.Compil_smallstep <> C:9 var
+R2598:2599 SF.Compil_smallstep <> pc:15 var
+R2602:2613 SF.Compil <> compile_aexp def
+R2615:2615 SF.Compil_smallstep <> a:14 var
+R2686:2695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2667:2669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2627:2633 SF.Compil <> code_at def
+R2635:2635 SF.Compil_smallstep <> C:9 var
+R2640:2642 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2638:2639 SF.Compil_smallstep <> pc:15 var
+R2643:2648 Coq.Init.Datatypes <> length def
+R2651:2662 SF.Compil <> compile_aexp def
+R2664:2664 SF.Compil_smallstep <> a:14 var
+R2670:2673 Coq.Init.Datatypes <> Some constr
+R2675:2681 SF.Compil <> Isetvar constr
+R2683:2684 SF.Compil_smallstep <> id:13 var
+R2696:2711 SF.Compil_smallstep <> spec_compile_com:10 ind
+R2758:2760 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2732:2734 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2730:2731 SF.Compil_smallstep <> pc:15 var
+R2735:2740 Coq.Init.Datatypes <> length def
+R2743:2754 SF.Compil <> compile_aexp def
+R2756:2756 SF.Compil_smallstep <> a:14 var
+R2726:2727 SF.Compil_smallstep <> pc:15 var
+R2718:2722 SF.Imp <> :::x_'::='_x not
+R2716:2717 SF.Compil_smallstep <> id:13 var
+R2723:2723 SF.Compil_smallstep <> a:14 var
+R2713:2713 SF.Compil_smallstep <> C:9 var
+binder 2784:2785 <> c1:16
+binder 2787:2788 <> c2:17
+binder 2790:2792 <> pc1:18
+binder 2794:2796 <> pc2:19
+binder 2798:2800 <> pc3:20
+R2838:2847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2809:2824 SF.Compil_smallstep <> spec_compile_com:10 ind
+R2835:2837 SF.Compil_smallstep <> pc2:19 var
+R2831:2833 SF.Compil_smallstep <> pc1:18 var
+R2828:2829 SF.Compil_smallstep <> c1:16 var
+R2826:2826 SF.Compil_smallstep <> C:9 var
+R2877:2886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2848:2863 SF.Compil_smallstep <> spec_compile_com:10 ind
+R2874:2876 SF.Compil_smallstep <> pc3:20 var
+R2870:2872 SF.Compil_smallstep <> pc2:19 var
+R2867:2868 SF.Compil_smallstep <> c2:17 var
+R2865:2865 SF.Compil_smallstep <> C:9 var
+R2887:2902 SF.Compil_smallstep <> spec_compile_com:10 ind
+R2918:2920 SF.Compil_smallstep <> pc3:20 var
+R2914:2916 SF.Compil_smallstep <> pc1:18 var
+R2909:2909 SF.Imp <> :::x_';'_x not
+R2907:2908 SF.Compil_smallstep <> c1:16 var
+R2910:2911 SF.Compil_smallstep <> c2:17 var
+R2904:2904 SF.Compil_smallstep <> C:9 var
+binder 2941:2941 <> b:21
+binder 2943:2946 <> ifso:22
+binder 2948:2952 <> ifnot:23
+binder 2954:2955 <> pc:24
+binder 2957:2959 <> pc':25
+binder 2961:2963 <> ofs:26
+R2989:3000 SF.Compil <> compile_bexp def
+R3002:3002 SF.Compil_smallstep <> b:21 var
+R3004:3008 Coq.Init.Datatypes <> false constr
+R3010:3012 SF.Compil_smallstep <> ofs:26 var
+binder 2976:2984 <> code_test:27
+R3048:3057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3023:3032 SF.Compil <> codeseq_at ind
+R3034:3034 SF.Compil_smallstep <> C:9 var
+R3036:3037 SF.Compil_smallstep <> pc:24 var
+R3039:3047 SF.Compil_smallstep <> code_test:27 var
+R3109:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3058:3073 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3106:3108 SF.Compil_smallstep <> pc':25 var
+R3085:3087 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3083:3084 SF.Compil_smallstep <> pc:24 var
+R3088:3093 Coq.Init.Datatypes <> length def
+R3095:3103 SF.Compil_smallstep <> code_test:27 var
+R3077:3080 SF.Compil_smallstep <> ifso:22 var
+R3075:3075 SF.Compil_smallstep <> C:9 var
+R3177:3186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3119:3134 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3174:3176 SF.Compil_smallstep <> pc':25 var
+R3166:3168 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3147:3149 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3145:3146 SF.Compil_smallstep <> pc:24 var
+R3150:3155 Coq.Init.Datatypes <> length def
+R3157:3165 SF.Compil_smallstep <> code_test:27 var
+R3169:3171 SF.Compil_smallstep <> ofs:26 var
+R3138:3142 SF.Compil_smallstep <> ifnot:23 var
+R3136:3136 SF.Compil_smallstep <> C:9 var
+R3187:3202 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3241:3243 SF.Compil_smallstep <> pc':25 var
+R3238:3239 SF.Compil_smallstep <> pc:24 var
+R3207:3210 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3212:3217 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3222:3227 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3233:3235 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3211:3211 SF.Compil_smallstep <> b:21 var
+R3218:3221 SF.Compil_smallstep <> ifso:22 var
+R3228:3232 SF.Compil_smallstep <> ifnot:23 var
+R3204:3204 SF.Compil_smallstep <> C:9 var
+binder 3267:3267 <> b:28
+binder 3269:3272 <> body:29
+binder 3274:3276 <> pc1:30
+binder 3278:3280 <> pc2:31
+binder 3282:3284 <> pc3:32
+binder 3286:3288 <> pc4:33
+binder 3290:3293 <> ofs1:34
+binder 3295:3298 <> ofs2:35
+binder 3300:3303 <> ofs3:36
+R3329:3340 SF.Compil <> compile_bexp def
+R3342:3342 SF.Compil_smallstep <> b:28 var
+R3344:3348 Coq.Init.Datatypes <> false constr
+R3350:3353 SF.Compil_smallstep <> ofs3:36 var
+binder 3316:3324 <> code_test:37
+R3407:3416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3377:3379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3364:3370 SF.Compil <> code_at def
+R3372:3372 SF.Compil_smallstep <> C:9 var
+R3374:3376 SF.Compil_smallstep <> pc1:30 var
+R3380:3383 Coq.Init.Datatypes <> Some constr
+R3385:3400 SF.Compil <> Ibranch_backward constr
+R3402:3405 SF.Compil_smallstep <> ofs1:34 var
+R3437:3446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3420:3422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3417:3419 SF.Compil_smallstep <> pc2:31 var
+R3430:3432 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3426:3428 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3423:3425 SF.Compil_smallstep <> pc1:30 var
+R3433:3436 SF.Compil_smallstep <> ofs1:34 var
+R3473:3482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3447:3456 SF.Compil <> codeseq_at ind
+R3458:3458 SF.Compil_smallstep <> C:9 var
+R3460:3462 SF.Compil_smallstep <> pc2:31 var
+R3464:3472 SF.Compil_smallstep <> code_test:37 var
+R3535:3544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3483:3498 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3532:3534 SF.Compil_smallstep <> pc3:32 var
+R3511:3513 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3508:3510 SF.Compil_smallstep <> pc2:31 var
+R3514:3519 Coq.Init.Datatypes <> length def
+R3521:3529 SF.Compil_smallstep <> code_test:37 var
+R3502:3505 SF.Compil_smallstep <> body:29 var
+R3500:3500 SF.Compil_smallstep <> C:9 var
+R3588:3597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3558:3560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3545:3551 SF.Compil <> code_at def
+R3553:3553 SF.Compil_smallstep <> C:9 var
+R3555:3557 SF.Compil_smallstep <> pc3:32 var
+R3561:3564 Coq.Init.Datatypes <> Some constr
+R3566:3581 SF.Compil <> Ibranch_backward constr
+R3583:3586 SF.Compil_smallstep <> ofs2:35 var
+R3633:3642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3627:3629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3620:3622 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3601:3603 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3598:3600 SF.Compil_smallstep <> pc2:31 var
+R3604:3609 Coq.Init.Datatypes <> length def
+R3611:3619 SF.Compil_smallstep <> code_test:37 var
+R3623:3626 SF.Compil_smallstep <> ofs3:36 var
+R3630:3632 SF.Compil_smallstep <> pc4:33 var
+R3663:3672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3657:3659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3650:3652 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3646:3648 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3643:3645 SF.Compil_smallstep <> pc3:32 var
+R3653:3656 SF.Compil_smallstep <> ofs2:35 var
+R3660:3662 SF.Compil_smallstep <> pc2:31 var
+R3673:3688 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3718:3720 SF.Compil_smallstep <> pc4:33 var
+R3714:3716 SF.Compil_smallstep <> pc1:30 var
+R3693:3698 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3700:3703 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3708:3711 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3699:3699 SF.Compil_smallstep <> b:28 var
+R3704:3707 SF.Compil_smallstep <> body:29 var
+R3690:3690 SF.Compil_smallstep <> C:9 var
+binder 3753:3753 <> c:38
+binder 3755:3756 <> pc:39
+binder 3758:3760 <> pc1:40
+binder 3762:3764 <> pc2:41
+binder 3766:3768 <> ofs:42
+R3804:3813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3777:3792 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3801:3803 SF.Compil_smallstep <> pc1:40 var
+R3798:3799 SF.Compil_smallstep <> pc:39 var
+R3796:3796 SF.Compil_smallstep <> c:38 var
+R3794:3794 SF.Compil_smallstep <> C:9 var
+R3855:3864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3827:3829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3814:3820 SF.Compil <> code_at def
+R3822:3822 SF.Compil_smallstep <> C:9 var
+R3824:3826 SF.Compil_smallstep <> pc1:40 var
+R3830:3833 Coq.Init.Datatypes <> Some constr
+R3835:3849 SF.Compil <> Ibranch_forward constr
+R3851:3853 SF.Compil_smallstep <> ofs:42 var
+R3884:3893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3868:3870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3865:3867 SF.Compil_smallstep <> pc2:41 var
+R3878:3880 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3874:3876 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3871:3873 SF.Compil_smallstep <> pc1:40 var
+R3881:3883 SF.Compil_smallstep <> ofs:42 var
+R3894:3909 SF.Compil_smallstep <> spec_compile_com:10 ind
+R3918:3920 SF.Compil_smallstep <> pc2:41 var
+R3915:3916 SF.Compil_smallstep <> pc:39 var
+R3913:3913 SF.Compil_smallstep <> c:38 var
+R3911:3911 SF.Compil_smallstep <> C:9 var
+binder 3954:3954 <> c:43
+binder 3956:3957 <> pc:44
+binder 3959:3961 <> pc1:45
+binder 3963:3965 <> pc2:46
+binder 3967:3969 <> ofs:47
+R4005:4014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3978:3993 SF.Compil_smallstep <> spec_compile_com:10 ind
+R4002:4004 SF.Compil_smallstep <> pc1:45 var
+R3999:4000 SF.Compil_smallstep <> pc:44 var
+R3997:3997 SF.Compil_smallstep <> c:43 var
+R3995:3995 SF.Compil_smallstep <> C:9 var
+R4057:4066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4028:4030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4015:4021 SF.Compil <> code_at def
+R4023:4023 SF.Compil_smallstep <> C:9 var
+R4025:4027 SF.Compil_smallstep <> pc1:45 var
+R4031:4034 Coq.Init.Datatypes <> Some constr
+R4036:4051 SF.Compil <> Ibranch_backward constr
+R4053:4055 SF.Compil_smallstep <> ofs:47 var
+R4086:4095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4070:4072 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4067:4069 SF.Compil_smallstep <> pc2:46 var
+R4080:4082 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4076:4078 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4073:4075 SF.Compil_smallstep <> pc1:45 var
+R4083:4085 SF.Compil_smallstep <> ofs:47 var
+R4096:4111 SF.Compil_smallstep <> spec_compile_com:10 ind
+R4120:4122 SF.Compil_smallstep <> pc2:46 var
+R4117:4118 SF.Compil_smallstep <> pc:44 var
+R4115:4115 SF.Compil_smallstep <> c:43 var
+R4113:4113 SF.Compil_smallstep <> C:9 var
+prf 4132:4153 <> compile_com_meets_spec
+binder 4165:4165 <> C:48
+binder 4167:4167 <> c:49
+binder 4169:4170 <> pc:50
+R4206:4211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4175:4184 SF.Compil <> codeseq_at ind
+R4186:4186 SF.Compil_smallstep <> C:48 var
+R4188:4189 SF.Compil_smallstep <> pc:50 var
+R4192:4202 SF.Compil_smallstep <> compile_com def
+R4204:4204 SF.Compil_smallstep <> c:49 var
+R4212:4227 SF.Compil_smallstep <> spec_compile_com ind
+R4229:4229 SF.Compil_smallstep <> C:48 var
+R4231:4231 SF.Compil_smallstep <> c:49 var
+R4233:4234 SF.Compil_smallstep <> pc:50 var
+R4239:4241 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4237:4238 SF.Compil_smallstep <> pc:50 var
+R4242:4247 Coq.Init.Datatypes <> length def
+R4250:4260 SF.Compil_smallstep <> compile_com def
+R4262:4262 SF.Compil_smallstep <> c:49 var
+R4330:4337 Coq.Arith.Plus <> plus_0_r syndef
+R4330:4337 Coq.Arith.Plus <> plus_0_r syndef
+R4330:4337 Coq.Arith.Plus <> plus_0_r syndef
+R4448:4454 SF.Compil_smallstep <> scc_seq constr
+R4448:4454 SF.Compil_smallstep <> scc_seq constr
+R4559:4564 SF.Compil_smallstep <> scc_if constr
+R4559:4564 SF.Compil_smallstep <> scc_if constr
+R4596:4613 SF.Compil_smallstep <> scc_branch_forward constr
+R4596:4613 SF.Compil_smallstep <> scc_branch_forward constr
+R4687:4687 Coq.Init.Datatypes <> S constr
+R4690:4695 Coq.Init.Datatypes <> length def
+R4698:4708 SF.Compil_smallstep <> compile_com def
+R4723:4725 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4726:4731 Coq.Init.Datatypes <> length def
+R4734:4744 SF.Compil_smallstep <> compile_com def
+R4687:4687 Coq.Init.Datatypes <> S constr
+R4690:4695 Coq.Init.Datatypes <> length def
+R4698:4708 SF.Compil_smallstep <> compile_com def
+R4723:4725 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4726:4731 Coq.Init.Datatypes <> length def
+R4734:4744 SF.Compil_smallstep <> compile_com def
+R4842:4850 SF.Compil_smallstep <> scc_while constr
+R4842:4850 SF.Compil_smallstep <> scc_while constr
+R4893:4901 Coq.Arith.Minus <> minus_n_O thm
+R4893:4901 Coq.Arith.Minus <> minus_n_O thm
+R4893:4901 Coq.Arith.Minus <> minus_n_O thm
+R4937:4945 Coq.Arith.Minus <> minus_n_O thm
+R4937:4945 Coq.Arith.Minus <> minus_n_O thm
+R4937:4945 Coq.Arith.Minus <> minus_n_O thm
+ind 5880:5890 <> match_state
+constr 5954:5970 <> match_state_intro
+R5896:5899 SF.Compil <> code def
+binder 5893:5893 <> C:51
+R5914:5917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5906:5908 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5903:5905 SF.Imp <> com ind
+R5909:5913 SF.Imp <> state def
+R5931:5934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5918:5930 SF.Compil <> machine_state def
+R5938:5941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5935:5937 Coq.Init.Datatypes <> nat ind
+binder 5987:5987 <> c:54
+binder 5989:5990 <> st:55
+binder 5992:5994 <> pc1:56
+binder 5996:5998 <> pc2:57
+R6006:6021 SF.Compil_smallstep <> spec_compile_com ind
+R6023:6023 SF.Compil_smallstep <> C:51 var
+R6025:6025 SF.Compil_smallstep <> c:54 var
+R6027:6029 SF.Compil_smallstep <> pc1:56 var
+R6031:6033 SF.Compil_smallstep <> pc2:57 var
+binder 6001:6003 <> SCC:58
+R6043:6053 SF.Compil_smallstep <> match_state:52 ind
+R6080:6082 SF.Compil_smallstep <> pc2:57 var
+R6065:6065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6069:6070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6074:6075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6078:6078 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6066:6068 SF.Compil_smallstep <> pc1:56 var
+R6071:6073 Coq.Init.Datatypes <> nil constr
+R6076:6077 SF.Compil_smallstep <> st:55 var
+R6057:6057 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6059:6060 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6063:6063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6058:6058 SF.Compil_smallstep <> c:54 var
+R6061:6062 SF.Compil_smallstep <> st:55 var
+R6055:6055 SF.Compil_smallstep <> C:51 var
+def 6095:6102 <> com_size
+R6108:6110 SF.Imp <> com ind
+binder 6105:6105 <> c:59
+R6115:6117 Coq.Init.Datatypes <> nat ind
+R6130:6130 SF.Compil_smallstep <> c:59 var
+R6141:6145 SF.Imp <> CSkip constr
+R6156:6159 SF.Imp <> CAss constr
+R6161:6162 SF.SfLib <> id ind
+R6175:6178 SF.Imp <> CSeq constr
+R6214:6216 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6200:6202 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6189:6196 SF.Compil_smallstep <> com_size:60 def
+R6203:6210 SF.Compil_smallstep <> com_size:60 def
+R6223:6225 SF.Imp <> CIf constr
+R6273:6275 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6256:6258 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6243:6250 SF.Compil_smallstep <> com_size:60 def
+R6259:6266 SF.Compil_smallstep <> com_size:60 def
+R6282:6287 SF.Imp <> CWhile constr
+R6312:6314 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6299:6306 SF.Compil_smallstep <> com_size:60 def
+def 6336:6342 <> measure
+R6352:6354 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6349:6351 SF.Imp <> com ind
+R6355:6359 SF.Imp <> state def
+binder 6345:6346 <> cs:62
+R6364:6366 Coq.Init.Datatypes <> nat ind
+R6371:6378 SF.Compil_smallstep <> com_size def
+R6381:6383 Coq.Init.Datatypes <> fst def
+R6385:6386 SF.Compil_smallstep <> cs:62 var
+def 6402:6425 <> cstep_simulation_diagram
+R6431:6434 SF.Compil <> code def
+binder 6428:6428 <> C:63
+R6450:6452 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6447:6449 SF.Imp <> com ind
+R6453:6457 SF.Imp <> state def
+binder 6438:6440 <> cs1:64
+binder 6442:6444 <> cs2:65
+R6465:6477 SF.Compil <> machine_state def
+binder 6461:6462 <> S1:66
+R6489:6491 Coq.Init.Datatypes <> nat ind
+binder 6481:6486 <> target:67
+R6506:6512 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6515:6518 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6513:6514 <> S2:68
+R6519:6519 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6605:6611 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6545:6549 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6604:6604 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6520:6523 SF.Sequences <> plus ind
+R6543:6544 SF.Compil_smallstep <> S2:68 var
+R6540:6541 SF.Compil_smallstep <> S1:66 var
+R6526:6535 SF.Compil <> transition ind
+R6537:6537 SF.Compil_smallstep <> C:63 var
+R6575:6578 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6561:6563 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6550:6556 SF.Compil_smallstep <> measure def
+R6558:6560 SF.Compil_smallstep <> cs2:65 var
+R6564:6570 SF.Compil_smallstep <> measure def
+R6572:6574 SF.Compil_smallstep <> cs1:64 var
+R6579:6582 SF.Sequences <> star ind
+R6602:6603 SF.Compil_smallstep <> S2:68 var
+R6599:6600 SF.Compil_smallstep <> S1:66 var
+R6585:6594 SF.Compil <> transition ind
+R6596:6596 SF.Compil_smallstep <> C:63 var
+R6612:6622 SF.Compil_smallstep <> match_state ind
+R6624:6624 SF.Compil_smallstep <> C:63 var
+R6626:6628 SF.Compil_smallstep <> cs2:65 var
+R6630:6631 SF.Compil_smallstep <> S2:68 var
+R6633:6638 SF.Compil_smallstep <> target:67 var
+prf 6649:6679 <> cstep_simulation_branch_forward
+binder 6691:6691 <> C:69
+binder 6693:6694 <> pc:70
+binder 6696:6698 <> ofs:71
+binder 6700:6702 <> pc':72
+binder 6704:6705 <> S1:73
+binder 6707:6709 <> cs1:74
+binder 6711:6713 <> cs2:75
+R6758:6763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6730:6732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6718:6724 SF.Compil <> code_at def
+R6726:6726 SF.Compil_smallstep <> C:69 var
+R6728:6729 SF.Compil_smallstep <> pc:70 var
+R6733:6736 Coq.Init.Datatypes <> Some constr
+R6738:6752 SF.Compil <> Ibranch_forward constr
+R6754:6756 SF.Compil_smallstep <> ofs:71 var
+R6782:6787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6767:6769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6764:6766 SF.Compil_smallstep <> pc':72 var
+R6776:6778 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6772:6774 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6770:6771 SF.Compil_smallstep <> pc:70 var
+R6779:6781 SF.Compil_smallstep <> ofs:71 var
+R6828:6833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6788:6811 SF.Compil_smallstep <> cstep_simulation_diagram def
+R6813:6813 SF.Compil_smallstep <> C:69 var
+R6815:6817 SF.Compil_smallstep <> cs1:74 var
+R6819:6821 SF.Compil_smallstep <> cs2:75 var
+R6823:6824 SF.Compil_smallstep <> S1:73 var
+R6826:6827 SF.Compil_smallstep <> pc:70 var
+R6834:6857 SF.Compil_smallstep <> cstep_simulation_diagram def
+R6859:6859 SF.Compil_smallstep <> C:69 var
+R6861:6863 SF.Compil_smallstep <> cs1:74 var
+R6865:6867 SF.Compil_smallstep <> cs2:75 var
+R6869:6870 SF.Compil_smallstep <> S1:73 var
+R6872:6874 SF.Compil_smallstep <> pc':72 var
+R6939:6939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6943:6944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6947:6948 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6951:6951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6945:6946 SF.SfLib <> :::'['_']' not
+R6939:6939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6943:6944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6947:6948 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6951:6951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6945:6946 SF.SfLib <> :::'['_']' not
+R6989:7006 SF.Compil_smallstep <> scc_branch_forward constr
+R6989:7006 SF.Compil_smallstep <> scc_branch_forward constr
+prf 7030:7061 <> cstep_simulation_branch_backward
+binder 7073:7073 <> C:76
+binder 7075:7076 <> pc:77
+binder 7078:7080 <> ofs:78
+binder 7082:7084 <> pc':79
+binder 7086:7087 <> S1:80
+binder 7089:7091 <> cs1:81
+binder 7093:7095 <> cs2:82
+R7141:7146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7112:7114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7100:7106 SF.Compil <> code_at def
+R7108:7108 SF.Compil_smallstep <> C:76 var
+R7110:7111 SF.Compil_smallstep <> pc:77 var
+R7115:7118 Coq.Init.Datatypes <> Some constr
+R7120:7135 SF.Compil <> Ibranch_backward constr
+R7137:7139 SF.Compil_smallstep <> ofs:78 var
+R7165:7170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7150:7152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7147:7149 SF.Compil_smallstep <> pc':79 var
+R7159:7161 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7155:7157 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7153:7154 SF.Compil_smallstep <> pc:77 var
+R7162:7164 SF.Compil_smallstep <> ofs:78 var
+R7211:7216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7171:7194 SF.Compil_smallstep <> cstep_simulation_diagram def
+R7196:7196 SF.Compil_smallstep <> C:76 var
+R7198:7200 SF.Compil_smallstep <> cs1:81 var
+R7202:7204 SF.Compil_smallstep <> cs2:82 var
+R7206:7207 SF.Compil_smallstep <> S1:80 var
+R7209:7210 SF.Compil_smallstep <> pc:77 var
+R7217:7240 SF.Compil_smallstep <> cstep_simulation_diagram def
+R7242:7242 SF.Compil_smallstep <> C:76 var
+R7244:7246 SF.Compil_smallstep <> cs1:81 var
+R7248:7250 SF.Compil_smallstep <> cs2:82 var
+R7252:7253 SF.Compil_smallstep <> S1:80 var
+R7255:7257 SF.Compil_smallstep <> pc':79 var
+R7322:7322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7326:7327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7330:7331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7334:7334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7328:7329 SF.SfLib <> :::'['_']' not
+R7322:7322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7326:7327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7330:7331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7334:7334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7328:7329 SF.SfLib <> :::'['_']' not
+R7372:7390 SF.Compil_smallstep <> scc_branch_backward constr
+R7372:7390 SF.Compil_smallstep <> scc_branch_backward constr
+prf 7414:7434 <> spec_compile_com_SKIP
+binder 7446:7446 <> C:83
+binder 7448:7450 <> stk:84
+binder 7452:7453 <> st:85
+binder 7455:7457 <> pc1:86
+binder 7459:7461 <> pc2:87
+R7497:7502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7466:7481 SF.Compil_smallstep <> spec_compile_com ind
+R7483:7483 SF.Compil_smallstep <> C:83 var
+R7485:7488 SF.Imp <> :::'SKIP' not
+R7490:7492 SF.Compil_smallstep <> pc1:86 var
+R7494:7496 SF.Compil_smallstep <> pc2:87 var
+R7503:7506 SF.Sequences <> star ind
+R7538:7538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7542:7543 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7547:7548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7551:7551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7539:7541 SF.Compil_smallstep <> pc2:87 var
+R7544:7546 SF.Compil_smallstep <> stk:84 var
+R7549:7550 SF.Compil_smallstep <> st:85 var
+R7523:7523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7527:7528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7532:7533 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7536:7536 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7524:7526 SF.Compil_smallstep <> pc1:86 var
+R7529:7531 SF.Compil_smallstep <> stk:84 var
+R7534:7535 SF.Compil_smallstep <> st:85 var
+R7509:7518 SF.Compil <> transition ind
+R7520:7520 SF.Compil_smallstep <> C:83 var
+R7603:7611 SF.Sequences <> star_refl constr
+R7603:7611 SF.Sequences <> star_refl constr
+R7623:7632 SF.Sequences <> star_trans thm
+R7623:7632 SF.Sequences <> star_trans thm
+R7648:7655 SF.Sequences <> star_one thm
+R7648:7655 SF.Sequences <> star_one thm
+R7664:7683 SF.Compil <> trans_branch_forward constr
+R7664:7683 SF.Compil <> trans_branch_forward constr
+R7710:7719 SF.Sequences <> star_trans thm
+R7710:7719 SF.Sequences <> star_trans thm
+R7735:7742 SF.Sequences <> star_one thm
+R7735:7742 SF.Sequences <> star_one thm
+R7751:7771 SF.Compil <> trans_branch_backward constr
+R7751:7771 SF.Compil <> trans_branch_backward constr
+prf 7973:7988 <> cstep_simulation
+binder 8000:8000 <> C:88
+binder 8002:8004 <> cs1:89
+binder 8006:8008 <> cs2:90
+R8026:8031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8013:8017 SF.Semantics <> cstep ind
+R8019:8021 SF.Compil_smallstep <> cs1:89 var
+R8023:8025 SF.Compil_smallstep <> cs2:90 var
+binder 8039:8040 <> S1:91
+binder 8042:8047 <> target:92
+R8079:8084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8052:8062 SF.Compil_smallstep <> match_state ind
+R8064:8064 SF.Compil_smallstep <> C:88 var
+R8066:8068 SF.Compil_smallstep <> cs1:89 var
+R8070:8071 SF.Compil_smallstep <> S1:91 var
+R8073:8078 SF.Compil_smallstep <> target:92 var
+R8085:8108 SF.Compil_smallstep <> cstep_simulation_diagram def
+R8110:8110 SF.Compil_smallstep <> C:88 var
+R8112:8114 SF.Compil_smallstep <> cs1:89 var
+R8116:8118 SF.Compil_smallstep <> cs2:90 var
+R8120:8121 SF.Compil_smallstep <> S1:91 var
+R8123:8128 SF.Compil_smallstep <> target:92 var
+R8154:8184 SF.Compil_smallstep <> cstep_simulation_branch_forward thm
+R8154:8184 SF.Compil_smallstep <> cstep_simulation_branch_forward thm
+R8204:8235 SF.Compil_smallstep <> cstep_simulation_branch_backward thm
+R8204:8235 SF.Compil_smallstep <> cstep_simulation_branch_backward thm
+R8371:8385 SF.Sequences <> star_plus_trans thm
+R8371:8385 SF.Sequences <> star_plus_trans thm
+R8397:8416 SF.Compil <> compile_aexp_correct thm
+R8397:8416 SF.Compil <> compile_aexp_correct thm
+R8435:8442 SF.Sequences <> plus_one thm
+R8435:8442 SF.Sequences <> plus_one thm
+R8451:8462 SF.Compil <> trans_setvar constr
+R8451:8462 SF.Compil <> trans_setvar constr
+R8557:8557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8561:8562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8566:8567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8570:8570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8563:8565 Coq.Init.Datatypes <> nil constr
+R8557:8557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8561:8562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8566:8567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8570:8570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8563:8565 Coq.Init.Datatypes <> nil constr
+R8650:8656 SF.Compil_smallstep <> measure def
+R8770:8770 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8774:8775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8780 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8783:8783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8776:8778 Coq.Init.Datatypes <> nil constr
+R8770:8770 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8774:8775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8780 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8783:8783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8776:8778 Coq.Init.Datatypes <> nil constr
+R8816:8822 SF.Compil_smallstep <> measure def
+R8843:8863 SF.Compil_smallstep <> spec_compile_com_SKIP thm
+R8843:8863 SF.Compil_smallstep <> spec_compile_com_SKIP thm
+R8964:8970 SF.Compil_smallstep <> measure def
+R9037:9041 Coq.Init.Datatypes <> false constr
+R8993:9012 SF.Compil <> compile_bexp_correct thm
+R9037:9041 Coq.Init.Datatypes <> false constr
+R8993:9012 SF.Compil <> compile_bexp_correct thm
+R9092:9099 Coq.Arith.Plus <> plus_0_r syndef
+R9092:9099 Coq.Arith.Plus <> plus_0_r syndef
+R9092:9099 Coq.Arith.Plus <> plus_0_r syndef
+R9207:9213 SF.Compil_smallstep <> measure def
+R9280:9284 Coq.Init.Datatypes <> false constr
+R9236:9255 SF.Compil <> compile_bexp_correct thm
+R9280:9284 Coq.Init.Datatypes <> false constr
+R9236:9255 SF.Compil <> compile_bexp_correct thm
+R9391:9391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9405:9406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9410:9411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9414:9414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9399:9400 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R9395:9397 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9407:9409 Coq.Init.Datatypes <> nil constr
+R9391:9391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9405:9406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9410:9411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9414:9414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9399:9400 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R9395:9397 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9407:9409 Coq.Init.Datatypes <> nil constr
+R9438:9445 SF.Sequences <> plus_one thm
+R9438:9445 SF.Sequences <> plus_one thm
+R9454:9474 SF.Compil <> trans_branch_backward constr
+R9454:9474 SF.Compil <> trans_branch_backward constr
+R9538:9543 SF.Compil_smallstep <> scc_if constr
+R9538:9543 SF.Compil_smallstep <> scc_if constr
+R9563:9569 SF.Compil_smallstep <> scc_seq constr
+R9563:9569 SF.Compil_smallstep <> scc_seq constr
+R9588:9596 SF.Compil_smallstep <> scc_while constr
+R9588:9596 SF.Compil_smallstep <> scc_while constr
+R9698:9705 SF.Compil_smallstep <> scc_skip constr
+R9698:9705 SF.Compil_smallstep <> scc_skip constr
+prf 10175:10195 <> cstep_simulation_star
+binder 10207:10207 <> C:93
+binder 10209:10211 <> cs1:94
+binder 10213:10215 <> cs2:95
+R10238:10243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10220:10223 SF.Sequences <> star ind
+R10235:10237 SF.Compil_smallstep <> cs2:95 var
+R10231:10233 SF.Compil_smallstep <> cs1:94 var
+R10225:10229 SF.Semantics <> cstep ind
+binder 10251:10252 <> S1:96
+binder 10254:10259 <> target:97
+R10291:10296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10264:10274 SF.Compil_smallstep <> match_state ind
+R10276:10276 SF.Compil_smallstep <> C:93 var
+R10278:10280 SF.Compil_smallstep <> cs1:94 var
+R10282:10283 SF.Compil_smallstep <> S1:96 var
+R10285:10290 SF.Compil_smallstep <> target:97 var
+R10297:10303 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10306:10307 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10304:10305 <> S2:98
+R10333:10336 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10308:10311 SF.Sequences <> star ind
+R10331:10332 SF.Compil_smallstep <> S2:98 var
+R10328:10329 SF.Compil_smallstep <> S1:96 var
+R10314:10323 SF.Compil <> transition ind
+R10325:10325 SF.Compil_smallstep <> C:93 var
+R10337:10347 SF.Compil_smallstep <> match_state ind
+R10349:10349 SF.Compil_smallstep <> C:93 var
+R10351:10353 SF.Compil_smallstep <> cs2:95 var
+R10355:10356 SF.Compil_smallstep <> S2:98 var
+R10358:10363 SF.Compil_smallstep <> target:97 var
+R10422:10430 SF.Sequences <> star_refl constr
+R10422:10430 SF.Sequences <> star_refl constr
+R10451:10466 SF.Compil_smallstep <> cstep_simulation thm
+R10451:10466 SF.Compil_smallstep <> cstep_simulation thm
+R10583:10592 SF.Sequences <> star_trans thm
+R10583:10592 SF.Sequences <> star_trans thm
+prf 10708:10726 <> match_initial_state
+binder 10738:10738 <> c:99
+binder 10740:10741 <> st:100
+R10746:10756 SF.Compil_smallstep <> match_state ind
+R10759:10773 SF.Compil_smallstep <> compile_program def
+R10775:10775 SF.Compil_smallstep <> c:99 var
+R10778:10778 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10780:10781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10784:10784 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10779:10779 SF.Compil_smallstep <> c:99 var
+R10782:10783 SF.Compil_smallstep <> st:100 var
+R10786:10786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10788:10789 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10793:10794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10797:10797 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10790:10792 Coq.Init.Datatypes <> nil constr
+R10795:10796 SF.Compil_smallstep <> st:100 var
+R10800:10805 Coq.Init.Datatypes <> length def
+R10808:10818 SF.Compil_smallstep <> compile_com def
+R10820:10820 SF.Compil_smallstep <> c:99 var
+R10864:10885 SF.Compil_smallstep <> compile_com_meets_spec thm
+R10864:10885 SF.Compil_smallstep <> compile_com_meets_spec thm
+R10913:10927 SF.Compil_smallstep <> compile_program def
+R10965:10967 Coq.Init.Datatypes <> nil constr
+R10936:10951 SF.Compil <> codeseq_at_intro constr
+R10965:10967 Coq.Init.Datatypes <> nil constr
+R10936:10951 SF.Compil <> codeseq_at_intro constr
+prf 10991:11025 <> compile_program_correct_terminating
+binder 11037:11037 <> c:101
+binder 11039:11040 <> st:102
+binder 11042:11044 <> st':103
+R11071:11076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11050:11052 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R11055:11060 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R11065:11067 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R11049:11049 SF.Compil_smallstep <> c:101 var
+R11053:11054 SF.Compil_smallstep <> st:102 var
+R11061:11064 SF.Imp <> :::'SKIP' not
+R11068:11070 SF.Compil_smallstep <> st':103 var
+R11077:11091 SF.Compil <> mach_terminates def
+R11094:11108 SF.Compil_smallstep <> compile_program def
+R11110:11110 SF.Compil_smallstep <> c:101 var
+R11113:11114 SF.Compil_smallstep <> st:102 var
+R11116:11118 SF.Compil_smallstep <> st':103 var
+R11152:11170 SF.Compil_smallstep <> match_initial_state thm
+R11152:11170 SF.Compil_smallstep <> match_initial_state thm
+R11198:11218 SF.Compil_smallstep <> cstep_simulation_star thm
+R11198:11218 SF.Compil_smallstep <> cstep_simulation_star thm
+R11281:11286 Coq.Init.Datatypes <> length def
+R11289:11299 SF.Compil_smallstep <> compile_com def
+R11281:11286 Coq.Init.Datatypes <> length def
+R11289:11299 SF.Compil_smallstep <> compile_com def
+R11322:11336 SF.Compil_smallstep <> compile_program def
+R11345:11355 SF.Compil <> code_at_app thm
+R11345:11355 SF.Compil <> code_at_app thm
+R11373:11382 SF.Sequences <> star_trans thm
+R11373:11382 SF.Sequences <> star_trans thm
+R11403:11423 SF.Compil_smallstep <> spec_compile_com_SKIP thm
+R11403:11423 SF.Compil_smallstep <> spec_compile_com_SKIP thm
+prf 11730:11756 <> cstep_simulation_productive
+binder 11768:11768 <> C:104
+binder 11770:11770 <> m:105
+binder 11772:11774 <> cs1:106
+binder 11776:11777 <> S1:107
+binder 11779:11784 <> target:108
+R11804:11809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11800:11802 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11789:11795 SF.Compil_smallstep <> measure def
+R11797:11799 SF.Compil_smallstep <> cs1:106 var
+R11803:11803 SF.Compil_smallstep <> m:105 var
+R11826:11831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11810:11815 SF.Sequences <> infseq coind
+R11823:11825 SF.Compil_smallstep <> cs1:106 var
+R11817:11821 SF.Semantics <> cstep ind
+R11859:11864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11832:11842 SF.Compil_smallstep <> match_state ind
+R11844:11844 SF.Compil_smallstep <> C:104 var
+R11846:11848 SF.Compil_smallstep <> cs1:106 var
+R11850:11851 SF.Compil_smallstep <> S1:107 var
+R11853:11858 SF.Compil_smallstep <> target:108 var
+R11865:11871 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11875:11876 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11872:11874 <> cs2:109
+R11877:11883 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11886:11892 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11884:11885 <> S2:110
+R11909:11914 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11893:11898 SF.Sequences <> infseq coind
+R11906:11908 SF.Compil_smallstep <> cs2:109 var
+R11900:11904 SF.Semantics <> cstep ind
+R11940:11945 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11915:11918 SF.Sequences <> plus ind
+R11938:11939 SF.Compil_smallstep <> S2:110 var
+R11935:11936 SF.Compil_smallstep <> S1:107 var
+R11921:11930 SF.Compil <> transition ind
+R11932:11932 SF.Compil_smallstep <> C:104 var
+R11946:11956 SF.Compil_smallstep <> match_state ind
+R11958:11958 SF.Compil_smallstep <> C:104 var
+R11960:11962 SF.Compil_smallstep <> cs2:109 var
+R11964:11965 SF.Compil_smallstep <> S2:110 var
+R11967:11972 SF.Compil_smallstep <> target:108 var
+R12016:12020 Coq.Init.Logic <> False ind
+R12070:12085 SF.Compil_smallstep <> cstep_simulation thm
+R12070:12085 SF.Compil_smallstep <> cstep_simulation thm
+prf 12320:12342 <> cstep_simulation_infseq
+binder 12354:12354 <> C:111
+binder 12356:12357 <> cs:112
+binder 12359:12359 <> S:113
+binder 12361:12366 <> target:114
+R12386:12391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12371:12376 SF.Sequences <> infseq coind
+R12384:12385 SF.Compil_smallstep <> cs:112 var
+R12378:12382 SF.Semantics <> cstep ind
+R12417:12422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12392:12402 SF.Compil_smallstep <> match_state ind
+R12404:12404 SF.Compil_smallstep <> C:111 var
+R12406:12407 SF.Compil_smallstep <> cs:112 var
+R12409:12409 SF.Compil_smallstep <> S:113 var
+R12411:12416 SF.Compil_smallstep <> target:114 var
+R12423:12428 SF.Sequences <> infseq coind
+R12445:12445 SF.Compil_smallstep <> S:113 var
+R12431:12440 SF.Compil <> transition ind
+R12442:12442 SF.Compil_smallstep <> C:111 var
+binder 12520:12520 <> S:115
+R12525:12531 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12534:12535 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12532:12533 <> cs:116
+R12551:12554 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12536:12541 SF.Sequences <> infseq coind
+R12549:12550 SF.Compil_smallstep <> cs:116 var
+R12543:12547 SF.Semantics <> cstep ind
+R12555:12565 SF.Compil_smallstep <> match_state ind
+R12569:12570 SF.Compil_smallstep <> cs:116 var
+R12572:12572 SF.Compil_smallstep <> S:115 var
+R12474:12503 SF.Sequences <> infseq_coinduction_principle_2 thm
+binder 12520:12520 <> S:117
+R12525:12531 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12534:12535 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12532:12533 <> cs:118
+R12551:12554 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12536:12541 SF.Sequences <> infseq coind
+R12549:12550 SF.Compil_smallstep <> cs:118 var
+R12543:12547 SF.Semantics <> cstep ind
+R12555:12565 SF.Compil_smallstep <> match_state ind
+R12569:12570 SF.Compil_smallstep <> cs:118 var
+R12572:12572 SF.Compil_smallstep <> S:117 var
+R12474:12503 SF.Sequences <> infseq_coinduction_principle_2 thm
+R12634:12660 SF.Compil_smallstep <> cstep_simulation_productive thm
+R12676:12678 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12665:12671 SF.Compil_smallstep <> measure def
+R12634:12660 SF.Compil_smallstep <> cstep_simulation_productive thm
+R12676:12678 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12665:12671 SF.Compil_smallstep <> measure def
+prf 12818:12850 <> compile_program_correct_diverging
+binder 12862:12862 <> c:119
+binder 12864:12865 <> st:120
+R12884:12890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12871:12873 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R12876:12883 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R12870:12870 SF.Compil_smallstep <> c:119 var
+R12874:12875 SF.Compil_smallstep <> st:120 var
+R12891:12903 SF.Compil <> mach_diverges def
+R12906:12920 SF.Compil_smallstep <> compile_program def
+R12922:12922 SF.Compil_smallstep <> c:119 var
+R12925:12926 SF.Compil_smallstep <> st:120 var
+R12989:12989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12991:12992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12995:12995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12998:13003 Coq.Init.Datatypes <> length def
+R13006:13016 SF.Compil_smallstep <> compile_com def
+R12960:12982 SF.Compil_smallstep <> cstep_simulation_infseq thm
+R12989:12989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12991:12992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12995:12995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12998:13003 Coq.Init.Datatypes <> length def
+R13006:13016 SF.Compil_smallstep <> compile_com def
+R12960:12982 SF.Compil_smallstep <> cstep_simulation_infseq thm
+R13037:13055 SF.Compil_smallstep <> match_initial_state thm
+R13037:13055 SF.Compil_smallstep <> match_initial_state thm

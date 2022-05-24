@@ -1,0 +1,1157 @@
+DIGEST 13437f4fc69ae9dfca39493ae361f5c7
+FSF.Regalloc
+R15:34 Coq.Program.Equality <> <> lib
+R52:56 Coq.FSets.FSets <> <> lib
+R82:84 SF.Imp <> <> lib
+R110:118 SF.Semantics <> <> lib
+R144:151 SF.Deadcode <> <> lib
+def 431:441 <> expr_is_var
+R447:450 SF.Imp <> aexp ind
+binder 444:444 <> a:1
+R454:459 Coq.Init.Datatypes <> option ind
+R461:462 SF.SfLib <> id ind
+R475:475 SF.Regalloc <> a:1 var
+R482:484 SF.Imp <> AId constr
+R491:494 Coq.Init.Datatypes <> Some constr
+R505:508 Coq.Init.Datatypes <> None constr
+prf 522:540 <> expr_is_var_correct
+binder 552:552 <> a:3
+binder 554:554 <> x:4
+R579:582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R570:572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R557:567 SF.Regalloc <> expr_is_var def
+R569:569 SF.Regalloc <> a:3 var
+R573:576 Coq.Init.Datatypes <> Some constr
+R578:578 SF.Regalloc <> x:4 var
+R584:586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R583:583 SF.Regalloc <> a:3 var
+R587:589 SF.Imp <> AId constr
+R591:591 SF.Regalloc <> x:4 var
+R610:620 SF.Regalloc <> expr_is_var def
+sec 669:676 <> RENAMING
+var 689:689 RENAMING f
+R694:697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R692:693 SF.SfLib <> id ind
+R698:699 SF.SfLib <> id ind
+def 757:767 <> rename_aexp
+R773:776 SF.Imp <> aexp ind
+binder 770:770 <> a:6
+R781:784 SF.Imp <> aexp ind
+R797:797 SF.Regalloc <> a:6 var
+R808:811 SF.Imp <> ANum constr
+R818:821 SF.Imp <> ANum constr
+R829:831 SF.Imp <> AId constr
+R838:840 SF.Imp <> AId constr
+R843:843 SF.Regalloc <> RENAMING.f var
+R852:856 SF.Imp <> APlus constr
+R867:871 SF.Imp <> APlus constr
+R874:884 SF.Regalloc <> rename_aexp:7 def
+R891:901 SF.Regalloc <> rename_aexp:7 def
+R911:916 SF.Imp <> AMinus constr
+R927:932 SF.Imp <> AMinus constr
+R935:945 SF.Regalloc <> rename_aexp:7 def
+R952:962 SF.Regalloc <> rename_aexp:7 def
+R972:976 SF.Imp <> AMult constr
+R987:991 SF.Imp <> AMult constr
+R994:1004 SF.Regalloc <> rename_aexp:7 def
+R1011:1021 SF.Regalloc <> rename_aexp:7 def
+def 1044:1054 <> rename_bexp
+R1060:1063 SF.Imp <> bexp ind
+binder 1057:1057 <> b:9
+R1068:1071 SF.Imp <> bexp ind
+R1084:1084 SF.Regalloc <> b:9 var
+R1095:1099 SF.Imp <> BTrue constr
+R1104:1108 SF.Imp <> BTrue constr
+R1114:1119 SF.Imp <> BFalse constr
+R1124:1129 SF.Imp <> BFalse constr
+R1135:1137 SF.Imp <> BEq constr
+R1148:1150 SF.Imp <> BEq constr
+R1153:1163 SF.Regalloc <> rename_aexp def
+R1170:1180 SF.Regalloc <> rename_aexp def
+R1190:1192 SF.Imp <> BLe constr
+R1203:1205 SF.Imp <> BLe constr
+R1208:1218 SF.Regalloc <> rename_aexp def
+R1225:1235 SF.Regalloc <> rename_aexp def
+R1245:1248 SF.Imp <> BNot constr
+R1256:1259 SF.Imp <> BNot constr
+R1262:1272 SF.Regalloc <> rename_bexp:10 def
+R1282:1285 SF.Imp <> BAnd constr
+R1296:1299 SF.Imp <> BAnd constr
+R1302:1312 SF.Regalloc <> rename_bexp:10 def
+R1319:1329 SF.Regalloc <> rename_bexp:10 def
+def 1568:1577 <> transf_com
+R1583:1585 SF.Imp <> com ind
+binder 1580:1580 <> c:12
+R1592:1595 SF.Deadcode VS t def
+binder 1589:1589 <> L:13
+R1599:1601 SF.Imp <> com ind
+R1614:1614 SF.Regalloc <> c:12 var
+R1625:1628 SF.Imp <> :::'SKIP' not
+R1633:1636 SF.Imp <> :::'SKIP' not
+R1643:1647 SF.Imp <> :::x_'::='_x not
+R1662:1667 SF.Deadcode VS mem def
+R1671:1671 SF.Regalloc <> L:13 var
+R1861:1864 SF.Imp <> :::'SKIP' not
+R1692:1702 SF.Regalloc <> expr_is_var def
+R1721:1724 Coq.Init.Datatypes <> None constr
+R1729:1729 SF.Imp <> :::x_'::='_x not
+R1733:1739 SF.Imp <> :::x_'::='_x not
+R1753:1753 SF.Imp <> :::x_'::='_x not
+R1730:1730 SF.Regalloc <> RENAMING.f var
+R1740:1750 SF.Regalloc <> rename_aexp def
+R1765:1768 Coq.Init.Datatypes <> Some constr
+R1778:1783 SF.SfLib <> beq_id def
+R1786:1786 SF.Regalloc <> RENAMING.f var
+R1792:1792 SF.Regalloc <> RENAMING.f var
+R1812:1812 SF.Imp <> :::x_'::='_x not
+R1816:1822 SF.Imp <> :::x_'::='_x not
+R1836:1836 SF.Imp <> :::x_'::='_x not
+R1813:1813 SF.Regalloc <> RENAMING.f var
+R1823:1833 SF.Regalloc <> rename_aexp def
+R1802:1805 SF.Imp <> :::'SKIP' not
+R1873:1874 SF.Imp <> :::x_';'_x not
+R1914:1915 SF.Imp <> :::x_';'_x not
+R1889:1898 SF.Regalloc <> transf_com:14 def
+R1904:1907 SF.Deadcode <> live def
+R1912:1912 SF.Regalloc <> L:13 var
+R1916:1925 SF.Regalloc <> transf_com:14 def
+R1930:1930 SF.Regalloc <> L:13 var
+R1937:1940 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1942:1947 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1950:1955 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1958:1960 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1971:1974 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1988:1993 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R2009:2014 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R2030:2032 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R1975:1985 SF.Regalloc <> rename_bexp def
+R1994:2003 SF.Regalloc <> transf_com:14 def
+R2008:2008 SF.Regalloc <> L:13 var
+R2015:2024 SF.Regalloc <> transf_com:14 def
+R2029:2029 SF.Regalloc <> L:13 var
+R2038:2043 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2045:2048 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2050:2053 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2064:2069 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2083:2086 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2127:2130 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2070:2080 SF.Regalloc <> rename_bexp def
+R2087:2096 SF.Regalloc <> transf_com:14 def
+R2101:2104 SF.Deadcode <> live def
+R2107:2112 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2114:2117 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2119:2122 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R2118:2118 SF.Regalloc <> c:12 var
+R2125:2125 SF.Regalloc <> L:13 var
+R2098:2098 SF.Regalloc <> c:12 var
+def 2326:2330 <> agree
+R2336:2339 SF.Deadcode VS t def
+binder 2333:2333 <> L:16
+R2350:2354 SF.Imp <> state def
+binder 2343:2344 <> s1:17
+binder 2346:2347 <> s2:18
+binder 2376:2376 <> x:19
+R2388:2391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2379:2383 SF.Deadcode VS In def
+R2387:2387 SF.Regalloc <> L:16 var
+R2385:2385 SF.Regalloc <> x:19 var
+R2396:2398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2392:2393 SF.Regalloc <> s1:17 var
+R2395:2395 SF.Regalloc <> x:19 var
+R2399:2400 SF.Regalloc <> s2:18 var
+R2403:2403 SF.Regalloc <> RENAMING.f var
+R2405:2405 SF.Regalloc <> x:19 var
+prf 2447:2455 <> agree_mon
+binder 2467:2467 <> L:20
+binder 2469:2470 <> L':21
+binder 2472:2473 <> s1:22
+binder 2475:2476 <> s2:23
+R2495:2498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2481:2485 SF.Regalloc <> agree def
+R2487:2488 SF.Regalloc <> L':21 var
+R2490:2491 SF.Regalloc <> s1:22 var
+R2493:2494 SF.Regalloc <> s2:23 var
+R2513:2516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2499:2507 SF.Deadcode VS Subset def
+R2511:2512 SF.Regalloc <> L':21 var
+R2509:2509 SF.Regalloc <> L:20 var
+R2517:2521 SF.Regalloc <> agree def
+R2523:2523 SF.Regalloc <> L:20 var
+R2525:2526 SF.Regalloc <> s1:22 var
+R2528:2529 SF.Regalloc <> s2:23 var
+R2548:2556 SF.Deadcode VS Subset def
+R2559:2563 SF.Regalloc <> agree def
+prf 2592:2608 <> agree_extensional
+binder 2620:2620 <> L:24
+binder 2622:2623 <> s1:25
+binder 2625:2626 <> s2:26
+binder 2628:2629 <> s3:27
+R2647:2650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2634:2638 SF.Regalloc <> agree def
+R2640:2640 SF.Regalloc <> L:24 var
+R2642:2643 SF.Regalloc <> s1:25 var
+R2645:2646 SF.Regalloc <> s2:26 var
+R2651:2651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2673:2677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2659:2659 <> x:28
+R2666:2668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2662:2663 SF.Regalloc <> s2:26 var
+R2665:2665 SF.Regalloc <> x:28 var
+R2669:2670 SF.Regalloc <> s3:27 var
+R2672:2672 SF.Regalloc <> x:28 var
+R2678:2682 SF.Regalloc <> agree def
+R2684:2684 SF.Regalloc <> L:24 var
+R2686:2687 SF.Regalloc <> s1:25 var
+R2689:2690 SF.Regalloc <> s3:27 var
+R2709:2713 SF.Regalloc <> agree def
+R2742:2742 SF.Regalloc <> RENAMING.f var
+R2742:2742 SF.Regalloc <> RENAMING.f var
+prf 2912:2922 <> aeval_agree
+binder 2934:2934 <> L:29
+binder 2936:2937 <> s1:30
+binder 2939:2940 <> s2:31
+R2956:2961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2943:2947 SF.Regalloc <> agree def
+R2949:2949 SF.Regalloc <> L:29 var
+R2951:2952 SF.Regalloc <> s1:30 var
+R2954:2955 SF.Regalloc <> s2:31 var
+binder 2969:2969 <> a:32
+R2995:3000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2972:2980 SF.Deadcode VS Subset def
+R2994:2994 SF.Regalloc <> L:29 var
+R2983:2989 SF.Deadcode <> fv_aexp def
+R2991:2991 SF.Regalloc <> a:32 var
+R3011:3013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3001:3005 SF.Imp <> aeval def
+R3007:3008 SF.Regalloc <> s1:30 var
+R3010:3010 SF.Regalloc <> a:32 var
+R3014:3018 SF.Imp <> aeval def
+R3020:3021 SF.Regalloc <> s2:31 var
+R3024:3034 SF.Regalloc <> rename_aexp def
+R3036:3036 SF.Regalloc <> a:32 var
+prf 3381:3391 <> beval_agree
+binder 3403:3403 <> L:33
+binder 3405:3406 <> s1:34
+binder 3408:3409 <> s2:35
+R3425:3430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3412:3416 SF.Regalloc <> agree def
+R3418:3418 SF.Regalloc <> L:33 var
+R3420:3421 SF.Regalloc <> s1:34 var
+R3423:3424 SF.Regalloc <> s2:35 var
+binder 3438:3438 <> b:36
+R3464:3470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3441:3449 SF.Deadcode VS Subset def
+R3463:3463 SF.Regalloc <> L:33 var
+R3452:3458 SF.Deadcode <> fv_bexp def
+R3460:3460 SF.Regalloc <> b:36 var
+R3481:3483 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3471:3475 SF.Imp <> beval def
+R3477:3478 SF.Regalloc <> s1:34 var
+R3480:3480 SF.Regalloc <> b:36 var
+R3484:3488 SF.Imp <> beval def
+R3490:3491 SF.Regalloc <> s2:35 var
+R3494:3504 SF.Regalloc <> rename_bexp def
+R3506:3506 SF.Regalloc <> b:36 var
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3581:3591 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+R3651:3661 SF.Regalloc <> aeval_agree thm
+prf 3891:3907 <> agree_update_dead
+binder 3919:3920 <> s1:37
+binder 3922:3923 <> s2:38
+binder 3925:3925 <> L:39
+binder 3927:3927 <> x:40
+binder 3929:3929 <> v:41
+R3947:3950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3934:3938 SF.Regalloc <> agree def
+R3940:3940 SF.Regalloc <> L:39 var
+R3942:3943 SF.Regalloc <> s1:37 var
+R3945:3946 SF.Regalloc <> s2:38 var
+R3961:3966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3951:3951 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3952:3956 SF.Deadcode VS In def
+R3960:3960 SF.Regalloc <> L:39 var
+R3958:3958 SF.Regalloc <> x:40 var
+R3967:3971 SF.Regalloc <> agree def
+R3973:3973 SF.Regalloc <> L:39 var
+R3976:3981 SF.Imp <> update def
+R3983:3984 SF.Regalloc <> s1:37 var
+R3986:3986 SF.Regalloc <> x:40 var
+R3988:3988 SF.Regalloc <> v:41 var
+R3991:3992 SF.Regalloc <> s2:38 var
+R4032:4037 SF.Imp <> update def
+R4050:4055 SF.SfLib <> beq_id def
+R4050:4055 SF.SfLib <> beq_id def
+R4087:4089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4087:4089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4101:4109 SF.SfLib <> beq_id_eq thm
+R4101:4109 SF.SfLib <> beq_id_eq thm
+prf 4378:4394 <> agree_update_live
+binder 4406:4407 <> s1:42
+binder 4409:4410 <> s2:43
+binder 4412:4412 <> L:44
+binder 4414:4414 <> x:45
+binder 4416:4416 <> v:46
+R4448:4453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4421:4425 SF.Regalloc <> agree def
+R4428:4436 SF.Deadcode VS remove def
+R4440:4440 SF.Regalloc <> L:44 var
+R4438:4438 SF.Regalloc <> x:45 var
+R4443:4444 SF.Regalloc <> s1:42 var
+R4446:4447 SF.Regalloc <> s2:43 var
+R4454:4454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4498:4504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4462:4462 <> z:47
+R4474:4477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4465:4469 SF.Deadcode VS In def
+R4473:4473 SF.Regalloc <> L:44 var
+R4471:4471 SF.Regalloc <> z:47 var
+R4484:4487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4479:4482 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4478:4478 SF.Regalloc <> z:47 var
+R4483:4483 SF.Regalloc <> x:45 var
+R4491:4494 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4488:4488 SF.Regalloc <> RENAMING.f var
+R4490:4490 SF.Regalloc <> z:47 var
+R4495:4495 SF.Regalloc <> RENAMING.f var
+R4497:4497 SF.Regalloc <> x:45 var
+R4505:4509 SF.Regalloc <> agree def
+R4511:4511 SF.Regalloc <> L:44 var
+R4514:4519 SF.Imp <> update def
+R4521:4522 SF.Regalloc <> s1:42 var
+R4524:4524 SF.Regalloc <> x:45 var
+R4526:4526 SF.Regalloc <> v:46 var
+R4530:4535 SF.Imp <> update def
+R4537:4538 SF.Regalloc <> s2:43 var
+R4541:4541 SF.Regalloc <> RENAMING.f var
+R4543:4543 SF.Regalloc <> x:45 var
+R4546:4546 SF.Regalloc <> v:46 var
+R4587:4592 SF.Imp <> update def
+R4605:4610 SF.SfLib <> beq_id def
+R4605:4610 SF.SfLib <> beq_id def
+R4660:4662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4660:4662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4674:4682 SF.SfLib <> beq_id_eq thm
+R4674:4682 SF.SfLib <> beq_id_eq thm
+R4714:4724 SF.SfLib <> beq_id_refl thm
+R4714:4724 SF.SfLib <> beq_id_refl thm
+R4714:4724 SF.SfLib <> beq_id_refl thm
+R4763:4766 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4763:4766 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4778:4796 SF.SfLib <> beq_id_false_not_eq thm
+R4778:4796 SF.SfLib <> beq_id_false_not_eq thm
+R4819:4822 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4815:4815 SF.Regalloc <> RENAMING.f var
+R4823:4823 SF.Regalloc <> RENAMING.f var
+R4819:4822 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4815:4815 SF.Regalloc <> RENAMING.f var
+R4823:4823 SF.Regalloc <> RENAMING.f var
+R4855:4873 SF.SfLib <> not_eq_beq_id_false thm
+R4855:4873 SF.SfLib <> not_eq_beq_id_false thm
+R4855:4873 SF.SfLib <> not_eq_beq_id_false thm
+R4855:4873 SF.SfLib <> not_eq_beq_id_false thm
+R4893:4903 SF.Deadcode VS remove_2 def
+R4893:4903 SF.Deadcode VS remove_2 def
+prf 5159:5175 <> agree_update_move
+binder 5187:5188 <> s1:48
+binder 5190:5191 <> s2:49
+binder 5193:5193 <> L:50
+binder 5195:5195 <> x:51
+binder 5197:5197 <> y:52
+R5257:5262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5202:5206 SF.Regalloc <> agree def
+R5209:5216 SF.Deadcode VS union def
+R5235:5246 SF.Deadcode VS singleton def
+R5248:5248 SF.Regalloc <> y:52 var
+R5219:5227 SF.Deadcode VS remove def
+R5231:5231 SF.Regalloc <> L:50 var
+R5229:5229 SF.Regalloc <> x:51 var
+R5252:5253 SF.Regalloc <> s1:48 var
+R5255:5256 SF.Regalloc <> s2:49 var
+R5263:5263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5317:5323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5271:5271 <> z:53
+R5283:5286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5274:5278 SF.Deadcode VS In def
+R5282:5282 SF.Regalloc <> L:50 var
+R5280:5280 SF.Regalloc <> z:53 var
+R5293:5296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5288:5291 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5287:5287 SF.Regalloc <> z:53 var
+R5292:5292 SF.Regalloc <> x:51 var
+R5303:5306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5298:5301 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5297:5297 SF.Regalloc <> z:53 var
+R5302:5302 SF.Regalloc <> y:52 var
+R5310:5313 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5307:5307 SF.Regalloc <> RENAMING.f var
+R5309:5309 SF.Regalloc <> z:53 var
+R5314:5314 SF.Regalloc <> RENAMING.f var
+R5316:5316 SF.Regalloc <> x:51 var
+R5324:5328 SF.Regalloc <> agree def
+R5330:5330 SF.Regalloc <> L:50 var
+R5333:5338 SF.Imp <> update def
+R5340:5341 SF.Regalloc <> s1:48 var
+R5343:5343 SF.Regalloc <> x:51 var
+R5346:5347 SF.Regalloc <> s1:48 var
+R5349:5349 SF.Regalloc <> y:52 var
+R5354:5359 SF.Imp <> update def
+R5361:5362 SF.Regalloc <> s2:49 var
+R5365:5365 SF.Regalloc <> RENAMING.f var
+R5367:5367 SF.Regalloc <> x:51 var
+R5371:5372 SF.Regalloc <> s2:49 var
+R5375:5375 SF.Regalloc <> RENAMING.f var
+R5377:5377 SF.Regalloc <> y:52 var
+R5420:5425 SF.Imp <> update def
+R5438:5443 SF.SfLib <> beq_id def
+R5438:5443 SF.SfLib <> beq_id def
+R5493:5495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5493:5495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5507:5515 SF.SfLib <> beq_id_eq thm
+R5507:5515 SF.SfLib <> beq_id_eq thm
+R5547:5557 SF.SfLib <> beq_id_refl thm
+R5547:5557 SF.SfLib <> beq_id_refl thm
+R5547:5557 SF.SfLib <> beq_id_refl thm
+R5609:5612 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5609:5612 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5624:5642 SF.SfLib <> beq_id_false_not_eq thm
+R5624:5642 SF.SfLib <> beq_id_false_not_eq thm
+R5663:5668 SF.SfLib <> beq_id def
+R5663:5668 SF.SfLib <> beq_id def
+R5723:5725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5723:5725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5736:5744 SF.SfLib <> beq_id_eq thm
+R5736:5744 SF.SfLib <> beq_id_eq thm
+R5785:5785 SF.Regalloc <> RENAMING.f var
+R5785:5785 SF.Regalloc <> RENAMING.f var
+R5828:5833 SF.SfLib <> beq_id def
+R5836:5836 SF.Regalloc <> RENAMING.f var
+R5842:5842 SF.Regalloc <> RENAMING.f var
+R5828:5833 SF.SfLib <> beq_id def
+R5836:5836 SF.Regalloc <> RENAMING.f var
+R5842:5842 SF.Regalloc <> RENAMING.f var
+R5890:5893 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5890:5893 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5904:5922 SF.SfLib <> beq_id_false_not_eq thm
+R5904:5922 SF.SfLib <> beq_id_false_not_eq thm
+R5947:5950 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5943:5943 SF.Regalloc <> RENAMING.f var
+R5951:5951 SF.Regalloc <> RENAMING.f var
+R5947:5950 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5943:5943 SF.Regalloc <> RENAMING.f var
+R5951:5951 SF.Regalloc <> RENAMING.f var
+R5986:6004 SF.SfLib <> not_eq_beq_id_false thm
+R5986:6004 SF.SfLib <> not_eq_beq_id_false thm
+R5986:6004 SF.SfLib <> not_eq_beq_id_false thm
+R5986:6004 SF.SfLib <> not_eq_beq_id_false thm
+R6027:6036 SF.Deadcode VS union_2 def
+R6027:6036 SF.Deadcode VS union_2 def
+R6045:6055 SF.Deadcode VS remove_2 def
+R6045:6055 SF.Deadcode VS remove_2 def
+prf 6235:6261 <> agree_update_coalesced_move
+binder 6273:6274 <> s1:54
+binder 6276:6277 <> s2:55
+binder 6279:6279 <> L:56
+binder 6281:6281 <> x:57
+binder 6283:6283 <> y:58
+R6343:6348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6288:6292 SF.Regalloc <> agree def
+R6295:6302 SF.Deadcode VS union def
+R6321:6332 SF.Deadcode VS singleton def
+R6334:6334 SF.Regalloc <> y:58 var
+R6305:6313 SF.Deadcode VS remove def
+R6317:6317 SF.Regalloc <> L:56 var
+R6315:6315 SF.Regalloc <> x:57 var
+R6338:6339 SF.Regalloc <> s1:54 var
+R6341:6342 SF.Regalloc <> s2:55 var
+R6349:6349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6403:6409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6357:6357 <> z:59
+R6369:6372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6360:6364 SF.Deadcode VS In def
+R6368:6368 SF.Regalloc <> L:56 var
+R6366:6366 SF.Regalloc <> z:59 var
+R6379:6382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6374:6377 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6373:6373 SF.Regalloc <> z:59 var
+R6378:6378 SF.Regalloc <> x:57 var
+R6389:6392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6384:6387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6383:6383 SF.Regalloc <> z:59 var
+R6388:6388 SF.Regalloc <> y:58 var
+R6396:6399 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6393:6393 SF.Regalloc <> RENAMING.f var
+R6395:6395 SF.Regalloc <> z:59 var
+R6400:6400 SF.Regalloc <> RENAMING.f var
+R6402:6402 SF.Regalloc <> x:57 var
+R6419:6424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6413:6415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6410:6410 SF.Regalloc <> RENAMING.f var
+R6412:6412 SF.Regalloc <> x:57 var
+R6416:6416 SF.Regalloc <> RENAMING.f var
+R6418:6418 SF.Regalloc <> y:58 var
+R6425:6429 SF.Regalloc <> agree def
+R6431:6431 SF.Regalloc <> L:56 var
+R6434:6439 SF.Imp <> update def
+R6441:6442 SF.Regalloc <> s1:54 var
+R6444:6444 SF.Regalloc <> x:57 var
+R6447:6448 SF.Regalloc <> s1:54 var
+R6450:6450 SF.Regalloc <> y:58 var
+R6454:6455 SF.Regalloc <> s2:55 var
+R6505:6510 SF.Imp <> update def
+R6516:6516 SF.Regalloc <> RENAMING.f var
+R6526:6526 SF.Regalloc <> RENAMING.f var
+R6481:6497 SF.Regalloc <> agree_extensional thm
+R6505:6510 SF.Imp <> update def
+R6516:6516 SF.Regalloc <> RENAMING.f var
+R6526:6526 SF.Regalloc <> RENAMING.f var
+R6481:6497 SF.Regalloc <> agree_extensional thm
+R6542:6558 SF.Regalloc <> agree_update_move thm
+R6542:6558 SF.Regalloc <> agree_update_move thm
+R6596:6601 SF.Imp <> update def
+R6614:6619 SF.SfLib <> beq_id def
+R6622:6622 SF.Regalloc <> RENAMING.f var
+R6614:6619 SF.SfLib <> beq_id def
+R6622:6622 SF.Regalloc <> RENAMING.f var
+R6657:6659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6654:6654 SF.Regalloc <> RENAMING.f var
+R6657:6659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6654:6654 SF.Regalloc <> RENAMING.f var
+R6671:6679 SF.SfLib <> beq_id_eq thm
+R6671:6679 SF.SfLib <> beq_id_eq thm
+def 7038:7055 <> correct_allocation
+R7061:7063 SF.Imp <> com ind
+binder 7058:7058 <> c:60
+R7070:7073 SF.Deadcode VS t def
+binder 7067:7067 <> L:61
+R7078:7081 Coq.Init.Datatypes <> bool ind
+R7094:7094 SF.Regalloc <> c:60 var
+R7105:7108 SF.Imp <> :::'SKIP' not
+R7119:7122 Coq.Init.Datatypes <> true constr
+R7129:7133 SF.Imp <> :::x_'::='_x not
+R7148:7153 SF.Deadcode VS mem def
+R7157:7157 SF.Regalloc <> L:61 var
+R7425:7428 Coq.Init.Datatypes <> true constr
+R7178:7188 SF.Regalloc <> expr_is_var def
+R7207:7210 Coq.Init.Datatypes <> Some constr
+R7229:7238 SF.Deadcode VS for_all def
+R7305:7305 SF.Regalloc <> L:61 var
+binder 7245:7245 <> z:64
+R7274:7277 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7260:7263 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7250:7255 SF.SfLib <> beq_id def
+R7257:7257 SF.Regalloc <> z:64 var
+R7264:7269 SF.SfLib <> beq_id def
+R7271:7271 SF.Regalloc <> z:64 var
+R7278:7281 Coq.Init.Datatypes <> negb def
+R7284:7289 SF.SfLib <> beq_id def
+R7292:7292 SF.Regalloc <> RENAMING.f var
+R7294:7294 SF.Regalloc <> z:64 var
+R7298:7298 SF.Regalloc <> RENAMING.f var
+R7317:7320 Coq.Init.Datatypes <> None constr
+R7338:7347 SF.Deadcode VS for_all def
+R7400:7400 SF.Regalloc <> L:61 var
+binder 7354:7354 <> z:65
+R7369:7372 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7359:7364 SF.SfLib <> beq_id def
+R7366:7366 SF.Regalloc <> z:65 var
+R7373:7376 Coq.Init.Datatypes <> negb def
+R7379:7384 SF.SfLib <> beq_id def
+R7387:7387 SF.Regalloc <> RENAMING.f var
+R7389:7389 SF.Regalloc <> z:65 var
+R7393:7393 SF.Regalloc <> RENAMING.f var
+R7437:7438 SF.Imp <> :::x_';'_x not
+R7486:7489 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7453:7470 SF.Regalloc <> correct_allocation:62 def
+R7476:7479 SF.Deadcode <> live def
+R7484:7484 SF.Regalloc <> L:61 var
+R7490:7507 SF.Regalloc <> correct_allocation:62 def
+R7512:7512 SF.Regalloc <> L:61 var
+R7518:7521 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R7523:7528 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R7531:7536 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R7539:7541 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R7575:7578 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7552:7569 SF.Regalloc <> correct_allocation:62 def
+R7574:7574 SF.Regalloc <> L:61 var
+R7579:7596 SF.Regalloc <> correct_allocation:62 def
+R7601:7601 SF.Regalloc <> L:61 var
+R7607:7612 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7614:7617 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7619:7622 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7633:7650 SF.Regalloc <> correct_allocation:62 def
+R7655:7658 SF.Deadcode <> live def
+R7661:7666 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7668:7671 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7673:7676 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7672:7672 SF.Regalloc <> c:60 var
+R7679:7679 SF.Regalloc <> L:61 var
+R7652:7652 SF.Regalloc <> c:60 var
+prf 7697:7723 <> correct_allocation_assign_1
+binder 7735:7735 <> x:66
+binder 7737:7737 <> y:67
+binder 7739:7739 <> L:68
+R7828:7833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7821:7823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7744:7753 SF.Deadcode VS for_all def
+R7820:7820 SF.Regalloc <> L:68 var
+binder 7760:7760 <> z:69
+R7789:7792 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7775:7778 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7765:7770 SF.SfLib <> beq_id def
+R7772:7772 SF.Regalloc <> z:69 var
+R7774:7774 SF.Regalloc <> x:66 var
+R7779:7784 SF.SfLib <> beq_id def
+R7786:7786 SF.Regalloc <> z:69 var
+R7788:7788 SF.Regalloc <> y:67 var
+R7793:7796 Coq.Init.Datatypes <> negb def
+R7799:7804 SF.SfLib <> beq_id def
+R7807:7807 SF.Regalloc <> RENAMING.f var
+R7809:7809 SF.Regalloc <> z:69 var
+R7813:7813 SF.Regalloc <> RENAMING.f var
+R7815:7815 SF.Regalloc <> x:66 var
+R7824:7827 Coq.Init.Datatypes <> true constr
+binder 7841:7841 <> z:70
+R7853:7856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7844:7848 SF.Deadcode VS In def
+R7852:7852 SF.Regalloc <> L:68 var
+R7850:7850 SF.Regalloc <> z:70 var
+R7863:7866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7858:7861 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7857:7857 SF.Regalloc <> z:70 var
+R7862:7862 SF.Regalloc <> x:66 var
+R7873:7876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7868:7871 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7867:7867 SF.Regalloc <> z:70 var
+R7872:7872 SF.Regalloc <> y:67 var
+R7880:7883 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7877:7877 SF.Regalloc <> RENAMING.f var
+R7879:7879 SF.Regalloc <> z:70 var
+R7884:7884 SF.Regalloc <> RENAMING.f var
+R7886:7886 SF.Regalloc <> x:66 var
+binder 7923:7923 <> z:71
+R7952:7955 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7938:7941 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7928:7933 SF.SfLib <> beq_id def
+R7935:7935 SF.Regalloc <> z:71 var
+R7942:7947 SF.SfLib <> beq_id def
+R7949:7949 SF.Regalloc <> z:71 var
+R7956:7959 Coq.Init.Datatypes <> negb def
+R7962:7967 SF.SfLib <> beq_id def
+R7970:7970 SF.Regalloc <> RENAMING.f var
+R7972:7972 SF.Regalloc <> z:71 var
+R7976:7976 SF.Regalloc <> RENAMING.f var
+binder 7923:7923 <> z:72
+R7952:7955 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7938:7941 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R7928:7933 SF.SfLib <> beq_id def
+R7935:7935 SF.Regalloc <> z:72 var
+R7942:7947 SF.SfLib <> beq_id def
+R7949:7949 SF.Regalloc <> z:72 var
+R7956:7959 Coq.Init.Datatypes <> negb def
+R7962:7967 SF.SfLib <> beq_id def
+R7970:7970 SF.Regalloc <> RENAMING.f var
+R7972:7972 SF.Regalloc <> z:72 var
+R7976:7976 SF.Regalloc <> RENAMING.f var
+R7999:8008 SF.Deadcode VS For_all def
+binder 8015:8015 <> x:73
+R8023:8025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8022:8022 SF.Regalloc <> x:73 var
+R8026:8029 Coq.Init.Datatypes <> true constr
+R7999:8008 SF.Deadcode VS For_all def
+binder 8015:8015 <> x:74
+R8023:8025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8022:8022 SF.Regalloc <> x:74 var
+R8026:8029 Coq.Init.Datatypes <> true constr
+R8046:8057 SF.Deadcode VS for_all_2 def
+R8046:8057 SF.Deadcode VS for_all_2 def
+R8157:8175 SF.SfLib <> not_eq_beq_id_false thm
+R8157:8175 SF.SfLib <> not_eq_beq_id_false thm
+R8157:8175 SF.SfLib <> not_eq_beq_id_false thm
+R8157:8175 SF.SfLib <> not_eq_beq_id_false thm
+R8195:8213 SF.SfLib <> not_eq_beq_id_false thm
+R8195:8213 SF.SfLib <> not_eq_beq_id_false thm
+R8195:8213 SF.SfLib <> not_eq_beq_id_false thm
+R8195:8213 SF.SfLib <> not_eq_beq_id_false thm
+R8241:8246 SF.SfLib <> beq_id def
+R8249:8249 SF.Regalloc <> RENAMING.f var
+R8255:8255 SF.Regalloc <> RENAMING.f var
+R8241:8246 SF.SfLib <> beq_id def
+R8249:8249 SF.Regalloc <> RENAMING.f var
+R8255:8255 SF.Regalloc <> RENAMING.f var
+R8311:8329 SF.SfLib <> beq_id_false_not_eq thm
+R8311:8329 SF.SfLib <> beq_id_false_not_eq thm
+prf 8352:8378 <> correct_allocation_assign_2
+binder 8390:8390 <> x:75
+binder 8392:8392 <> L:76
+R8467:8472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8460:8462 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8397:8406 SF.Deadcode VS for_all def
+R8459:8459 SF.Regalloc <> L:76 var
+binder 8413:8413 <> z:77
+R8428:8431 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R8418:8423 SF.SfLib <> beq_id def
+R8425:8425 SF.Regalloc <> z:77 var
+R8427:8427 SF.Regalloc <> x:75 var
+R8432:8435 Coq.Init.Datatypes <> negb def
+R8438:8443 SF.SfLib <> beq_id def
+R8446:8446 SF.Regalloc <> RENAMING.f var
+R8448:8448 SF.Regalloc <> z:77 var
+R8452:8452 SF.Regalloc <> RENAMING.f var
+R8454:8454 SF.Regalloc <> x:75 var
+R8463:8466 Coq.Init.Datatypes <> true constr
+binder 8480:8480 <> z:78
+R8492:8495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8483:8487 SF.Deadcode VS In def
+R8491:8491 SF.Regalloc <> L:76 var
+R8489:8489 SF.Regalloc <> z:78 var
+R8502:8505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8497:8500 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8496:8496 SF.Regalloc <> z:78 var
+R8501:8501 SF.Regalloc <> x:75 var
+R8509:8512 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8506:8506 SF.Regalloc <> RENAMING.f var
+R8508:8508 SF.Regalloc <> z:78 var
+R8513:8513 SF.Regalloc <> RENAMING.f var
+R8515:8515 SF.Regalloc <> x:75 var
+binder 8552:8552 <> z:79
+R8567:8570 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R8557:8562 SF.SfLib <> beq_id def
+R8564:8564 SF.Regalloc <> z:79 var
+R8571:8574 Coq.Init.Datatypes <> negb def
+R8577:8582 SF.SfLib <> beq_id def
+R8585:8585 SF.Regalloc <> RENAMING.f var
+R8587:8587 SF.Regalloc <> z:79 var
+R8591:8591 SF.Regalloc <> RENAMING.f var
+binder 8552:8552 <> z:80
+R8567:8570 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R8557:8562 SF.SfLib <> beq_id def
+R8564:8564 SF.Regalloc <> z:80 var
+R8571:8574 Coq.Init.Datatypes <> negb def
+R8577:8582 SF.SfLib <> beq_id def
+R8585:8585 SF.Regalloc <> RENAMING.f var
+R8587:8587 SF.Regalloc <> z:80 var
+R8591:8591 SF.Regalloc <> RENAMING.f var
+R8614:8623 SF.Deadcode VS For_all def
+binder 8630:8630 <> x:81
+R8638:8640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8637:8637 SF.Regalloc <> x:81 var
+R8641:8644 Coq.Init.Datatypes <> true constr
+R8614:8623 SF.Deadcode VS For_all def
+binder 8630:8630 <> x:82
+R8638:8640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8637:8637 SF.Regalloc <> x:82 var
+R8641:8644 Coq.Init.Datatypes <> true constr
+R8661:8672 SF.Deadcode VS for_all_2 def
+R8661:8672 SF.Deadcode VS for_all_2 def
+R8772:8790 SF.SfLib <> not_eq_beq_id_false thm
+R8772:8790 SF.SfLib <> not_eq_beq_id_false thm
+R8772:8790 SF.SfLib <> not_eq_beq_id_false thm
+R8772:8790 SF.SfLib <> not_eq_beq_id_false thm
+R8818:8823 SF.SfLib <> beq_id def
+R8826:8826 SF.Regalloc <> RENAMING.f var
+R8832:8832 SF.Regalloc <> RENAMING.f var
+R8818:8823 SF.SfLib <> beq_id def
+R8826:8826 SF.Regalloc <> RENAMING.f var
+R8832:8832 SF.Regalloc <> RENAMING.f var
+R8888:8906 SF.SfLib <> beq_id_false_not_eq thm
+R8888:8906 SF.SfLib <> beq_id_false_not_eq thm
+prf 9204:9229 <> transf_correct_terminating
+binder 9241:9242 <> st:83
+binder 9244:9244 <> c:84
+binder 9246:9248 <> st':85
+R9265:9270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9252:9254 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9257:9261 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9251:9251 SF.Regalloc <> c:84 var
+R9255:9256 SF.Regalloc <> st:83 var
+R9262:9264 SF.Regalloc <> st':85 var
+binder 9278:9278 <> L:86
+binder 9280:9282 <> st1:87
+R9310:9315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9287:9291 SF.Regalloc <> agree def
+R9294:9297 SF.Deadcode <> live def
+R9299:9299 SF.Regalloc <> c:84 var
+R9301:9301 SF.Regalloc <> L:86 var
+R9304:9305 SF.Regalloc <> st:83 var
+R9307:9309 SF.Regalloc <> st1:87 var
+R9345:9350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9338:9340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9316:9333 SF.Regalloc <> correct_allocation def
+R9335:9335 SF.Regalloc <> c:84 var
+R9337:9337 SF.Regalloc <> L:86 var
+R9341:9344 Coq.Init.Datatypes <> true constr
+R9351:9357 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9362:9363 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9358:9361 <> st1':88
+R9393:9396 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9378:9380 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9384:9388 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9364:9373 SF.Regalloc <> transf_com def
+R9375:9375 SF.Regalloc <> c:84 var
+R9377:9377 SF.Regalloc <> L:86 var
+R9381:9383 SF.Regalloc <> st1:87 var
+R9389:9392 SF.Regalloc <> st1':88 var
+R9397:9401 SF.Regalloc <> agree def
+R9403:9403 SF.Regalloc <> L:86 var
+R9405:9407 SF.Regalloc <> st':85 var
+R9409:9412 SF.Regalloc <> st1':88 var
+R9589:9594 SF.Deadcode VS mem def
+R9589:9594 SF.Deadcode VS mem def
+R9698:9700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9672:9676 SF.Imp <> aeval def
+R9683:9693 SF.Regalloc <> rename_aexp def
+R9698:9700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9672:9676 SF.Imp <> aeval def
+R9683:9693 SF.Regalloc <> rename_aexp def
+R9742:9752 SF.Regalloc <> aeval_agree thm
+R9742:9752 SF.Regalloc <> aeval_agree thm
+R9785:9795 SF.Regalloc <> expr_is_var def
+R9785:9795 SF.Regalloc <> expr_is_var def
+R9884:9886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9887:9889 SF.Imp <> AId constr
+R9884:9886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9887:9889 SF.Imp <> AId constr
+R9901:9919 SF.Regalloc <> expr_is_var_correct thm
+R9901:9919 SF.Regalloc <> expr_is_var_correct thm
+R9966:9971 SF.SfLib <> beq_id def
+R9974:9974 SF.Regalloc <> RENAMING.f var
+R9980:9980 SF.Regalloc <> RENAMING.f var
+R9966:9971 SF.SfLib <> beq_id def
+R9974:9974 SF.Regalloc <> RENAMING.f var
+R9980:9980 SF.Regalloc <> RENAMING.f var
+R10075:10077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10072:10072 SF.Regalloc <> RENAMING.f var
+R10078:10078 SF.Regalloc <> RENAMING.f var
+R10075:10077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10072:10072 SF.Regalloc <> RENAMING.f var
+R10078:10078 SF.Regalloc <> RENAMING.f var
+R10090:10098 SF.SfLib <> beq_id_eq thm
+R10090:10098 SF.SfLib <> beq_id_eq thm
+R10148:10153 SF.Imp <> E_Skip constr
+R10148:10153 SF.Imp <> E_Skip constr
+R10184:10210 SF.Regalloc <> agree_update_coalesced_move thm
+R10184:10210 SF.Regalloc <> agree_update_coalesced_move thm
+R10234:10260 SF.Regalloc <> correct_allocation_assign_1 thm
+R10234:10260 SF.Regalloc <> correct_allocation_assign_1 thm
+R10320:10325 SF.Imp <> update def
+R10332:10332 SF.Regalloc <> RENAMING.f var
+R10320:10325 SF.Imp <> update def
+R10332:10332 SF.Regalloc <> RENAMING.f var
+R10362:10366 SF.Imp <> E_Ass constr
+R10362:10366 SF.Imp <> E_Ass constr
+R10438:10454 SF.Regalloc <> agree_update_move thm
+R10438:10454 SF.Regalloc <> agree_update_move thm
+R10477:10503 SF.Regalloc <> correct_allocation_assign_1 thm
+R10477:10503 SF.Regalloc <> correct_allocation_assign_1 thm
+R10555:10560 SF.Imp <> update def
+R10567:10567 SF.Regalloc <> RENAMING.f var
+R10555:10560 SF.Imp <> update def
+R10567:10567 SF.Regalloc <> RENAMING.f var
+R10595:10599 SF.Imp <> E_Ass constr
+R10595:10599 SF.Imp <> E_Ass constr
+R10620:10636 SF.Regalloc <> agree_update_live thm
+R10620:10636 SF.Regalloc <> agree_update_live thm
+R10652:10660 SF.Regalloc <> agree_mon thm
+R10652:10660 SF.Regalloc <> agree_mon thm
+R10691:10717 SF.Regalloc <> correct_allocation_assign_2 thm
+R10691:10717 SF.Regalloc <> correct_allocation_assign_2 thm
+R10790:10795 SF.Imp <> E_Skip constr
+R10790:10795 SF.Imp <> E_Skip constr
+R10809:10825 SF.Regalloc <> agree_update_dead thm
+R10809:10825 SF.Regalloc <> agree_update_dead thm
+R10870:10872 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10860:10865 SF.Deadcode VS mem def
+R10873:10876 Coq.Init.Datatypes <> true constr
+R10870:10872 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10860:10865 SF.Deadcode VS mem def
+R10873:10876 Coq.Init.Datatypes <> true constr
+R10886:10893 SF.Deadcode VS mem_1 def
+R10886:10893 SF.Deadcode VS mem_1 def
+R10956:10964 SF.SfLib <> andb_true thm
+R10956:10964 SF.SfLib <> andb_true thm
+R11110:11114 SF.Imp <> E_Seq constr
+R11110:11114 SF.Imp <> E_Seq constr
+R11187:11195 SF.SfLib <> andb_true thm
+R11187:11195 SF.SfLib <> andb_true thm
+R11245:11247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11219:11223 SF.Imp <> beval def
+R11230:11240 SF.Regalloc <> rename_bexp def
+R11248:11251 Coq.Init.Datatypes <> true constr
+R11245:11247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11219:11223 SF.Imp <> beval def
+R11230:11240 SF.Regalloc <> rename_bexp def
+R11248:11251 Coq.Init.Datatypes <> true constr
+R11290:11300 SF.Regalloc <> beval_agree thm
+R11290:11300 SF.Regalloc <> beval_agree thm
+R11375:11383 SF.Regalloc <> agree_mon thm
+R11375:11383 SF.Regalloc <> agree_mon thm
+R11442:11449 SF.Imp <> E_IfTrue constr
+R11442:11449 SF.Imp <> E_IfTrue constr
+R11513:11521 SF.SfLib <> andb_true thm
+R11513:11521 SF.SfLib <> andb_true thm
+R11571:11573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11545:11549 SF.Imp <> beval def
+R11556:11566 SF.Regalloc <> rename_bexp def
+R11574:11578 Coq.Init.Datatypes <> false constr
+R11571:11573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11545:11549 SF.Imp <> beval def
+R11556:11566 SF.Regalloc <> rename_bexp def
+R11574:11578 Coq.Init.Datatypes <> false constr
+R11617:11627 SF.Regalloc <> beval_agree thm
+R11617:11627 SF.Regalloc <> beval_agree thm
+R11702:11710 SF.Regalloc <> agree_mon thm
+R11702:11710 SF.Regalloc <> agree_mon thm
+R11769:11777 SF.Imp <> E_IfFalse constr
+R11769:11777 SF.Imp <> E_IfFalse constr
+R11829:11846 SF.Deadcode <> live_while_charact thm
+R11829:11846 SF.Deadcode <> live_while_charact thm
+R11907:11909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11881:11885 SF.Imp <> beval def
+R11892:11902 SF.Regalloc <> rename_bexp def
+R11910:11914 Coq.Init.Datatypes <> false constr
+R11907:11909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11881:11885 SF.Imp <> beval def
+R11892:11902 SF.Regalloc <> rename_bexp def
+R11910:11914 Coq.Init.Datatypes <> false constr
+R11953:11963 SF.Regalloc <> beval_agree thm
+R11953:11963 SF.Regalloc <> beval_agree thm
+R12002:12011 SF.Imp <> E_WhileEnd constr
+R12002:12011 SF.Imp <> E_WhileEnd constr
+R12030:12038 SF.Regalloc <> agree_mon thm
+R12030:12038 SF.Regalloc <> agree_mon thm
+R12085:12102 SF.Deadcode <> live_while_charact thm
+R12085:12102 SF.Deadcode <> live_while_charact thm
+R12163:12165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12137:12141 SF.Imp <> beval def
+R12148:12158 SF.Regalloc <> rename_bexp def
+R12166:12169 Coq.Init.Datatypes <> true constr
+R12163:12165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12137:12141 SF.Imp <> beval def
+R12148:12158 SF.Regalloc <> rename_bexp def
+R12166:12169 Coq.Init.Datatypes <> true constr
+R12208:12218 SF.Regalloc <> beval_agree thm
+R12208:12218 SF.Regalloc <> beval_agree thm
+R12250:12253 SF.Deadcode <> live def
+R12256:12261 SF.Imp <> CWhile constr
+R12250:12253 SF.Deadcode <> live def
+R12256:12261 SF.Imp <> CWhile constr
+R12307:12315 SF.Regalloc <> agree_mon thm
+R12307:12315 SF.Regalloc <> agree_mon thm
+R12428:12438 SF.Imp <> E_WhileLoop constr
+R12428:12438 SF.Imp <> E_WhileLoop constr
+prf 12479:12502 <> transf_correct_diverging
+binder 12514:12515 <> st:89
+binder 12517:12517 <> c:90
+binder 12519:12519 <> L:91
+binder 12521:12523 <> st1:92
+R12542:12548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12529:12531 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12534:12541 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12528:12528 SF.Regalloc <> c:90 var
+R12532:12533 SF.Regalloc <> st:89 var
+R12572:12577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12549:12553 SF.Regalloc <> agree def
+R12556:12559 SF.Deadcode <> live def
+R12561:12561 SF.Regalloc <> c:90 var
+R12563:12563 SF.Regalloc <> L:91 var
+R12566:12567 SF.Regalloc <> st:89 var
+R12569:12571 SF.Regalloc <> st1:92 var
+R12607:12612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12600:12602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12578:12595 SF.Regalloc <> correct_allocation def
+R12597:12597 SF.Regalloc <> c:90 var
+R12599:12599 SF.Regalloc <> L:91 var
+R12603:12606 Coq.Init.Datatypes <> true constr
+R12627:12629 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12633:12640 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12613:12622 SF.Regalloc <> transf_com def
+R12624:12624 SF.Regalloc <> c:90 var
+R12626:12626 SF.Regalloc <> L:91 var
+R12630:12632 SF.Regalloc <> st1:92 var
+R12761:12769 Coq.Init.Datatypes <> andb_prop thm
+R12761:12769 Coq.Init.Datatypes <> andb_prop thm
+R12791:12800 SF.Semantics <> Einf_Seq_1 constr
+R12791:12800 SF.Semantics <> Einf_Seq_1 constr
+R12893:12901 Coq.Init.Datatypes <> andb_prop thm
+R12893:12901 Coq.Init.Datatypes <> andb_prop thm
+R12927:12952 SF.Regalloc <> transf_correct_terminating thm
+R12927:12952 SF.Regalloc <> transf_correct_terminating thm
+R12998:13007 SF.Semantics <> Einf_Seq_2 constr
+R12998:13007 SF.Semantics <> Einf_Seq_2 constr
+R13102:13110 Coq.Init.Datatypes <> andb_prop thm
+R13102:13110 Coq.Init.Datatypes <> andb_prop thm
+R13159:13161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13134:13138 SF.Imp <> beval def
+R13145:13155 SF.Regalloc <> rename_bexp def
+R13162:13165 Coq.Init.Datatypes <> true constr
+R13159:13161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13134:13138 SF.Imp <> beval def
+R13145:13155 SF.Regalloc <> rename_bexp def
+R13162:13165 Coq.Init.Datatypes <> true constr
+R13204:13214 SF.Regalloc <> beval_agree thm
+R13204:13214 SF.Regalloc <> beval_agree thm
+R13241:13251 SF.Semantics <> Einf_IfTrue constr
+R13241:13251 SF.Semantics <> Einf_IfTrue constr
+R13299:13307 SF.Regalloc <> agree_mon thm
+R13299:13307 SF.Regalloc <> agree_mon thm
+R13379:13387 Coq.Init.Datatypes <> andb_prop thm
+R13379:13387 Coq.Init.Datatypes <> andb_prop thm
+R13436:13438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13411:13415 SF.Imp <> beval def
+R13422:13432 SF.Regalloc <> rename_bexp def
+R13439:13443 Coq.Init.Datatypes <> false constr
+R13436:13438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13411:13415 SF.Imp <> beval def
+R13422:13432 SF.Regalloc <> rename_bexp def
+R13439:13443 Coq.Init.Datatypes <> false constr
+R13482:13492 SF.Regalloc <> beval_agree thm
+R13482:13492 SF.Regalloc <> beval_agree thm
+R13519:13530 SF.Semantics <> Einf_IfFalse constr
+R13519:13530 SF.Semantics <> Einf_IfFalse constr
+R13578:13586 SF.Regalloc <> agree_mon thm
+R13578:13586 SF.Regalloc <> agree_mon thm
+R13648:13665 SF.Deadcode <> live_while_charact thm
+R13648:13665 SF.Deadcode <> live_while_charact thm
+R13724:13726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13699:13703 SF.Imp <> beval def
+R13710:13720 SF.Regalloc <> rename_bexp def
+R13727:13730 Coq.Init.Datatypes <> true constr
+R13724:13726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13699:13703 SF.Imp <> beval def
+R13710:13720 SF.Regalloc <> rename_bexp def
+R13727:13730 Coq.Init.Datatypes <> true constr
+R13769:13779 SF.Regalloc <> beval_agree thm
+R13769:13779 SF.Regalloc <> beval_agree thm
+R13797:13810 SF.Semantics <> Einf_WhileBody constr
+R13797:13810 SF.Semantics <> Einf_WhileBody constr
+R13858:13866 SF.Regalloc <> agree_mon thm
+R13858:13866 SF.Regalloc <> agree_mon thm
+R13913:13930 SF.Deadcode <> live_while_charact thm
+R13913:13930 SF.Deadcode <> live_while_charact thm
+R13989:13991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13964:13968 SF.Imp <> beval def
+R13975:13985 SF.Regalloc <> rename_bexp def
+R13992:13995 Coq.Init.Datatypes <> true constr
+R13989:13991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13964:13968 SF.Imp <> beval def
+R13975:13985 SF.Regalloc <> rename_bexp def
+R13992:13995 Coq.Init.Datatypes <> true constr
+R14034:14044 SF.Regalloc <> beval_agree thm
+R14034:14044 SF.Regalloc <> beval_agree thm
+R14066:14091 SF.Regalloc <> transf_correct_terminating thm
+R14103:14106 SF.Deadcode <> live def
+R14109:14114 SF.Imp <> CWhile constr
+R14066:14091 SF.Regalloc <> transf_correct_terminating thm
+R14103:14106 SF.Deadcode <> live def
+R14109:14114 SF.Imp <> CWhile constr
+R14159:14167 SF.Regalloc <> agree_mon thm
+R14159:14167 SF.Regalloc <> agree_mon thm
+R14191:14204 SF.Semantics <> Einf_WhileLoop constr
+R14191:14204 SF.Semantics <> Einf_WhileLoop constr
+R14256:14261 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14263:14266 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14269:14272 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14256:14261 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14263:14266 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14269:14272 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R14311:14318 SF.Regalloc RENAMING <> sec
+def 14470:14482 <> trivial_alloc
+R14495:14496 SF.SfLib <> id ind
+binder 14492:14492 <> x:93
+R14502:14502 SF.Regalloc <> x:93 var
+R14526:14543 SF.Regalloc <> correct_allocation def
+R14559:14562 SF.Deadcode <> prog def
+R14565:14576 SF.Deadcode VS singleton def
+R14578:14579 SF.Deadcode <> vr syndef
+R14545:14557 SF.Regalloc <> trivial_alloc def
+R14604:14613 SF.Regalloc <> transf_com def
+R14629:14632 SF.Deadcode <> prog def
+R14635:14646 SF.Deadcode VS singleton def
+R14648:14649 SF.Deadcode <> vr syndef
+R14615:14627 SF.Regalloc <> trivial_alloc def
+def 15024:15031 <> my_alloc
+R15044:15045 SF.SfLib <> id ind
+binder 15041:15041 <> x:94
+R15054:15059 SF.SfLib <> beq_id def
+R15061:15061 SF.Regalloc <> x:94 var
+R15063:15064 SF.Deadcode <> vr syndef
+R15079:15079 SF.Regalloc <> x:94 var
+R15071:15072 SF.Deadcode <> va syndef
+R15103:15120 SF.Regalloc <> correct_allocation def
+R15131:15134 SF.Deadcode <> prog def
+R15137:15148 SF.Deadcode VS singleton def
+R15150:15151 SF.Deadcode <> vr syndef
+R15122:15129 SF.Regalloc <> my_alloc def
+R15176:15185 SF.Regalloc <> transf_com def
+R15196:15199 SF.Deadcode <> prog def
+R15202:15213 SF.Deadcode VS singleton def
+R15215:15216 SF.Deadcode <> vr syndef
+R15187:15194 SF.Regalloc <> my_alloc def
+def 15689:15699 <> wrong_alloc
+R15712:15713 SF.SfLib <> id ind
+binder 15709:15709 <> x:95
+R15722:15727 SF.SfLib <> beq_id def
+R15729:15729 SF.Regalloc <> x:95 var
+R15731:15732 SF.Deadcode <> vr syndef
+R15747:15747 SF.Regalloc <> x:95 var
+R15739:15740 SF.Deadcode <> vb syndef
+R15771:15788 SF.Regalloc <> correct_allocation def
+R15802:15805 SF.Deadcode <> prog def
+R15808:15819 SF.Deadcode VS singleton def
+R15821:15822 SF.Deadcode <> vr syndef
+R15790:15800 SF.Regalloc <> wrong_alloc def
+ax 15971:15988 <> regalloc_heuristic
+R15994:15997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15991:15993 SF.Imp <> com ind
+R16002:16006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16015:16015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15998:16001 SF.Deadcode VS t def
+R16009:16012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16007:16008 SF.SfLib <> id ind
+R16013:16014 SF.SfLib <> id ind
+def 16428:16435 <> regalloc
+R16444:16446 SF.Imp <> com ind
+binder 16438:16441 <> prog:97
+R16455:16458 SF.Deadcode VS t def
+binder 16450:16452 <> obs:98
+R16463:16468 Coq.Init.Datatypes <> option ind
+R16470:16472 SF.Imp <> com ind
+R16488:16505 SF.Regalloc <> regalloc_heuristic defax
+R16507:16510 SF.Regalloc <> prog:97 var
+R16512:16514 SF.Regalloc <> obs:98 var
+binder 16483:16483 <> f:99
+R16524:16541 SF.Regalloc <> correct_allocation def
+R16545:16548 SF.Regalloc <> prog:97 var
+R16550:16552 SF.Regalloc <> obs:98 var
+R16543:16543 SF.Regalloc <> f:99 var
+R16596:16599 Coq.Init.Datatypes <> None constr
+R16561:16564 Coq.Init.Datatypes <> Some constr
+R16566:16575 SF.Regalloc <> transf_com def
+R16579:16582 SF.Regalloc <> prog:97 var
+R16584:16586 SF.Regalloc <> obs:98 var
+R16577:16577 SF.Regalloc <> f:99 var

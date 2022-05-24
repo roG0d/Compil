@@ -1,0 +1,1106 @@
+DIGEST 1a1116c55baa998c5920699fbb649eb5
+FSF.Deadcode
+R15:34 Coq.Program.Equality <> <> lib
+R52:54 Coq.micromega.Lia <> <> lib
+R72:76 Coq.FSets.FSets <> <> lib
+R102:104 SF.Imp <> <> lib
+R130:138 SF.Sequences <> <> lib
+R164:172 SF.Semantics <> <> lib
+R706:716 Coq.Structures.OrderedType OrderedType <> mod
+R739:740 SF.SfLib <> id ind
+mod 692:701 <> Id_Ordered
+def 756:756 Id_Ordered t
+R761:762 SF.SfLib <> id ind
+def 778:779 Id_Ordered eq
+R787:787 SF.Deadcode Id_Ordered t def
+binder 782:782 <> x:1
+binder 784:784 <> y:2
+R794:796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R793:793 SF.Deadcode <> x:1 var
+R797:797 SF.Deadcode <> y:2 var
+def 813:814 Id_Ordered lt
+R822:822 SF.Deadcode Id_Ordered t def
+binder 817:817 <> x:3
+binder 819:819 <> y:4
+R837:837 SF.Deadcode <> y:4 var
+R834:834 SF.Deadcode <> x:3 var
+R844:845 SF.SfLib <> Id constr
+R851:852 SF.SfLib <> Id constr
+R862:864 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 882:888 Id_Ordered eq_refl
+R903:903 SF.Deadcode Id_Ordered t def
+binder 899:899 <> x:7
+R906:907 SF.Deadcode Id_Ordered eq def
+R909:909 SF.Deadcode <> x:7 var
+R911:911 SF.Deadcode <> x:7 var
+prf 957:962 Id_Ordered eq_sym
+R979:979 SF.Deadcode Id_Ordered t def
+binder 973:973 <> x:8
+binder 975:975 <> y:9
+R988:991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R982:983 SF.Deadcode Id_Ordered eq def
+R985:985 SF.Deadcode <> x:8 var
+R987:987 SF.Deadcode <> y:9 var
+R992:993 SF.Deadcode Id_Ordered eq def
+R995:995 SF.Deadcode <> y:9 var
+R997:997 SF.Deadcode <> x:8 var
+R1016:1017 SF.Deadcode Id_Ordered eq def
+prf 1048:1055 Id_Ordered eq_trans
+R1074:1074 SF.Deadcode Id_Ordered t def
+binder 1066:1066 <> x:10
+binder 1068:1068 <> y:11
+binder 1070:1070 <> z:12
+R1083:1086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1077:1078 SF.Deadcode Id_Ordered eq def
+R1080:1080 SF.Deadcode <> x:10 var
+R1082:1082 SF.Deadcode <> y:11 var
+R1093:1096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1087:1088 SF.Deadcode Id_Ordered eq def
+R1090:1090 SF.Deadcode <> y:11 var
+R1092:1092 SF.Deadcode <> z:12 var
+R1097:1098 SF.Deadcode Id_Ordered eq def
+R1100:1100 SF.Deadcode <> x:10 var
+R1102:1102 SF.Deadcode <> z:12 var
+R1121:1122 SF.Deadcode Id_Ordered eq def
+prf 1159:1166 Id_Ordered lt_trans
+R1185:1185 SF.Deadcode Id_Ordered t def
+binder 1177:1177 <> x:13
+binder 1179:1179 <> y:14
+binder 1181:1181 <> z:15
+R1194:1197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1188:1189 SF.Deadcode Id_Ordered lt def
+R1191:1191 SF.Deadcode <> x:13 var
+R1193:1193 SF.Deadcode <> y:14 var
+R1204:1207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1198:1199 SF.Deadcode Id_Ordered lt def
+R1201:1201 SF.Deadcode <> y:14 var
+R1203:1203 SF.Deadcode <> z:15 var
+R1208:1209 SF.Deadcode Id_Ordered lt def
+R1211:1211 SF.Deadcode <> x:13 var
+R1213:1213 SF.Deadcode <> z:15 var
+R1232:1233 SF.Deadcode Id_Ordered lt def
+prf 1299:1307 Id_Ordered lt_not_eq
+R1324:1324 SF.Deadcode Id_Ordered t def
+binder 1318:1318 <> x:16
+binder 1320:1320 <> y:17
+R1333:1336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1327:1328 SF.Deadcode Id_Ordered lt def
+R1330:1330 SF.Deadcode <> x:16 var
+R1332:1332 SF.Deadcode <> y:17 var
+R1337:1338 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1339:1340 SF.Deadcode Id_Ordered eq def
+R1342:1342 SF.Deadcode <> x:16 var
+R1344:1344 SF.Deadcode <> y:17 var
+R1367:1368 SF.Deadcode Id_Ordered lt def
+R1371:1372 SF.Deadcode Id_Ordered eq def
+R1420:1423 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1420:1423 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+def 1470:1476 Id_Ordered compare
+R1492:1492 SF.Deadcode Id_Ordered t def
+binder 1487:1487 <> x:18
+binder 1489:1489 <> y:19
+R1496:1502 Coq.Structures.OrderedType <> Compare ind
+R1512:1512 SF.Deadcode <> y:19 var
+R1510:1510 SF.Deadcode <> x:18 var
+R1507:1508 SF.Deadcode Id_Ordered eq def
+R1504:1505 SF.Deadcode Id_Ordered lt def
+R1586:1592 Coq.Arith.EqNat <> beq_nat syndef
+R1586:1592 Coq.Arith.EqNat <> beq_nat syndef
+R1624:1625 Coq.Structures.OrderedType <> EQ constr
+R1624:1625 Coq.Structures.OrderedType <> EQ constr
+R1648:1659 Coq.Arith.EqNat <> beq_nat_true thm
+R1648:1659 Coq.Arith.EqNat <> beq_nat_true thm
+R1682:1685 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1682:1685 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1697:1709 Coq.Arith.EqNat <> beq_nat_false thm
+R1697:1709 Coq.Arith.EqNat <> beq_nat_false thm
+R1732:1738 SF.SfLib <> ble_nat def
+R1732:1738 SF.SfLib <> ble_nat def
+R1774:1777 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1774:1777 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1789:1800 SF.SfLib <> ble_nat_true prfax
+R1789:1800 SF.SfLib <> ble_nat_true prfax
+R1819:1820 Coq.Structures.OrderedType <> LT constr
+R1819:1820 Coq.Structures.OrderedType <> LT constr
+R1845:1846 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1855:1855 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1849:1852 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1845:1846 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1855:1855 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1849:1852 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1865:1877 SF.SfLib <> ble_nat_false prfax
+R1865:1877 SF.SfLib <> ble_nat_false prfax
+R1896:1897 Coq.Structures.OrderedType <> GT constr
+R1896:1897 Coq.Structures.OrderedType <> GT constr
+def 1935:1940 Id_Ordered eq_dec
+R1956:1956 SF.Deadcode Id_Ordered t def
+binder 1951:1951 <> x:20
+binder 1953:1953 <> y:21
+R1960:1960 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1964:1968 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1973:1973 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1962:1962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1961:1961 SF.Deadcode <> x:20 var
+R1963:1963 SF.Deadcode <> y:21 var
+R1970:1971 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1969:1969 SF.Deadcode <> x:20 var
+R1972:1972 SF.Deadcode <> y:21 var
+R2036:2042 Coq.Arith.EqNat <> beq_nat syndef
+R2036:2042 Coq.Arith.EqNat <> beq_nat syndef
+R2089:2100 Coq.Arith.EqNat <> beq_nat_true thm
+R2089:2100 Coq.Arith.EqNat <> beq_nat_true thm
+R2129:2132 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2129:2132 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2144:2156 Coq.Arith.EqNat <> beq_nat_false thm
+R2144:2156 Coq.Arith.EqNat <> beq_nat_false thm
+R2192:2201 SF.Deadcode Id_Ordered <> mod
+R2336:2347 Coq.FSets.FSetAVL Make <> modtype
+R2349:2358 SF.Deadcode Id_Ordered <> modtype
+mod 2330:2331 <> VS
+R2376:2400 Coq.FSets.FSetProperties Properties <> modtype
+R2402:2403 SF.Deadcode VS <> modtype
+mod 2369:2371 <> VSP
+R2426:2442 Coq.FSets.FSetDecide Decide <> modtype
+R2444:2445 SF.Deadcode VS <> modtype
+mod 2414:2421 <> VSdecide
+def 2616:2622 <> fv_aexp
+R2628:2631 SF.Imp <> aexp ind
+binder 2625:2625 <> a:22
+R2636:2639 SF.Deadcode <> t def
+R2652:2652 SF.Deadcode <> a:22 var
+R2663:2666 SF.Imp <> ANum constr
+R2673:2680 SF.Deadcode <> empty def
+R2686:2688 SF.Imp <> AId constr
+R2695:2706 SF.Deadcode <> singleton def
+R2714:2718 SF.Imp <> APlus constr
+R2729:2736 SF.Deadcode <> union def
+R2752:2758 SF.Deadcode <> fv_aexp:23 def
+R2739:2745 SF.Deadcode <> fv_aexp:23 def
+R2768:2773 SF.Imp <> AMinus constr
+R2784:2791 SF.Deadcode <> union def
+R2807:2813 SF.Deadcode <> fv_aexp:23 def
+R2794:2800 SF.Deadcode <> fv_aexp:23 def
+R2823:2827 SF.Imp <> AMult constr
+R2838:2845 SF.Deadcode <> union def
+R2861:2867 SF.Deadcode <> fv_aexp:23 def
+R2848:2854 SF.Deadcode <> fv_aexp:23 def
+def 2890:2896 <> fv_bexp
+R2902:2905 SF.Imp <> bexp ind
+binder 2899:2899 <> b:25
+R2910:2913 SF.Deadcode <> t def
+R2926:2926 SF.Deadcode <> b:25 var
+R2937:2941 SF.Imp <> BTrue constr
+R2946:2953 SF.Deadcode <> empty def
+R2959:2964 SF.Imp <> BFalse constr
+R2969:2976 SF.Deadcode <> empty def
+R2982:2984 SF.Imp <> BEq constr
+R2995:3002 SF.Deadcode <> union def
+R3018:3024 SF.Deadcode <> fv_aexp def
+R3005:3011 SF.Deadcode <> fv_aexp def
+R3034:3036 SF.Imp <> BLe constr
+R3047:3054 SF.Deadcode <> union def
+R3070:3076 SF.Deadcode <> fv_aexp def
+R3057:3063 SF.Deadcode <> fv_aexp def
+R3086:3089 SF.Imp <> BNot constr
+R3097:3103 SF.Deadcode <> fv_bexp:26 def
+R3112:3115 SF.Imp <> BAnd constr
+R3126:3133 SF.Deadcode <> union def
+R3149:3155 SF.Deadcode <> fv_bexp:26 def
+R3136:3142 SF.Deadcode <> fv_bexp:26 def
+def 3178:3183 <> fv_com
+R3189:3191 SF.Imp <> com ind
+binder 3186:3186 <> c:28
+R3196:3199 SF.Deadcode <> t def
+R3212:3212 SF.Deadcode <> c:28 var
+R3223:3226 SF.Imp <> :::'SKIP' not
+R3231:3238 SF.Deadcode <> empty def
+R3245:3249 SF.Imp <> :::x_'::='_x not
+R3255:3261 SF.Deadcode <> fv_aexp def
+R3272:3273 SF.Imp <> :::x_';'_x not
+R3281:3288 SF.Deadcode <> union def
+R3303:3308 SF.Deadcode <> fv_com:29 def
+R3291:3296 SF.Deadcode <> fv_com:29 def
+R3318:3321 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3323:3328 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3331:3336 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3339:3341 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3346:3353 SF.Deadcode <> union def
+R3368:3375 SF.Deadcode <> union def
+R3390:3395 SF.Deadcode <> fv_com:29 def
+R3378:3383 SF.Deadcode <> fv_com:29 def
+R3356:3362 SF.Deadcode <> fv_bexp def
+R3406:3411 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3413:3416 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3418:3421 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3426:3433 SF.Deadcode <> union def
+R3448:3453 SF.Deadcode <> fv_com:29 def
+R3455:3455 SF.Deadcode <> c:28 var
+R3436:3442 SF.Deadcode <> fv_bexp def
+sec 3511:3518 <> FIXPOINT
+var 3531:3531 FIXPOINT F
+R3538:3541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3534:3537 SF.Deadcode <> t def
+R3542:3545 SF.Deadcode <> t def
+var 3557:3563 FIXPOINT default
+R3566:3569 SF.Deadcode <> t def
+def 3850:3853 <> iter
+R3859:3861 Coq.Init.Datatypes <> nat ind
+binder 3856:3856 <> n:33
+R3868:3871 SF.Deadcode <> t def
+binder 3865:3865 <> x:34
+R3876:3879 SF.Deadcode <> t def
+R3892:3892 SF.Deadcode <> n:33 var
+R3903:3903 Coq.Init.Datatypes <> O constr
+R3908:3914 SF.Deadcode <> FIXPOINT.default var
+R3920:3920 Coq.Init.Datatypes <> S constr
+R3944:3944 SF.Deadcode <> FIXPOINT.F var
+R3946:3946 SF.Deadcode <> x:34 var
+binder 3938:3939 <> x':37
+R3960:3968 SF.Deadcode <> subset def
+R3973:3973 SF.Deadcode <> x:34 var
+R3970:3971 SF.Deadcode <> x':37 var
+R3987:3990 SF.Deadcode <> iter:35 def
+R3995:3996 SF.Deadcode <> x':37 var
+R3980:3980 SF.Deadcode <> x:34 var
+def 4017:4021 <> niter
+def 4046:4053 <> fixpoint
+R4057:4060 SF.Deadcode <> t def
+R4065:4068 SF.Deadcode <> iter def
+R4070:4074 SF.Deadcode <> niter def
+R4076:4083 SF.Deadcode <> empty def
+prf 4093:4108 <> fixpoint_charact
+R4144:4147 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4113:4121 SF.Deadcode <> Subset def
+R4136:4143 SF.Deadcode <> fixpoint def
+R4124:4124 SF.Deadcode <> FIXPOINT.F var
+R4126:4133 SF.Deadcode <> fixpoint def
+R4156:4158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4148:4155 SF.Deadcode <> fixpoint def
+R4159:4165 SF.Deadcode <> FIXPOINT.default var
+R4184:4191 SF.Deadcode <> fixpoint def
+R4205:4209 SF.Deadcode <> niter def
+R4212:4219 SF.Deadcode <> empty def
+R4205:4209 SF.Deadcode <> niter def
+R4212:4219 SF.Deadcode <> empty def
+R4269:4277 SF.Deadcode <> subset def
+R4280:4280 SF.Deadcode <> FIXPOINT.F var
+R4269:4277 SF.Deadcode <> subset def
+R4280:4280 SF.Deadcode <> FIXPOINT.F var
+R4311:4321 SF.Deadcode <> subset_2 def
+R4311:4321 SF.Deadcode <> subset_2 def
+var 4361:4368 FIXPOINT F_stable
+binder 4380:4380 <> x:38
+R4402:4405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4383:4391 SF.Deadcode <> Subset def
+R4395:4401 SF.Deadcode <> FIXPOINT.default var
+R4393:4393 SF.Deadcode <> x:38 var
+R4406:4414 SF.Deadcode <> Subset def
+R4422:4428 SF.Deadcode <> FIXPOINT.default var
+R4417:4417 SF.Deadcode <> FIXPOINT.F var
+R4419:4419 SF.Deadcode <> x:38 var
+prf 4438:4457 <> fixpoint_upper_bound
+R4462:4470 SF.Deadcode <> Subset def
+R4481:4487 SF.Deadcode <> FIXPOINT.default var
+R4472:4479 SF.Deadcode <> fixpoint def
+binder 4514:4514 <> n:40
+binder 4516:4516 <> x:41
+R4538:4541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4519:4527 SF.Deadcode <> Subset def
+R4531:4537 SF.Deadcode <> FIXPOINT.default var
+R4529:4529 SF.Deadcode <> x:41 var
+R4542:4550 SF.Deadcode <> Subset def
+R4563:4569 SF.Deadcode <> FIXPOINT.default var
+R4553:4556 SF.Deadcode <> iter def
+R4558:4558 SF.Deadcode <> n:40 var
+R4560:4560 SF.Deadcode <> x:41 var
+binder 4514:4514 <> n:42
+binder 4516:4516 <> x:43
+R4538:4541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4519:4527 SF.Deadcode <> Subset def
+R4531:4537 SF.Deadcode <> FIXPOINT.default var
+R4529:4529 SF.Deadcode <> x:43 var
+R4542:4550 SF.Deadcode <> Subset def
+R4563:4569 SF.Deadcode <> FIXPOINT.default var
+R4553:4556 SF.Deadcode <> iter def
+R4558:4558 SF.Deadcode <> n:42 var
+R4560:4560 SF.Deadcode <> x:43 var
+R4627:4635 SF.Deadcode <> subset def
+R4638:4638 SF.Deadcode <> FIXPOINT.F var
+R4627:4635 SF.Deadcode <> subset def
+R4638:4638 SF.Deadcode <> FIXPOINT.F var
+R4687:4694 SF.Deadcode <> fixpoint def
+R4712:4727 SF.Deadcode <> subset_empty thm
+R4712:4727 SF.Deadcode <> subset_empty thm
+R4741:4748 SF.Deadcode FIXPOINT <> sec
+def 4923:4926 <> live
+R4932:4934 SF.Imp <> com ind
+binder 4929:4929 <> c:44
+R4941:4944 SF.Deadcode <> t def
+binder 4938:4938 <> L:45
+R4949:4952 SF.Deadcode <> t def
+R4965:4965 SF.Deadcode <> c:44 var
+R4976:4979 SF.Imp <> :::'SKIP' not
+R4984:4984 SF.Deadcode <> L:45 var
+R4991:4995 SF.Imp <> :::x_'::='_x not
+R5010:5015 SF.Deadcode <> mem def
+R5019:5019 SF.Deadcode <> L:45 var
+R5080:5080 SF.Deadcode <> L:45 var
+R5032:5039 SF.Deadcode <> union def
+R5058:5064 SF.Deadcode <> fv_aexp def
+R5042:5050 SF.Deadcode <> remove def
+R5054:5054 SF.Deadcode <> L:45 var
+R5089:5090 SF.Imp <> :::x_';'_x not
+R5104:5107 SF.Deadcode <> live:46 def
+R5113:5116 SF.Deadcode <> live:46 def
+R5121:5121 SF.Deadcode <> L:45 var
+R5128:5131 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R5133:5138 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R5141:5146 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R5149:5151 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R5162:5169 SF.Deadcode <> union def
+R5184:5191 SF.Deadcode <> union def
+R5206:5209 SF.Deadcode <> live:46 def
+R5214:5214 SF.Deadcode <> L:45 var
+R5194:5197 SF.Deadcode <> live:46 def
+R5202:5202 SF.Deadcode <> L:45 var
+R5172:5178 SF.Deadcode <> fv_bexp def
+R5222:5227 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5229:5232 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5234:5237 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5258:5265 SF.Deadcode <> union def
+R5279:5279 SF.Deadcode <> L:45 var
+R5268:5274 SF.Deadcode <> fv_bexp def
+binder 5252:5253 <> L':48
+R5305:5312 SF.Deadcode <> union def
+R5336:5336 SF.Deadcode <> L:45 var
+R5315:5320 SF.Deadcode <> fv_com def
+R5323:5328 SF.Imp <> CWhile constr
+R5332:5332 SF.Deadcode <> c:44 var
+binder 5294:5300 <> default:49
+R5347:5354 SF.Deadcode <> fixpoint def
+R5390:5396 SF.Deadcode <> default:49 var
+binder 5361:5361 <> x:50
+R5366:5373 SF.Deadcode <> union def
+R5379:5382 SF.Deadcode <> live:46 def
+R5386:5386 SF.Deadcode <> x:50 var
+R5384:5384 SF.Deadcode <> c:44 var
+R5375:5376 SF.Deadcode <> L':48 var
+prf 5412:5427 <> live_upper_bound
+binder 5439:5439 <> c:51
+binder 5441:5441 <> L:52
+R5446:5454 SF.Deadcode <> Subset def
+R5468:5475 SF.Deadcode <> union def
+R5488:5488 SF.Deadcode <> L:52 var
+R5478:5483 SF.Deadcode <> fv_com def
+R5485:5485 SF.Deadcode <> c:51 var
+R5457:5460 SF.Deadcode <> live def
+R5462:5462 SF.Deadcode <> c:51 var
+R5464:5464 SF.Deadcode <> L:52 var
+R5551:5556 SF.Deadcode <> mem def
+R5551:5556 SF.Deadcode <> mem def
+R5610:5613 SF.Deadcode <> live def
+R5610:5613 SF.Deadcode <> live def
+R5714:5733 SF.Deadcode <> fixpoint_upper_bound thm
+R5714:5733 SF.Deadcode <> fixpoint_upper_bound thm
+prf 5786:5803 <> live_while_charact
+binder 5815:5815 <> b:53
+binder 5817:5817 <> c:54
+binder 5819:5819 <> L:55
+R5834:5837 SF.Deadcode <> live def
+R5840:5845 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5847:5850 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5852:5855 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R5846:5846 SF.Deadcode <> b:53 var
+R5851:5851 SF.Deadcode <> c:54 var
+R5858:5858 SF.Deadcode <> L:55 var
+binder 5828:5829 <> L':56
+R5889:5892 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5865:5873 SF.Deadcode <> Subset def
+R5887:5888 SF.Deadcode <> L':56 var
+R5876:5882 SF.Deadcode <> fv_bexp def
+R5884:5884 SF.Deadcode <> b:53 var
+R5907:5910 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5893:5901 SF.Deadcode <> Subset def
+R5905:5906 SF.Deadcode <> L':56 var
+R5903:5903 SF.Deadcode <> L:55 var
+R5911:5919 SF.Deadcode <> Subset def
+R5933:5934 SF.Deadcode <> L':56 var
+R5922:5925 SF.Deadcode <> live def
+R5927:5927 SF.Deadcode <> c:54 var
+R5929:5930 SF.Deadcode <> L':56 var
+R5968:5983 SF.Deadcode <> fixpoint_charact thm
+R6063:6070 SF.Deadcode <> union def
+R6073:6080 SF.Deadcode <> union def
+R6095:6100 SF.Deadcode <> fv_com def
+R6083:6089 SF.Deadcode <> fv_bexp def
+R5998:6001 SF.Deadcode <> t def
+binder 5994:5994 <> x:57
+R6006:6013 SF.Deadcode <> union def
+R6041:6044 SF.Deadcode <> live def
+R6048:6048 SF.Deadcode <> x:57 var
+R6016:6023 SF.Deadcode <> union def
+R6026:6032 SF.Deadcode <> fv_bexp def
+R5968:5983 SF.Deadcode <> fixpoint_charact thm
+R6063:6070 SF.Deadcode <> union def
+R6073:6080 SF.Deadcode <> union def
+R6095:6100 SF.Deadcode <> fv_com def
+R6083:6089 SF.Deadcode <> fv_bexp def
+R5998:6001 SF.Deadcode <> t def
+binder 5994:5994 <> x:58
+R6006:6013 SF.Deadcode <> union def
+R6041:6044 SF.Deadcode <> live def
+R6048:6048 SF.Deadcode <> x:58 var
+R6016:6023 SF.Deadcode <> union def
+R6026:6032 SF.Deadcode <> fv_bexp def
+R6280:6295 SF.Deadcode <> subset_trans thm
+R6280:6295 SF.Deadcode <> subset_trans thm
+R6304:6319 SF.Deadcode <> live_upper_bound thm
+R6304:6319 SF.Deadcode <> live_upper_bound thm
+def 6527:6529 <> dce
+R6535:6537 SF.Imp <> com ind
+binder 6532:6532 <> c:59
+R6544:6547 SF.Deadcode <> t def
+binder 6541:6541 <> L:60
+R6551:6553 SF.Imp <> com ind
+R6566:6566 SF.Deadcode <> c:59 var
+R6577:6580 SF.Imp <> :::'SKIP' not
+R6585:6588 SF.Imp <> :::'SKIP' not
+R6595:6599 SF.Imp <> :::x_'::='_x not
+R6608:6613 SF.Deadcode <> mem def
+R6617:6617 SF.Deadcode <> L:60 var
+R6637:6640 SF.Imp <> :::'SKIP' not
+R6625:6629 SF.Imp <> :::x_'::='_x not
+R6649:6650 SF.Imp <> :::x_';'_x not
+R6677:6678 SF.Imp <> :::x_';'_x not
+R6659:6661 SF.Deadcode <> dce:61 def
+R6667:6670 SF.Deadcode <> live def
+R6675:6675 SF.Deadcode <> L:60 var
+R6679:6681 SF.Deadcode <> dce:61 def
+R6686:6686 SF.Deadcode <> L:60 var
+R6693:6696 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6698:6703 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6706:6711 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6714:6716 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6721:6724 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6726:6731 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6740:6745 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6754:6756 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R6732:6734 SF.Deadcode <> dce:61 def
+R6739:6739 SF.Deadcode <> L:60 var
+R6746:6748 SF.Deadcode <> dce:61 def
+R6753:6753 SF.Deadcode <> L:60 var
+R6762:6767 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6769:6772 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6774:6777 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6782:6787 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6789:6792 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6826:6829 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6793:6795 SF.Deadcode <> dce:61 def
+R6800:6803 SF.Deadcode <> live def
+R6806:6811 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6813:6816 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6818:6821 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R6817:6817 SF.Deadcode <> c:59 var
+R6824:6824 SF.Deadcode <> L:60 var
+R6797:6797 SF.Deadcode <> c:59 var
+syndef 6881:6882 <> va
+R6888:6889 SF.SfLib <> Id constr
+syndef 6904:6905 <> vb
+R6911:6912 SF.SfLib <> Id constr
+syndef 6927:6928 <> vq
+R6934:6935 SF.SfLib <> Id constr
+syndef 6950:6951 <> vr
+R6957:6958 SF.SfLib <> Id constr
+def 6976:6979 <> prog
+R7001:7006 SF.Imp <> :::x_';'_x not
+R6990:6994 SF.Imp <> :::x_'::='_x not
+R6988:6989 SF.Deadcode <> vr syndef
+R6995:6997 SF.Imp <> AId constr
+R6999:7000 SF.Deadcode <> va syndef
+R7020:7025 SF.Imp <> :::x_';'_x not
+R7009:7013 SF.Imp <> :::x_'::='_x not
+R7007:7008 SF.Deadcode <> vq syndef
+R7014:7017 SF.Imp <> ANum constr
+R7026:7031 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7053:7062 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7132:7139 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R7032:7034 SF.Imp <> BLe constr
+R7037:7039 SF.Imp <> AId constr
+R7041:7042 SF.Deadcode <> vb syndef
+R7046:7048 SF.Imp <> AId constr
+R7050:7051 SF.Deadcode <> vr syndef
+R7094:7101 SF.Imp <> :::x_';'_x not
+R7065:7069 SF.Imp <> :::x_'::='_x not
+R7063:7064 SF.Deadcode <> vr syndef
+R7070:7075 SF.Imp <> AMinus constr
+R7078:7080 SF.Imp <> AId constr
+R7082:7083 SF.Deadcode <> vr syndef
+R7087:7089 SF.Imp <> AId constr
+R7091:7092 SF.Deadcode <> vb syndef
+R7104:7108 SF.Imp <> :::x_'::='_x not
+R7102:7103 SF.Deadcode <> vq syndef
+R7109:7113 SF.Imp <> APlus constr
+R7116:7118 SF.Imp <> AId constr
+R7120:7121 SF.Deadcode <> vq syndef
+R7125:7128 SF.Imp <> ANum constr
+R7165:7167 SF.Deadcode <> dce def
+R7169:7172 SF.Deadcode <> prog def
+R7175:7186 SF.Deadcode <> singleton def
+R7188:7189 SF.Deadcode <> vr syndef
+R7501:7503 SF.Deadcode <> dce def
+R7505:7508 SF.Deadcode <> prog def
+R7511:7522 SF.Deadcode <> singleton def
+R7524:7525 SF.Deadcode <> vq syndef
+def 7716:7720 <> agree
+R7726:7729 SF.Deadcode <> t def
+binder 7723:7723 <> L:63
+R7740:7744 SF.Imp <> state def
+binder 7733:7734 <> s1:64
+binder 7736:7737 <> s2:65
+binder 7766:7766 <> x:66
+R7778:7781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7769:7773 SF.Deadcode <> In def
+R7777:7777 SF.Deadcode <> L:63 var
+R7775:7775 SF.Deadcode <> x:66 var
+R7786:7788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7782:7783 SF.Deadcode <> s1:64 var
+R7785:7785 SF.Deadcode <> x:66 var
+R7789:7790 SF.Deadcode <> s2:65 var
+R7792:7792 SF.Deadcode <> x:66 var
+prf 7833:7841 <> agree_mon
+binder 7853:7853 <> L:67
+binder 7855:7856 <> L':68
+binder 7858:7859 <> s1:69
+binder 7861:7862 <> s2:70
+R7881:7884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7867:7871 SF.Deadcode <> agree def
+R7873:7874 SF.Deadcode <> L':68 var
+R7876:7877 SF.Deadcode <> s1:69 var
+R7879:7880 SF.Deadcode <> s2:70 var
+R7899:7902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7885:7893 SF.Deadcode <> Subset def
+R7897:7898 SF.Deadcode <> L':68 var
+R7895:7895 SF.Deadcode <> L:67 var
+R7903:7907 SF.Deadcode <> agree def
+R7909:7909 SF.Deadcode <> L:67 var
+R7911:7912 SF.Deadcode <> s1:69 var
+R7914:7915 SF.Deadcode <> s2:70 var
+R7934:7942 SF.Deadcode <> Subset def
+R7945:7949 SF.Deadcode <> agree def
+prf 8106:8116 <> aeval_agree
+binder 8128:8128 <> L:71
+binder 8130:8131 <> s1:72
+binder 8133:8134 <> s2:73
+R8150:8155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8137:8141 SF.Deadcode <> agree def
+R8143:8143 SF.Deadcode <> L:71 var
+R8145:8146 SF.Deadcode <> s1:72 var
+R8148:8149 SF.Deadcode <> s2:73 var
+binder 8163:8163 <> a:74
+R8189:8192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8166:8174 SF.Deadcode <> Subset def
+R8188:8188 SF.Deadcode <> L:71 var
+R8177:8183 SF.Deadcode <> fv_aexp def
+R8185:8185 SF.Deadcode <> a:74 var
+R8203:8205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8193:8197 SF.Imp <> aeval def
+R8199:8200 SF.Deadcode <> s1:72 var
+R8202:8202 SF.Deadcode <> a:74 var
+R8206:8210 SF.Imp <> aeval def
+R8212:8213 SF.Deadcode <> s2:73 var
+R8215:8215 SF.Deadcode <> a:74 var
+prf 8562:8572 <> beval_agree
+binder 8584:8584 <> L:75
+binder 8586:8587 <> s1:76
+binder 8589:8590 <> s2:77
+R8606:8611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8593:8597 SF.Deadcode <> agree def
+R8599:8599 SF.Deadcode <> L:75 var
+R8601:8602 SF.Deadcode <> s1:76 var
+R8604:8605 SF.Deadcode <> s2:77 var
+binder 8619:8619 <> b:78
+R8645:8648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8622:8630 SF.Deadcode <> Subset def
+R8644:8644 SF.Deadcode <> L:75 var
+R8633:8639 SF.Deadcode <> fv_bexp def
+R8641:8641 SF.Deadcode <> b:78 var
+R8659:8661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8649:8653 SF.Imp <> beval def
+R8655:8656 SF.Deadcode <> s1:76 var
+R8658:8658 SF.Deadcode <> b:78 var
+R8662:8666 SF.Imp <> beval def
+R8668:8669 SF.Deadcode <> s2:77 var
+R8671:8671 SF.Deadcode <> b:78 var
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8745:8755 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+R8815:8825 SF.Deadcode <> aeval_agree thm
+prf 9068:9084 <> agree_update_live
+binder 9096:9097 <> s1:79
+binder 9099:9100 <> s2:80
+binder 9102:9102 <> L:81
+binder 9104:9104 <> x:82
+binder 9106:9106 <> v:83
+R9138:9143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9111:9115 SF.Deadcode <> agree def
+R9118:9126 SF.Deadcode <> remove def
+R9130:9130 SF.Deadcode <> L:81 var
+R9128:9128 SF.Deadcode <> x:82 var
+R9133:9134 SF.Deadcode <> s1:79 var
+R9136:9137 SF.Deadcode <> s2:80 var
+R9144:9148 SF.Deadcode <> agree def
+R9150:9150 SF.Deadcode <> L:81 var
+R9153:9158 SF.Imp <> update def
+R9160:9161 SF.Deadcode <> s1:79 var
+R9163:9163 SF.Deadcode <> x:82 var
+R9165:9165 SF.Deadcode <> v:83 var
+R9169:9174 SF.Imp <> update def
+R9176:9177 SF.Deadcode <> s2:80 var
+R9179:9179 SF.Deadcode <> x:82 var
+R9181:9181 SF.Deadcode <> v:83 var
+R9222:9227 SF.Imp <> update def
+R9240:9245 SF.SfLib <> beq_id def
+R9240:9245 SF.SfLib <> beq_id def
+R9291:9301 SF.Deadcode <> remove_2 def
+R9291:9301 SF.Deadcode <> remove_2 def
+R9310:9328 SF.SfLib <> beq_id_false_not_eq thm
+R9310:9328 SF.SfLib <> beq_id_false_not_eq thm
+prf 9437:9453 <> agree_update_dead
+binder 9465:9466 <> s1:84
+binder 9468:9469 <> s2:85
+binder 9471:9471 <> L:86
+binder 9473:9473 <> x:87
+binder 9475:9475 <> v:88
+R9493:9496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9480:9484 SF.Deadcode <> agree def
+R9486:9486 SF.Deadcode <> L:86 var
+R9488:9489 SF.Deadcode <> s1:84 var
+R9491:9492 SF.Deadcode <> s2:85 var
+R9507:9512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9497:9497 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9498:9502 SF.Deadcode <> In def
+R9506:9506 SF.Deadcode <> L:86 var
+R9504:9504 SF.Deadcode <> x:87 var
+R9513:9517 SF.Deadcode <> agree def
+R9519:9519 SF.Deadcode <> L:86 var
+R9522:9527 SF.Imp <> update def
+R9529:9530 SF.Deadcode <> s1:84 var
+R9532:9532 SF.Deadcode <> x:87 var
+R9534:9534 SF.Deadcode <> v:88 var
+R9537:9538 SF.Deadcode <> s2:85 var
+R9578:9583 SF.Imp <> update def
+R9596:9601 SF.SfLib <> beq_id def
+R9596:9601 SF.SfLib <> beq_id def
+R9633:9635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9633:9635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9647:9655 SF.SfLib <> beq_id_eq thm
+R9647:9655 SF.SfLib <> beq_id_eq thm
+prf 9837:9859 <> dce_correct_terminating
+binder 9871:9872 <> st:89
+binder 9874:9874 <> c:90
+binder 9876:9878 <> st':91
+R9895:9900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9882:9884 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9887:9891 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9881:9881 SF.Deadcode <> c:90 var
+R9885:9886 SF.Deadcode <> st:89 var
+R9892:9894 SF.Deadcode <> st':91 var
+binder 9908:9908 <> L:92
+binder 9910:9912 <> st1:93
+R9940:9945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9917:9921 SF.Deadcode <> agree def
+R9924:9927 SF.Deadcode <> live def
+R9929:9929 SF.Deadcode <> c:90 var
+R9931:9931 SF.Deadcode <> L:92 var
+R9934:9935 SF.Deadcode <> st:89 var
+R9937:9939 SF.Deadcode <> st1:93 var
+R9946:9952 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9957:9958 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9953:9956 <> st1':94
+R9981:9984 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9966:9968 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9972:9976 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9959:9961 SF.Deadcode <> dce def
+R9963:9963 SF.Deadcode <> c:90 var
+R9965:9965 SF.Deadcode <> L:92 var
+R9969:9971 SF.Deadcode <> st1:93 var
+R9977:9980 SF.Deadcode <> st1':94 var
+R9985:9989 SF.Deadcode <> agree def
+R9991:9991 SF.Deadcode <> L:92 var
+R9993:9995 SF.Deadcode <> st':91 var
+R9997:10000 SF.Deadcode <> st1':94 var
+R10155:10160 SF.Deadcode <> mem def
+R10155:10160 SF.Deadcode <> mem def
+R10249:10251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10237:10241 SF.Imp <> aeval def
+R10249:10251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10237:10241 SF.Imp <> aeval def
+R10293:10303 SF.Deadcode <> aeval_agree thm
+R10293:10303 SF.Deadcode <> aeval_agree thm
+R10334:10339 SF.Imp <> update def
+R10334:10339 SF.Imp <> update def
+R10368:10372 SF.Imp <> E_Ass constr
+R10368:10372 SF.Imp <> E_Ass constr
+R10391:10407 SF.Deadcode <> agree_update_live thm
+R10391:10407 SF.Deadcode <> agree_update_live thm
+R10417:10425 SF.Deadcode <> agree_mon thm
+R10417:10425 SF.Deadcode <> agree_mon thm
+R10505:10510 SF.Imp <> E_Skip constr
+R10505:10510 SF.Imp <> E_Skip constr
+R10524:10540 SF.Deadcode <> agree_update_dead thm
+R10524:10540 SF.Deadcode <> agree_update_dead thm
+R10585:10587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10575:10580 SF.Deadcode <> mem def
+R10588:10591 Coq.Init.Datatypes <> true constr
+R10585:10587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10575:10580 SF.Deadcode <> mem def
+R10588:10591 Coq.Init.Datatypes <> true constr
+R10601:10608 SF.Deadcode <> mem_1 def
+R10601:10608 SF.Deadcode <> mem_1 def
+R10786:10790 SF.Imp <> E_Seq constr
+R10786:10790 SF.Imp <> E_Seq constr
+R10874:10876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10862:10866 SF.Imp <> beval def
+R10877:10880 Coq.Init.Datatypes <> true constr
+R10874:10876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10862:10866 SF.Imp <> beval def
+R10877:10880 Coq.Init.Datatypes <> true constr
+R10919:10929 SF.Deadcode <> beval_agree thm
+R10919:10929 SF.Deadcode <> beval_agree thm
+R11004:11012 SF.Deadcode <> agree_mon thm
+R11004:11012 SF.Deadcode <> agree_mon thm
+R11061:11068 SF.Imp <> E_IfTrue constr
+R11061:11068 SF.Imp <> E_IfTrue constr
+R11143:11145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11131:11135 SF.Imp <> beval def
+R11146:11150 Coq.Init.Datatypes <> false constr
+R11143:11145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11131:11135 SF.Imp <> beval def
+R11146:11150 Coq.Init.Datatypes <> false constr
+R11189:11199 SF.Deadcode <> beval_agree thm
+R11189:11199 SF.Deadcode <> beval_agree thm
+R11274:11282 SF.Deadcode <> agree_mon thm
+R11274:11282 SF.Deadcode <> agree_mon thm
+R11331:11339 SF.Imp <> E_IfFalse constr
+R11331:11339 SF.Imp <> E_IfFalse constr
+R11390:11407 SF.Deadcode <> live_while_charact thm
+R11390:11407 SF.Deadcode <> live_while_charact thm
+R11454:11456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11442:11446 SF.Imp <> beval def
+R11457:11461 Coq.Init.Datatypes <> false constr
+R11454:11456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11442:11446 SF.Imp <> beval def
+R11457:11461 Coq.Init.Datatypes <> false constr
+R11500:11510 SF.Deadcode <> beval_agree thm
+R11500:11510 SF.Deadcode <> beval_agree thm
+R11549:11558 SF.Imp <> E_WhileEnd constr
+R11549:11558 SF.Imp <> E_WhileEnd constr
+R11577:11585 SF.Deadcode <> agree_mon thm
+R11577:11585 SF.Deadcode <> agree_mon thm
+R11631:11648 SF.Deadcode <> live_while_charact thm
+R11631:11648 SF.Deadcode <> live_while_charact thm
+R11695:11697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11683:11687 SF.Imp <> beval def
+R11698:11701 Coq.Init.Datatypes <> true constr
+R11695:11697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11683:11687 SF.Imp <> beval def
+R11698:11701 Coq.Init.Datatypes <> true constr
+R11740:11750 SF.Deadcode <> beval_agree thm
+R11740:11750 SF.Deadcode <> beval_agree thm
+R11782:11785 SF.Deadcode <> live def
+R11788:11793 SF.Imp <> CWhile constr
+R11782:11785 SF.Deadcode <> live def
+R11788:11793 SF.Imp <> CWhile constr
+R11839:11847 SF.Deadcode <> agree_mon thm
+R11839:11847 SF.Deadcode <> agree_mon thm
+R11943:11953 SF.Imp <> E_WhileLoop constr
+R11943:11953 SF.Imp <> E_WhileLoop constr
+prf 12124:12144 <> dce_correct_diverging
+binder 12156:12157 <> st:95
+binder 12159:12159 <> c:96
+binder 12161:12161 <> L:97
+binder 12163:12165 <> st1:98
+R12184:12190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12171:12173 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12176:12183 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12170:12170 SF.Deadcode <> c:96 var
+R12174:12175 SF.Deadcode <> st:95 var
+R12214:12219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12191:12195 SF.Deadcode <> agree def
+R12198:12201 SF.Deadcode <> live def
+R12203:12203 SF.Deadcode <> c:96 var
+R12205:12205 SF.Deadcode <> L:97 var
+R12208:12209 SF.Deadcode <> st:95 var
+R12211:12213 SF.Deadcode <> st1:98 var
+R12227:12229 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12233:12240 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12220:12222 SF.Deadcode <> dce def
+R12224:12224 SF.Deadcode <> c:96 var
+R12226:12226 SF.Deadcode <> L:97 var
+R12230:12232 SF.Deadcode <> st1:98 var
+R12351:12360 SF.Semantics <> Einf_Seq_1 constr
+R12351:12360 SF.Semantics <> Einf_Seq_1 constr
+R12448:12470 SF.Deadcode <> dce_correct_terminating thm
+R12448:12470 SF.Deadcode <> dce_correct_terminating thm
+R12513:12522 SF.Semantics <> Einf_Seq_2 constr
+R12513:12522 SF.Semantics <> Einf_Seq_2 constr
+R12627:12629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12616:12620 SF.Imp <> beval def
+R12630:12633 Coq.Init.Datatypes <> true constr
+R12627:12629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12616:12620 SF.Imp <> beval def
+R12630:12633 Coq.Init.Datatypes <> true constr
+R12672:12682 SF.Deadcode <> beval_agree thm
+R12672:12682 SF.Deadcode <> beval_agree thm
+R12709:12719 SF.Semantics <> Einf_IfTrue constr
+R12709:12719 SF.Semantics <> Einf_IfTrue constr
+R12767:12775 SF.Deadcode <> agree_mon thm
+R12767:12775 SF.Deadcode <> agree_mon thm
+R12851:12853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12840:12844 SF.Imp <> beval def
+R12854:12858 Coq.Init.Datatypes <> false constr
+R12851:12853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12840:12844 SF.Imp <> beval def
+R12854:12858 Coq.Init.Datatypes <> false constr
+R12897:12907 SF.Deadcode <> beval_agree thm
+R12897:12907 SF.Deadcode <> beval_agree thm
+R12934:12945 SF.Semantics <> Einf_IfFalse constr
+R12934:12945 SF.Semantics <> Einf_IfFalse constr
+R12993:13001 SF.Deadcode <> agree_mon thm
+R12993:13001 SF.Deadcode <> agree_mon thm
+R13055:13072 SF.Deadcode <> live_while_charact thm
+R13055:13072 SF.Deadcode <> live_while_charact thm
+R13117:13119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13106:13110 SF.Imp <> beval def
+R13120:13123 Coq.Init.Datatypes <> true constr
+R13117:13119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13106:13110 SF.Imp <> beval def
+R13120:13123 Coq.Init.Datatypes <> true constr
+R13162:13172 SF.Deadcode <> beval_agree thm
+R13162:13172 SF.Deadcode <> beval_agree thm
+R13190:13203 SF.Semantics <> Einf_WhileBody constr
+R13190:13203 SF.Semantics <> Einf_WhileBody constr
+R13251:13259 SF.Deadcode <> agree_mon thm
+R13251:13259 SF.Deadcode <> agree_mon thm
+R13305:13322 SF.Deadcode <> live_while_charact thm
+R13305:13322 SF.Deadcode <> live_while_charact thm
+R13367:13369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13356:13360 SF.Imp <> beval def
+R13370:13373 Coq.Init.Datatypes <> true constr
+R13367:13369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13356:13360 SF.Imp <> beval def
+R13370:13373 Coq.Init.Datatypes <> true constr
+R13412:13422 SF.Deadcode <> beval_agree thm
+R13412:13422 SF.Deadcode <> beval_agree thm
+R13444:13466 SF.Deadcode <> dce_correct_terminating thm
+R13478:13481 SF.Deadcode <> live def
+R13484:13489 SF.Imp <> CWhile constr
+R13444:13466 SF.Deadcode <> dce_correct_terminating thm
+R13478:13481 SF.Deadcode <> live def
+R13484:13489 SF.Imp <> CWhile constr
+R13534:13542 SF.Deadcode <> agree_mon thm
+R13534:13542 SF.Deadcode <> agree_mon thm
+R13560:13573 SF.Semantics <> Einf_WhileLoop constr
+R13560:13573 SF.Semantics <> Einf_WhileLoop constr
+R13625:13630 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13632:13635 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13638:13641 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13625:13630 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13632:13635 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13638:13641 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+def 13826:13832 <> measure
+R13838:13840 SF.Imp <> com ind
+binder 13835:13835 <> c:99
+R13845:13847 Coq.Init.Datatypes <> nat ind
+R13860:13860 SF.Deadcode <> c:99 var
+R13871:13874 SF.Imp <> CAss constr
+R13889:13892 SF.Imp <> CSeq constr
+R13903:13909 SF.Deadcode <> measure:100 def
+prf 13941:13954 <> dce_simulation
+binder 13966:13966 <> c:102
+binder 13968:13969 <> st:103
+binder 13971:13972 <> c':104
+binder 13974:13976 <> st':105
+R14000:14005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13982:13984 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R13987:13991 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R13994:13996 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R13981:13981 SF.Deadcode <> c:102 var
+R13985:13986 SF.Deadcode <> st:103 var
+R13992:13993 SF.Deadcode <> c':104 var
+R13997:13999 SF.Deadcode <> st':105 var
+binder 14013:14013 <> L:106
+binder 14015:14017 <> st1:107
+R14045:14050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14022:14026 SF.Deadcode <> agree def
+R14029:14032 SF.Deadcode <> live def
+R14034:14034 SF.Deadcode <> c:102 var
+R14036:14036 SF.Deadcode <> L:106 var
+R14039:14040 SF.Deadcode <> st:103 var
+R14042:14044 SF.Deadcode <> st1:107 var
+R14051:14051 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14134:14143 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14217:14217 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14052:14058 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14063:14067 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14059:14062 <> st1':108
+R14101:14107 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14075:14077 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R14081:14085 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R14094:14096 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R14068:14070 SF.Deadcode <> dce def
+R14072:14072 SF.Deadcode <> c:102 var
+R14074:14074 SF.Deadcode <> L:106 var
+R14078:14080 SF.Deadcode <> st1:107 var
+R14086:14088 SF.Deadcode <> dce def
+R14090:14091 SF.Deadcode <> c':104 var
+R14093:14093 SF.Deadcode <> L:106 var
+R14097:14100 SF.Deadcode <> st1':108 var
+R14108:14112 SF.Deadcode <> agree def
+R14115:14118 SF.Deadcode <> live def
+R14120:14121 SF.Deadcode <> c':104 var
+R14123:14123 SF.Deadcode <> L:106 var
+R14126:14128 SF.Deadcode <> st':105 var
+R14130:14133 SF.Deadcode <> st1':108 var
+R14166:14169 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14154:14156 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14144:14150 SF.Deadcode <> measure def
+R14152:14153 SF.Deadcode <> c':104 var
+R14157:14163 SF.Deadcode <> measure def
+R14165:14165 SF.Deadcode <> c:102 var
+R14188:14191 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14177:14179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14170:14172 SF.Deadcode <> dce def
+R14174:14174 SF.Deadcode <> c:102 var
+R14176:14176 SF.Deadcode <> L:106 var
+R14180:14182 SF.Deadcode <> dce def
+R14184:14185 SF.Deadcode <> c':104 var
+R14187:14187 SF.Deadcode <> L:106 var
+R14192:14196 SF.Deadcode <> agree def
+R14199:14202 SF.Deadcode <> live def
+R14204:14205 SF.Deadcode <> c':104 var
+R14207:14207 SF.Deadcode <> L:106 var
+R14210:14212 SF.Deadcode <> st':105 var
+R14214:14216 SF.Deadcode <> st1:107 var
+ind 14493:14505 <> results_agree
+constr 14560:14573 <> res_agree_None
+constr 14622:14635 <> res_agree_Some
+R14512:14515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14508:14511 SF.Deadcode <> t def
+R14528:14531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14516:14521 Coq.Init.Datatypes <> option ind
+R14523:14527 SF.Imp <> state def
+R14544:14547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14532:14537 Coq.Init.Datatypes <> option ind
+R14539:14543 SF.Imp <> state def
+binder 14583:14583 <> L:111
+R14592:14604 SF.Deadcode <> results_agree:109 ind
+R14613:14616 Coq.Init.Datatypes <> None constr
+R14608:14611 Coq.Init.Datatypes <> None constr
+R14606:14606 SF.Deadcode <> L:111 var
+binder 14645:14645 <> L:112
+binder 14647:14648 <> st:113
+binder 14650:14652 <> st1:114
+R14675:14684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14661:14665 SF.Deadcode <> agree def
+R14667:14667 SF.Deadcode <> L:112 var
+R14669:14670 SF.Deadcode <> st:113 var
+R14672:14674 SF.Deadcode <> st1:114 var
+R14685:14697 SF.Deadcode <> results_agree:109 ind
+R14712:14715 Coq.Init.Datatypes <> Some constr
+R14717:14719 SF.Deadcode <> st1:114 var
+R14702:14705 Coq.Init.Datatypes <> Some constr
+R14707:14708 SF.Deadcode <> st:113 var
+R14699:14699 SF.Deadcode <> L:112 var
+prf 14730:14743 <> dce_ceval_step
+binder 14755:14755 <> n:115
+binder 14757:14757 <> c:116
+binder 14759:14759 <> L:117
+binder 14761:14762 <> st:118
+binder 14764:14766 <> st1:119
+R14794:14799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14771:14775 SF.Deadcode <> agree def
+R14778:14781 SF.Deadcode <> live def
+R14783:14783 SF.Deadcode <> c:116 var
+R14785:14785 SF.Deadcode <> L:117 var
+R14788:14789 SF.Deadcode <> st:118 var
+R14791:14793 SF.Deadcode <> st1:119 var
+R14800:14812 SF.Deadcode <> results_agree ind
+R14814:14814 SF.Deadcode <> L:117 var
+R14817:14826 SF.Imp <> ceval_step def
+R14828:14829 SF.Deadcode <> st:118 var
+R14831:14831 SF.Deadcode <> c:116 var
+R14833:14833 SF.Deadcode <> n:115 var
+R14837:14846 SF.Imp <> ceval_step def
+R14848:14850 SF.Deadcode <> st1:119 var
+R14853:14855 SF.Deadcode <> dce def
+R14857:14857 SF.Deadcode <> c:116 var
+R14859:14859 SF.Deadcode <> L:117 var
+R14862:14862 SF.Deadcode <> n:115 var
+R14944:14946 Coq.Arith.Max <> <> lib
+prf 14958:14966 <> dce_denot
+binder 14978:14978 <> c:120
+binder 14980:14980 <> L:121
+binder 14982:14983 <> st:122
+binder 14985:14987 <> st1:123
+R15015:15020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14992:14996 SF.Deadcode <> agree def
+R14999:15002 SF.Deadcode <> live def
+R15004:15004 SF.Deadcode <> c:120 var
+R15006:15006 SF.Deadcode <> L:121 var
+R15009:15010 SF.Deadcode <> st:122 var
+R15012:15014 SF.Deadcode <> st1:123 var
+R15021:15033 SF.Deadcode <> results_agree ind
+R15035:15035 SF.Deadcode <> L:121 var
+R15038:15042 SF.Semantics <> denot def
+R15044:15045 SF.Deadcode <> st:122 var
+R15047:15047 SF.Deadcode <> c:120 var
+R15051:15055 SF.Semantics <> denot def
+R15057:15059 SF.Deadcode <> st1:123 var
+R15062:15064 SF.Deadcode <> dce def
+R15066:15066 SF.Deadcode <> c:120 var
+R15068:15068 SF.Deadcode <> L:121 var
+R15103:15113 SF.Semantics <> denot_limit thm
+R15103:15113 SF.Semantics <> denot_limit thm
+R15147:15157 SF.Semantics <> denot_limit thm
+R15164:15166 SF.Deadcode <> dce def
+R15147:15157 SF.Semantics <> denot_limit thm
+R15164:15166 SF.Deadcode <> dce def
+R15208:15210 Coq.Arith.Max <> max syndef
+R15208:15210 Coq.Arith.Max <> max syndef
+R15208:15210 Coq.Arith.Max <> max syndef
+R15208:15210 Coq.Arith.Max <> max syndef
+R15239:15241 Coq.Arith.Max <> max syndef
+R15239:15241 Coq.Arith.Max <> max syndef
+R15239:15241 Coq.Arith.Max <> max syndef
+R15239:15241 Coq.Arith.Max <> max syndef
+R15260:15273 SF.Deadcode <> dce_ceval_step prfax
+R15260:15273 SF.Deadcode <> dce_ceval_step prfax
+R15290:15297 Coq.Arith.Max <> le_max_r def
+R15290:15297 Coq.Arith.Max <> le_max_r def
+R15306:15313 Coq.Arith.Max <> le_max_l def
+R15306:15313 Coq.Arith.Max <> le_max_l def

@@ -1,0 +1,1800 @@
+DIGEST 3023c0d7c6195672a6ec97774ad8d15e
+FSF.Semantics
+R15:34 Coq.Program.Equality <> <> lib
+R60:62 SF.Imp <> <> lib
+R88:96 SF.Sequences <> <> lib
+R114:116 Coq.micromega.Lia <> <> lib
+R134:139 Coq.Strings.String <> <> lib
+ind 3056:3060 <> cstep
+constr 3110:3115 <> CS_Ass
+constr 3212:3221 <> CS_SeqStep
+constr 3327:3338 <> CS_SeqFinish
+constr 3395:3403 <> CS_IfTrue
+constr 3505:3514 <> CS_IfFalse
+constr 3617:3624 <> CS_While
+R3064:3064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3076:3080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3068:3070 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3065:3067 SF.Imp <> com ind
+R3071:3075 SF.Imp <> state def
+R3081:3081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3093:3097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3085:3087 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3082:3084 SF.Imp <> com ind
+R3088:3092 SF.Imp <> state def
+R3786:3790 SF.Semantics <> cstep:2 ind
+R3799:3799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3802:3802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3806:3806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3792:3792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3794:3794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3797:3797 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 3126:3127 <> st:3
+binder 3129:3129 <> i:4
+binder 3131:3131 <> a:5
+binder 3133:3133 <> n:6
+R3156:3165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3152:3154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3142:3146 SF.Imp <> aeval def
+R3148:3149 SF.Semantics <> st:3 var
+R3151:3151 SF.Semantics <> a:5 var
+R3155:3155 SF.Semantics <> n:6 var
+R3166:3166 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3174:3177 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3180:3184 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3189:3192 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3206:3206 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3168:3172 SF.Imp <> :::x_'::='_x not
+R3167:3167 SF.Semantics <> i:4 var
+R3173:3173 SF.Semantics <> a:5 var
+R3178:3179 SF.Semantics <> st:3 var
+R3185:3188 SF.Imp <> :::'SKIP' not
+R3193:3198 SF.Imp <> update def
+R3200:3201 SF.Semantics <> st:3 var
+R3203:3203 SF.Semantics <> i:4 var
+R3205:3205 SF.Semantics <> n:6 var
+binder 3232:3233 <> st:7
+binder 3235:3236 <> c1:8
+binder 3238:3240 <> c1':9
+binder 3242:3244 <> st':10
+binder 3246:3247 <> c2:11
+R3277:3286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3258:3260 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3263:3267 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3271:3273 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3256:3257 SF.Semantics <> c1:8 var
+R3261:3262 SF.Semantics <> st:7 var
+R3268:3270 SF.Semantics <> c1':9 var
+R3274:3276 SF.Semantics <> st':10 var
+R3287:3287 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3295:3298 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3301:3306 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3315:3318 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3290:3292 SF.Imp <> :::x_';'_x not
+R3288:3289 SF.Semantics <> c1:8 var
+R3293:3294 SF.Semantics <> c2:11 var
+R3299:3300 SF.Semantics <> st:7 var
+R3310:3312 SF.Imp <> :::x_';'_x not
+R3307:3309 SF.Semantics <> c1':9 var
+R3313:3314 SF.Semantics <> c2:11 var
+R3319:3321 SF.Semantics <> st':10 var
+binder 3349:3350 <> st:12
+binder 3352:3353 <> c2:13
+R3362:3362 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3372:3375 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3378:3382 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3385:3387 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3367:3369 SF.Imp <> :::x_';'_x not
+R3363:3366 SF.Imp <> :::'SKIP' not
+R3370:3371 SF.Semantics <> c2:13 var
+R3376:3377 SF.Semantics <> st:12 var
+R3383:3384 SF.Semantics <> c2:13 var
+R3388:3389 SF.Semantics <> st:12 var
+binder 3414:3415 <> st:14
+binder 3417:3417 <> b:15
+binder 3419:3420 <> c1:16
+binder 3422:3423 <> c2:17
+R3449:3458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3442:3444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3432:3436 SF.Imp <> beval def
+R3438:3439 SF.Semantics <> st:14 var
+R3441:3441 SF.Semantics <> b:15 var
+R3445:3448 Coq.Init.Datatypes <> true constr
+R3483:3485 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3488:3492 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3495:3497 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3459:3462 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3464:3469 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3472:3477 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3480:3482 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3463:3463 SF.Semantics <> b:15 var
+R3470:3471 SF.Semantics <> c1:16 var
+R3478:3479 SF.Semantics <> c2:17 var
+R3486:3487 SF.Semantics <> st:14 var
+R3493:3494 SF.Semantics <> c1:16 var
+R3498:3499 SF.Semantics <> st:14 var
+binder 3525:3526 <> st:18
+binder 3528:3528 <> b:19
+binder 3530:3531 <> c1:20
+binder 3533:3534 <> c2:21
+R3561:3570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3553:3555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3543:3547 SF.Imp <> beval def
+R3549:3550 SF.Semantics <> st:18 var
+R3552:3552 SF.Semantics <> b:19 var
+R3556:3560 Coq.Init.Datatypes <> false constr
+R3595:3597 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3600:3604 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3607:3609 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3571:3574 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3576:3581 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3584:3589 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3592:3594 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3575:3575 SF.Semantics <> b:19 var
+R3582:3583 SF.Semantics <> c1:20 var
+R3590:3591 SF.Semantics <> c2:21 var
+R3598:3599 SF.Semantics <> st:18 var
+R3605:3606 SF.Semantics <> c2:21 var
+R3610:3611 SF.Semantics <> st:18 var
+binder 3635:3636 <> st:22
+binder 3638:3638 <> b:23
+binder 3640:3641 <> c1:24
+R3650:3650 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3668:3671 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3674:3686 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3736:3739 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R3651:3656 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3658:3661 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3664:3667 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3657:3657 SF.Semantics <> b:23 var
+R3662:3663 SF.Semantics <> c1:24 var
+R3672:3673 SF.Semantics <> st:22 var
+R3687:3690 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3692:3698 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3722:3728 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3733:3735 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R3691:3691 SF.Semantics <> b:23 var
+R3701:3703 SF.Imp <> :::x_';'_x not
+R3721:3721 SF.Imp <> :::x_';'_x not
+R3699:3700 SF.Semantics <> c1:24 var
+R3704:3709 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3711:3714 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3717:3720 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R3710:3710 SF.Semantics <> b:23 var
+R3715:3716 SF.Semantics <> c1:24 var
+R3729:3732 SF.Imp <> :::'SKIP' not
+R3740:3741 SF.Semantics <> st:22 var
+R3786:3790 SF.Semantics <> cstep ind
+R3792:3792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3794:3794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3797:3797 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3799:3799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3802:3802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3806:3806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 3752:3752 <> :::x_'/'_x_'-->'_x_'/'_x
+prf 3817:3835 <> cstep_deterministic
+binder 3847:3848 <> cs:25
+binder 3850:3852 <> cs1:26
+R3867:3870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3855:3859 SF.Semantics <> cstep ind
+R3861:3862 SF.Semantics <> cs:25 var
+R3864:3866 SF.Semantics <> cs1:26 var
+binder 3878:3880 <> cs2:27
+R3895:3898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3883:3887 SF.Semantics <> cstep ind
+R3889:3890 SF.Semantics <> cs:25 var
+R3892:3894 SF.Semantics <> cs2:27 var
+R3902:3904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3899:3901 SF.Semantics <> cs1:26 var
+R3905:3907 SF.Semantics <> cs2:27 var
+R4614:4617 SF.Sequences <> star ind
+R4633:4633 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4636:4637 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4641:4641 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4625:4625 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4627:4628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4631:4631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4619:4623 SF.Semantics <> cstep ind
+not 4579:4579 <> :::x_'/'_x_'-->*'_x_'/'_x
+R4731:4736 SF.Sequences <> infseq coind
+R4744:4744 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4746:4747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4750:4750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4738:4742 SF.Semantics <> cstep ind
+not 4701:4701 <> :::x_'/'_x_'-->'_'∞'
+def 4796:4805 <> terminates
+R4811:4813 SF.Imp <> com ind
+binder 4808:4808 <> c:28
+R4821:4825 SF.Imp <> state def
+binder 4817:4818 <> st:29
+R4834:4838 SF.Imp <> state def
+binder 4829:4831 <> st':30
+R4854:4856 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R4859:4864 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R4869:4871 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R4853:4853 SF.Semantics <> c:28 var
+R4857:4858 SF.Semantics <> st:29 var
+R4865:4868 SF.Imp <> :::'SKIP' not
+R4872:4874 SF.Semantics <> st':30 var
+def 4889:4896 <> diverges
+R4902:4904 SF.Imp <> com ind
+binder 4899:4899 <> c:31
+R4912:4916 SF.Imp <> state def
+binder 4908:4909 <> st:32
+R4932:4934 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R4937:4944 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R4931:4931 SF.Semantics <> c:31 var
+R4935:4936 SF.Semantics <> st:32 var
+def 4959:4968 <> goes_wrong
+R4974:4976 SF.Imp <> com ind
+binder 4971:4971 <> c:33
+R4984:4988 SF.Imp <> state def
+binder 4980:4981 <> st:34
+R5003:5009 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5012:5013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5010:5011 <> c':35
+R5014:5020 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5024:5027 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5021:5023 <> st':36
+R5047:5050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5029:5031 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R5034:5038 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R5041:5043 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R5028:5028 SF.Semantics <> c:33 var
+R5032:5033 SF.Semantics <> st:34 var
+R5039:5040 SF.Semantics <> c':35 var
+R5044:5046 SF.Semantics <> st':36 var
+R5072:5075 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5051:5055 SF.Sequences <> irred def
+R5063:5063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5066:5067 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5071:5071 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5064:5065 SF.Semantics <> c':35 var
+R5068:5070 SF.Semantics <> st':36 var
+R5057:5061 SF.Semantics <> cstep ind
+R5078:5081 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5076:5077 SF.Semantics <> c':35 var
+R5082:5085 SF.Imp <> :::'SKIP' not
+prf 5172:5185 <> not_goes_wrong
+binder 5197:5197 <> c:37
+binder 5199:5200 <> st:38
+R5203:5204 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5220:5220 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5205:5214 SF.Semantics <> goes_wrong def
+R5216:5216 SF.Semantics <> c:37 var
+R5218:5219 SF.Semantics <> st:38 var
+prf 5367:5381 <> star_CS_SeqStep
+binder 5393:5394 <> c2:39
+binder 5396:5397 <> st:40
+binder 5399:5399 <> c:41
+binder 5401:5403 <> st':42
+binder 5405:5406 <> c':43
+R5431:5436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5412:5414 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5417:5422 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5425:5427 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5411:5411 SF.Semantics <> c:41 var
+R5415:5416 SF.Semantics <> st:40 var
+R5423:5424 SF.Semantics <> c':43 var
+R5428:5430 SF.Semantics <> st':42 var
+R5437:5437 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5442:5445 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5448:5454 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5460:5463 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R5439:5439 SF.Imp <> :::x_';'_x not
+R5438:5438 SF.Semantics <> c:41 var
+R5440:5441 SF.Semantics <> c2:39 var
+R5446:5447 SF.Semantics <> st:40 var
+R5457:5457 SF.Imp <> :::x_';'_x not
+R5455:5456 SF.Semantics <> c':43 var
+R5458:5459 SF.Semantics <> c2:39 var
+R5464:5466 SF.Semantics <> st':42 var
+R5517:5525 SF.Sequences <> star_refl constr
+R5517:5525 SF.Sequences <> star_refl constr
+R5563:5571 SF.Sequences <> star_step constr
+R5563:5571 SF.Sequences <> star_step constr
+R5580:5589 SF.Semantics <> CS_SeqStep constr
+R5580:5589 SF.Semantics <> CS_SeqStep constr
+prf 5955:5969 <> ceval_to_csteps
+binder 5981:5981 <> c:44
+binder 5983:5984 <> st:45
+binder 5986:5988 <> st':46
+R6007:6012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5994:5996 SF.Imp <> :::x_'/'_x_'==>'_x not
+R5999:6003 SF.Imp <> :::x_'/'_x_'==>'_x not
+R5993:5993 SF.Semantics <> c:44 var
+R5997:5998 SF.Semantics <> st:45 var
+R6004:6006 SF.Semantics <> st':46 var
+R6014:6016 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R6019:6024 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R6029:6031 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R6013:6013 SF.Semantics <> c:44 var
+R6017:6018 SF.Semantics <> st:45 var
+R6025:6028 SF.Imp <> :::'SKIP' not
+R6032:6034 SF.Semantics <> st':46 var
+R6080:6088 SF.Sequences <> star_refl constr
+R6080:6088 SF.Sequences <> star_refl constr
+R6110:6117 SF.Sequences <> star_one thm
+R6110:6117 SF.Sequences <> star_one thm
+R6126:6131 SF.Semantics <> CS_Ass constr
+R6126:6131 SF.Semantics <> CS_Ass constr
+R6161:6170 SF.Sequences <> star_trans thm
+R6161:6170 SF.Sequences <> star_trans thm
+R6179:6193 SF.Semantics <> star_CS_SeqStep thm
+R6179:6193 SF.Semantics <> star_CS_SeqStep thm
+R6221:6229 SF.Sequences <> star_step constr
+R6221:6229 SF.Sequences <> star_step constr
+R6238:6249 SF.Semantics <> CS_SeqFinish constr
+R6238:6249 SF.Semantics <> CS_SeqFinish constr
+R6283:6291 SF.Sequences <> star_step constr
+R6283:6291 SF.Sequences <> star_step constr
+R6300:6308 SF.Semantics <> CS_IfTrue constr
+R6300:6308 SF.Semantics <> CS_IfTrue constr
+R6349:6357 SF.Sequences <> star_step constr
+R6349:6357 SF.Sequences <> star_step constr
+R6366:6375 SF.Semantics <> CS_IfFalse constr
+R6366:6375 SF.Semantics <> CS_IfFalse constr
+R6418:6426 SF.Sequences <> star_step constr
+R6418:6426 SF.Sequences <> star_step constr
+R6435:6442 SF.Semantics <> CS_While constr
+R6435:6442 SF.Semantics <> CS_While constr
+R6454:6461 SF.Sequences <> star_one thm
+R6454:6461 SF.Sequences <> star_one thm
+R6470:6479 SF.Semantics <> CS_IfFalse constr
+R6470:6479 SF.Semantics <> CS_IfFalse constr
+R6516:6524 SF.Sequences <> star_step constr
+R6516:6524 SF.Sequences <> star_step constr
+R6533:6540 SF.Semantics <> CS_While constr
+R6533:6540 SF.Semantics <> CS_While constr
+R6553:6561 SF.Sequences <> star_step constr
+R6553:6561 SF.Sequences <> star_step constr
+R6570:6578 SF.Semantics <> CS_IfTrue constr
+R6570:6578 SF.Semantics <> CS_IfTrue constr
+R6596:6605 SF.Sequences <> star_trans thm
+R6596:6605 SF.Sequences <> star_trans thm
+R6614:6628 SF.Semantics <> star_CS_SeqStep thm
+R6614:6628 SF.Semantics <> star_CS_SeqStep thm
+R6657:6665 SF.Sequences <> star_step constr
+R6657:6665 SF.Sequences <> star_step constr
+R6674:6685 SF.Semantics <> CS_SeqFinish constr
+R6674:6685 SF.Semantics <> CS_SeqFinish constr
+prf 6974:6991 <> cstep_append_ceval
+binder 7003:7004 <> c1:47
+binder 7006:7008 <> st1:48
+binder 7010:7011 <> c2:49
+binder 7013:7015 <> st2:50
+R7041:7046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7022:7024 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R7028:7032 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R7035:7037 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R7020:7021 SF.Semantics <> c1:47 var
+R7025:7027 SF.Semantics <> st1:48 var
+R7033:7034 SF.Semantics <> c2:49 var
+R7038:7040 SF.Semantics <> st2:50 var
+binder 7054:7056 <> st3:51
+R7077:7082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7063:7065 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7069:7073 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7061:7062 SF.Semantics <> c2:49 var
+R7066:7068 SF.Semantics <> st2:50 var
+R7074:7076 SF.Semantics <> st3:51 var
+R7085:7087 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7091:7095 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7083:7084 SF.Semantics <> c1:47 var
+R7088:7090 SF.Semantics <> st1:48 var
+R7096:7098 SF.Semantics <> st3:51 var
+R7217:7221 SF.Imp <> E_Ass constr
+R7217:7221 SF.Imp <> E_Ass constr
+R7277:7281 SF.Imp <> E_Seq constr
+R7277:7281 SF.Imp <> E_Seq constr
+R7335:7339 SF.Imp <> E_Seq constr
+R7335:7339 SF.Imp <> E_Seq constr
+R7357:7362 SF.Imp <> E_Skip constr
+R7357:7362 SF.Imp <> E_Skip constr
+R7397:7404 SF.Imp <> E_IfTrue constr
+R7397:7404 SF.Imp <> E_IfTrue constr
+R7440:7448 SF.Imp <> E_IfFalse constr
+R7440:7448 SF.Imp <> E_IfFalse constr
+R7555:7565 SF.Imp <> E_WhileLoop constr
+R7555:7565 SF.Imp <> E_WhileLoop constr
+R7640:7649 SF.Imp <> E_WhileEnd constr
+R7640:7649 SF.Imp <> E_WhileEnd constr
+prf 7779:7793 <> csteps_to_ceval
+binder 7805:7806 <> st:52
+binder 7808:7808 <> c:53
+binder 7810:7812 <> st':54
+R7839:7844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7818:7820 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R7823:7828 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R7833:7835 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R7817:7817 SF.Semantics <> c:53 var
+R7821:7822 SF.Semantics <> st:52 var
+R7829:7832 SF.Imp <> :::'SKIP' not
+R7836:7838 SF.Semantics <> st':54 var
+R7846:7848 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7851:7855 SF.Imp <> :::x_'/'_x_'==>'_x not
+R7845:7845 SF.Semantics <> c:53 var
+R7849:7850 SF.Semantics <> st:52 var
+R7856:7858 SF.Semantics <> st':54 var
+R7909:7914 SF.Imp <> E_Skip constr
+R7909:7914 SF.Imp <> E_Skip constr
+R7949:7966 SF.Semantics <> cstep_append_ceval thm
+R7949:7966 SF.Semantics <> cstep_append_ceval thm
+ind 8646:8653 <> cevalinf
+constr 8684:8693 <> Einf_Seq_1
+constr 8770:8779 <> Einf_Seq_2
+constr 8883:8893 <> Einf_IfTrue
+constr 9017:9028 <> Einf_IfFalse
+constr 9153:9166 <> Einf_WhileBody
+constr 9280:9293 <> Einf_WhileLoop
+R8659:8662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8656:8658 SF.Imp <> com ind
+R8668:8671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8663:8667 SF.Imp <> state def
+R9480:9487 SF.Semantics <> cevalinf:56 ind
+binder 8703:8704 <> c1:57
+binder 8706:8707 <> c2:58
+binder 8709:8710 <> st:59
+R8734:8743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8721:8723 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8726:8733 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8719:8720 SF.Semantics <> c1:57 var
+R8724:8725 SF.Semantics <> st:59 var
+R8744:8744 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8751:8754 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8757:8764 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8747:8748 SF.Imp <> :::x_';'_x not
+R8745:8746 SF.Semantics <> c1:57 var
+R8749:8750 SF.Semantics <> c2:58 var
+R8755:8756 SF.Semantics <> st:59 var
+binder 8789:8790 <> c1:60
+binder 8792:8793 <> c2:61
+binder 8795:8797 <> st1:62
+binder 8799:8801 <> st2:63
+R8826:8829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8812:8814 SF.Imp <> :::x_'/'_x_'==>'_x not
+R8818:8822 SF.Imp <> :::x_'/'_x_'==>'_x not
+R8810:8811 SF.Semantics <> c1:60 var
+R8815:8817 SF.Semantics <> st1:62 var
+R8823:8825 SF.Semantics <> st2:63 var
+R8846:8855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8832:8834 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8838:8845 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8830:8831 SF.Semantics <> c2:61 var
+R8835:8837 SF.Semantics <> st2:63 var
+R8856:8856 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8863:8866 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8870:8877 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8859:8860 SF.Imp <> :::x_';'_x not
+R8857:8858 SF.Semantics <> c1:60 var
+R8861:8862 SF.Semantics <> c2:61 var
+R8867:8869 SF.Semantics <> st1:62 var
+binder 8903:8903 <> b:64
+binder 8905:8906 <> c1:65
+binder 8908:8909 <> c2:66
+binder 8911:8912 <> st:67
+R8938:8947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8931:8933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8921:8925 SF.Imp <> beval def
+R8927:8928 SF.Semantics <> st:67 var
+R8930:8930 SF.Semantics <> b:64 var
+R8934:8937 Coq.Init.Datatypes <> true constr
+R8963:8972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8950:8952 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8955:8962 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8948:8949 SF.Semantics <> c1:65 var
+R8953:8954 SF.Semantics <> st:67 var
+R8973:8973 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8998:9001 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9004:9011 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R8974:8977 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R8979:8984 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R8987:8992 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R8995:8997 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R8978:8978 SF.Semantics <> b:64 var
+R8985:8986 SF.Semantics <> c1:65 var
+R8993:8994 SF.Semantics <> c2:66 var
+R9002:9003 SF.Semantics <> st:67 var
+binder 9038:9038 <> b:68
+binder 9040:9041 <> c1:69
+binder 9043:9044 <> c2:70
+binder 9046:9047 <> st:71
+R9074:9083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9066:9068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9056:9060 SF.Imp <> beval def
+R9062:9063 SF.Semantics <> st:71 var
+R9065:9065 SF.Semantics <> b:68 var
+R9069:9073 Coq.Init.Datatypes <> false constr
+R9099:9108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9086:9088 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9091:9098 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9084:9085 SF.Semantics <> c2:70 var
+R9089:9090 SF.Semantics <> st:71 var
+R9109:9109 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9134:9137 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9140:9147 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9110:9113 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R9115:9120 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R9123:9128 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R9131:9133 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R9114:9114 SF.Semantics <> b:68 var
+R9121:9122 SF.Semantics <> c1:69 var
+R9129:9130 SF.Semantics <> c2:70 var
+R9138:9139 SF.Semantics <> st:71 var
+binder 9176:9176 <> b:72
+binder 9178:9179 <> c1:73
+binder 9181:9182 <> st:74
+R9208:9217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9201:9203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9191:9195 SF.Imp <> beval def
+R9197:9198 SF.Semantics <> st:74 var
+R9200:9200 SF.Semantics <> b:72 var
+R9204:9207 Coq.Init.Datatypes <> true constr
+R9233:9242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9220:9222 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9225:9232 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9218:9219 SF.Semantics <> c1:73 var
+R9223:9224 SF.Semantics <> st:74 var
+R9243:9243 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9261:9264 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9267:9274 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9244:9249 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9251:9254 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9257:9260 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9250:9250 SF.Semantics <> b:72 var
+R9255:9256 SF.Semantics <> c1:73 var
+R9265:9266 SF.Semantics <> st:74 var
+binder 9303:9303 <> b:75
+binder 9305:9306 <> c1:76
+binder 9308:9309 <> st:77
+binder 9311:9313 <> st':78
+R9339:9348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9332:9334 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9322:9326 SF.Imp <> beval def
+R9328:9329 SF.Semantics <> st:77 var
+R9331:9331 SF.Semantics <> b:75 var
+R9335:9338 Coq.Init.Datatypes <> true constr
+R9364:9367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9351:9353 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9356:9360 SF.Imp <> :::x_'/'_x_'==>'_x not
+R9349:9350 SF.Semantics <> c1:76 var
+R9354:9355 SF.Semantics <> st:77 var
+R9361:9363 SF.Semantics <> st':78 var
+R9401:9410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9368:9368 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9386:9389 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9393:9400 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9369:9374 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9376:9379 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9382:9385 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9375:9375 SF.Semantics <> b:75 var
+R9380:9381 SF.Semantics <> c1:76 var
+R9390:9392 SF.Semantics <> st':78 var
+R9411:9411 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9429:9432 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9435:9442 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R9412:9417 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9419:9422 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9425:9428 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R9418:9418 SF.Semantics <> b:75 var
+R9423:9424 SF.Semantics <> c1:76 var
+R9433:9434 SF.Semantics <> st:77 var
+R9480:9487 SF.Semantics <> cevalinf coind
+not 9451:9451 <> :::x_'/'_x_'==>'_'∞'
+prf 10332:10355 <> while_true_skip_diverges
+binder 10367:10368 <> st:79
+R10371:10371 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R10395:10398 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R10401:10408 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R10372:10377 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R10383:10386 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R10391:10394 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R10378:10382 SF.Imp <> BTrue constr
+R10387:10390 SF.Imp <> :::'SKIP' not
+R10399:10400 SF.Semantics <> st:79 var
+R10616:10629 SF.Semantics <> Einf_WhileLoop constr
+R10616:10629 SF.Semantics <> Einf_WhileLoop constr
+R10769:10774 SF.Imp <> E_Skip constr
+R10769:10774 SF.Imp <> E_Skip constr
+prf 11078:11113 <> while_true_skip_diverges_wrong_proof
+binder 11125:11126 <> st:80
+R11129:11129 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R11153:11156 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R11159:11166 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R11130:11135 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11141:11144 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11149:11152 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11136:11140 SF.Imp <> BTrue constr
+R11145:11148 SF.Imp <> :::'SKIP' not
+R11157:11158 SF.Semantics <> st:80 var
+syndef 11420:11421 <> vx
+R11427:11428 SF.SfLib <> Id constr
+prf 11442:11466 <> counting_program_diverges
+binder 11478:11479 <> st:81
+R11494:11499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11489:11492 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R11484:11485 SF.Semantics <> st:81 var
+R11487:11488 SF.Semantics <> vx syndef
+R11565:11567 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R11570:11577 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R11500:11505 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11527:11530 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11561:11564 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R11506:11508 SF.Imp <> BLe constr
+R11511:11514 SF.Imp <> ANum constr
+R11520:11522 SF.Imp <> AId constr
+R11524:11525 SF.Semantics <> vx syndef
+R11533:11537 SF.Imp <> :::x_'::='_x not
+R11531:11532 SF.Semantics <> vx syndef
+R11538:11542 SF.Imp <> APlus constr
+R11545:11547 SF.Imp <> AId constr
+R11549:11550 SF.Semantics <> vx syndef
+R11554:11557 SF.Imp <> ANum constr
+R11568:11569 SF.Semantics <> st:81 var
+prf 12036:12056 <> cevalinf_can_progress
+binder 12068:12068 <> c:82
+binder 12070:12071 <> st:83
+R12090:12094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12077:12079 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12082:12089 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12076:12076 SF.Semantics <> c:82 var
+R12080:12081 SF.Semantics <> st:83 var
+R12095:12101 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12104:12105 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12102:12103 <> c':84
+R12106:12112 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12116:12117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12113:12115 <> st':85
+R12137:12140 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12119:12121 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R12124:12128 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R12131:12133 SF.Semantics <> :::x_'/'_x_'-->'_x_'/'_x not
+R12118:12118 SF.Semantics <> c:82 var
+R12122:12123 SF.Semantics <> st:83 var
+R12129:12130 SF.Semantics <> c':84 var
+R12134:12136 SF.Semantics <> st':85 var
+R12143:12145 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12149:12156 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R12141:12142 SF.Semantics <> c':84 var
+R12146:12148 SF.Semantics <> st':85 var
+R12291:12291 SF.Imp <> :::x_';'_x not
+R12291:12291 SF.Imp <> :::x_';'_x not
+R12324:12333 SF.Semantics <> CS_SeqStep constr
+R12324:12333 SF.Semantics <> CS_SeqStep constr
+R12351:12360 SF.Semantics <> Einf_Seq_1 constr
+R12351:12360 SF.Semantics <> Einf_Seq_1 constr
+R12397:12400 SF.Sequences <> star ind
+R12417:12417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12422:12423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12427:12427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12418:12421 SF.Imp <> :::'SKIP' not
+R12408:12408 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12411:12412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12415:12415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12402:12406 SF.Semantics <> cstep ind
+R12397:12400 SF.Sequences <> star ind
+R12417:12417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12422:12423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12427:12427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12418:12421 SF.Imp <> :::'SKIP' not
+R12408:12408 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12411:12412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12415:12415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12402:12406 SF.Semantics <> cstep ind
+R12437:12451 SF.Semantics <> ceval_to_csteps thm
+R12437:12451 SF.Semantics <> ceval_to_csteps thm
+R12549:12560 SF.Semantics <> CS_SeqFinish constr
+R12549:12560 SF.Semantics <> CS_SeqFinish constr
+R12641:12641 SF.Imp <> :::x_';'_x not
+R12641:12641 SF.Imp <> :::x_';'_x not
+R12676:12685 SF.Semantics <> CS_SeqStep constr
+R12676:12685 SF.Semantics <> CS_SeqStep constr
+R12704:12713 SF.Semantics <> Einf_Seq_2 constr
+R12704:12713 SF.Semantics <> Einf_Seq_2 constr
+R12731:12745 SF.Semantics <> csteps_to_ceval thm
+R12731:12745 SF.Semantics <> csteps_to_ceval thm
+R12814:12822 SF.Semantics <> CS_IfTrue constr
+R12814:12822 SF.Semantics <> CS_IfTrue constr
+R12895:12904 SF.Semantics <> CS_IfFalse constr
+R12895:12904 SF.Semantics <> CS_IfFalse constr
+R12950:12953 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12955:12961 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12983:12989 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12994:12996 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12963:12965 SF.Imp <> :::x_';'_x not
+R12982:12982 SF.Imp <> :::x_';'_x not
+R12966:12971 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12973:12976 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12978:12981 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12990:12993 SF.Imp <> :::'SKIP' not
+R12950:12953 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12955:12961 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12983:12989 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12994:12996 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R12963:12965 SF.Imp <> :::x_';'_x not
+R12982:12982 SF.Imp <> :::x_';'_x not
+R12966:12971 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12973:12976 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12978:12981 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R12990:12993 SF.Imp <> :::'SKIP' not
+R13026:13033 SF.Semantics <> CS_While constr
+R13026:13033 SF.Semantics <> CS_While constr
+R13044:13054 SF.Semantics <> Einf_IfTrue constr
+R13044:13054 SF.Semantics <> Einf_IfTrue constr
+R13069:13078 SF.Semantics <> Einf_Seq_1 constr
+R13069:13078 SF.Semantics <> Einf_Seq_1 constr
+R13116:13119 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13121:13127 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13149:13155 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13160:13162 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13129:13131 SF.Imp <> :::x_';'_x not
+R13148:13148 SF.Imp <> :::x_';'_x not
+R13132:13137 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13139:13142 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13144:13147 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13156:13159 SF.Imp <> :::'SKIP' not
+R13116:13119 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13121:13127 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13149:13155 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13160:13162 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R13129:13131 SF.Imp <> :::x_';'_x not
+R13148:13148 SF.Imp <> :::x_';'_x not
+R13132:13137 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13139:13142 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13144:13147 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R13156:13159 SF.Imp <> :::'SKIP' not
+R13192:13199 SF.Semantics <> CS_While constr
+R13192:13199 SF.Semantics <> CS_While constr
+R13210:13220 SF.Semantics <> Einf_IfTrue constr
+R13210:13220 SF.Semantics <> Einf_IfTrue constr
+R13235:13244 SF.Semantics <> Einf_Seq_2 constr
+R13235:13244 SF.Semantics <> Einf_Seq_2 constr
+prf 13440:13456 <> cevalinf_diverges
+binder 13468:13468 <> c:86
+binder 13470:13471 <> st:87
+R13490:13495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13477:13479 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R13482:13489 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R13476:13476 SF.Semantics <> c:86 var
+R13480:13481 SF.Semantics <> st:87 var
+R13497:13499 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R13502:13509 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R13496:13496 SF.Semantics <> c:86 var
+R13500:13501 SF.Semantics <> st:87 var
+R13557:13577 SF.Semantics <> cevalinf_can_progress thm
+R13557:13577 SF.Semantics <> cevalinf_can_progress thm
+R13634:13634 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13637:13638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13642:13642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13617:13627 SF.Sequences <> infseq_step constr
+R13634:13634 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13637:13638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13642:13642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13617:13627 SF.Sequences <> infseq_step constr
+prf 13968:13991 <> diverges_skip_impossible
+binder 14003:14004 <> st:88
+R14007:14008 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14026:14026 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14013:14015 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14018:14025 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14009:14012 SF.Imp <> :::'SKIP' not
+R14016:14017 SF.Semantics <> st:88 var
+prf 14106:14131 <> diverges_assign_impossible
+binder 14143:14143 <> v:89
+binder 14145:14145 <> a:90
+binder 14147:14148 <> st:91
+R14151:14152 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14175:14175 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14153:14153 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14161:14164 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14167:14174 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14155:14159 SF.Imp <> :::x_'::='_x not
+R14154:14154 SF.Semantics <> v:89 var
+R14160:14160 SF.Semantics <> a:90 var
+R14165:14166 SF.Semantics <> st:91 var
+prf 14759:14780 <> diverges_seq_inversion
+binder 14792:14793 <> st:92
+binder 14795:14796 <> c1:93
+binder 14798:14799 <> c2:94
+R14824:14830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14804:14804 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14810:14813 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14816:14823 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14807:14807 SF.Imp <> :::x_';'_x not
+R14805:14806 SF.Semantics <> c1:93 var
+R14808:14809 SF.Semantics <> c2:94 var
+R14814:14815 SF.Semantics <> st:92 var
+R14846:14850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14906:14906 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14833:14835 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14838:14845 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14831:14832 SF.Semantics <> c1:93 var
+R14836:14837 SF.Semantics <> st:92 var
+R14851:14857 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14861:14862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14858:14860 <> st':95
+R14886:14889 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14865:14867 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R14870:14875 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R14880:14882 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R14863:14864 SF.Semantics <> c1:93 var
+R14868:14869 SF.Semantics <> st:92 var
+R14876:14879 SF.Imp <> :::'SKIP' not
+R14883:14885 SF.Semantics <> st':95 var
+R14892:14894 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14898:14905 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R14890:14891 SF.Semantics <> c2:94 var
+R14895:14897 SF.Semantics <> st':95 var
+R14938:14953 SF.Sequences <> infseq_or_finseq thm
+R14961:14961 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14964:14965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14968:14968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14955:14959 SF.Semantics <> cstep ind
+R14938:14953 SF.Sequences <> infseq_or_finseq thm
+R14961:14961 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14964:14965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14968:14968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14955:14959 SF.Semantics <> cstep ind
+R15069:15069 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15076:15079 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15083:15090 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15072:15073 SF.Imp <> :::x_';'_x not
+R15069:15069 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15076:15079 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15083:15090 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15072:15073 SF.Imp <> :::x_';'_x not
+R15106:15120 SF.Sequences <> infseq_star_inv thm
+R15106:15120 SF.Sequences <> infseq_star_inv thm
+R15149:15167 SF.Semantics <> cstep_deterministic thm
+R15149:15167 SF.Semantics <> cstep_deterministic thm
+R15187:15201 SF.Semantics <> star_CS_SeqStep thm
+R15187:15201 SF.Semantics <> star_CS_SeqStep thm
+prf 15291:15319 <> diverges_ifthenelse_inversion
+binder 15331:15331 <> b:96
+binder 15333:15334 <> c1:97
+binder 15336:15337 <> c2:98
+binder 15339:15340 <> st:99
+R15384:15390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15345:15345 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15370:15373 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15376:15383 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15346:15349 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R15351:15356 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R15359:15364 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R15367:15369 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R15350:15350 SF.Semantics <> b:96 var
+R15357:15358 SF.Semantics <> c1:97 var
+R15365:15366 SF.Semantics <> c2:98 var
+R15374:15375 SF.Semantics <> st:99 var
+R15391:15391 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15428:15433 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15471:15471 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15409:15412 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15402:15404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15392:15396 SF.Imp <> beval def
+R15398:15399 SF.Semantics <> st:99 var
+R15401:15401 SF.Semantics <> b:96 var
+R15405:15408 Coq.Init.Datatypes <> true constr
+R15415:15417 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15420:15427 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15413:15414 SF.Semantics <> c1:97 var
+R15418:15419 SF.Semantics <> st:99 var
+R15452:15455 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15444:15446 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15434:15438 SF.Imp <> beval def
+R15440:15441 SF.Semantics <> st:99 var
+R15443:15443 SF.Semantics <> b:96 var
+R15447:15451 Coq.Init.Datatypes <> false constr
+R15458:15460 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15463:15470 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15456:15457 SF.Semantics <> c2:98 var
+R15461:15462 SF.Semantics <> st:99 var
+prf 15524:15547 <> diverges_while_inversion
+binder 15559:15559 <> b:100
+binder 15561:15561 <> c:101
+binder 15563:15564 <> st:102
+R15600:15606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15569:15569 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15586:15589 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15592:15599 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15570:15575 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15577:15580 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15582:15585 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15576:15576 SF.Semantics <> b:100 var
+R15581:15581 SF.Semantics <> c:101 var
+R15590:15591 SF.Semantics <> st:102 var
+R15624:15630 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15721:15721 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15617:15619 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15607:15611 SF.Imp <> beval def
+R15613:15614 SF.Semantics <> st:102 var
+R15616:15616 SF.Semantics <> b:100 var
+R15620:15623 Coq.Init.Datatypes <> true constr
+R15645:15649 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15720:15720 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15632:15634 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15637:15644 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15631:15631 SF.Semantics <> c:101 var
+R15635:15636 SF.Semantics <> st:102 var
+R15650:15656 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15660:15661 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15657:15659 <> st':103
+R15684:15687 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15663:15665 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R15668:15673 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R15678:15680 SF.Semantics <> :::x_'/'_x_'-->*'_x_'/'_x not
+R15662:15662 SF.Semantics <> c:101 var
+R15666:15667 SF.Semantics <> st:102 var
+R15674:15677 SF.Imp <> :::'SKIP' not
+R15681:15683 SF.Semantics <> st':103 var
+R15688:15688 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15705:15708 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15712:15719 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15689:15694 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15696:15699 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15701:15704 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R15695:15695 SF.Semantics <> b:100 var
+R15700:15700 SF.Semantics <> c:101 var
+R15709:15711 SF.Semantics <> st':103 var
+R15811:15832 SF.Semantics <> diverges_seq_inversion thm
+R15811:15832 SF.Semantics <> diverges_seq_inversion thm
+R15868:15891 SF.Semantics <> diverges_skip_impossible thm
+R15868:15891 SF.Semantics <> diverges_skip_impossible thm
+prf 15912:15931 <> diverges_to_cevalinf
+binder 15943:15943 <> c:104
+binder 15945:15946 <> st:105
+R15964:15969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15951:15953 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15956:15963 SF.Semantics <> :::x_'/'_x_'-->'_'∞' not
+R15950:15950 SF.Semantics <> c:104 var
+R15954:15955 SF.Semantics <> st:105 var
+R15971:15973 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R15976:15983 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R15970:15970 SF.Semantics <> c:104 var
+R15974:15975 SF.Semantics <> st:105 var
+R16054:16077 SF.Semantics <> diverges_skip_impossible thm
+R16054:16077 SF.Semantics <> diverges_skip_impossible thm
+R16104:16129 SF.Semantics <> diverges_assign_impossible thm
+R16104:16129 SF.Semantics <> diverges_assign_impossible thm
+R16165:16186 SF.Semantics <> diverges_seq_inversion thm
+R16165:16186 SF.Semantics <> diverges_seq_inversion thm
+R16238:16247 SF.Semantics <> Einf_Seq_1 constr
+R16238:16247 SF.Semantics <> Einf_Seq_1 constr
+R16280:16289 SF.Semantics <> Einf_Seq_2 constr
+R16280:16289 SF.Semantics <> Einf_Seq_2 constr
+R16307:16321 SF.Semantics <> csteps_to_ceval thm
+R16307:16321 SF.Semantics <> csteps_to_ceval thm
+R16375:16403 SF.Semantics <> diverges_ifthenelse_inversion thm
+R16375:16403 SF.Semantics <> diverges_ifthenelse_inversion thm
+R16457:16467 SF.Semantics <> Einf_IfTrue constr
+R16457:16467 SF.Semantics <> Einf_IfTrue constr
+R16506:16517 SF.Semantics <> Einf_IfFalse constr
+R16506:16517 SF.Semantics <> Einf_IfFalse constr
+R16574:16597 SF.Semantics <> diverges_while_inversion thm
+R16574:16597 SF.Semantics <> diverges_while_inversion thm
+R16655:16668 SF.Semantics <> Einf_WhileBody constr
+R16655:16668 SF.Semantics <> Einf_WhileBody constr
+R16707:16720 SF.Semantics <> Einf_WhileLoop constr
+R16707:16720 SF.Semantics <> Einf_WhileLoop constr
+R16744:16758 SF.Semantics <> csteps_to_ceval thm
+R16744:16758 SF.Semantics <> csteps_to_ceval thm
+prf 18172:18188 <> ceval_step__ceval
+binder 18198:18198 <> c:106
+binder 18200:18201 <> st:107
+binder 18203:18205 <> st':108
+R18214:18214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18253:18263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18215:18221 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18223:18224 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18222:18222 <> i:109
+R18242:18244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18225:18234 SF.Imp <> ceval_step def
+R18236:18237 SF.Semantics <> st:107 var
+R18239:18239 SF.Semantics <> c:106 var
+R18241:18241 SF.Semantics <> i:109 var
+R18245:18248 Coq.Init.Datatypes <> Some constr
+R18250:18252 SF.Semantics <> st':108 var
+R18265:18267 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18270:18274 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18264:18264 SF.Semantics <> c:106 var
+R18268:18269 SF.Semantics <> st:107 var
+R18275:18277 SF.Semantics <> st':108 var
+prf 18306:18322 <> ceval__ceval_step
+binder 18332:18332 <> c:110
+binder 18334:18335 <> st:111
+binder 18337:18339 <> st':112
+R18362:18371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18349:18351 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18354:18358 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18348:18348 SF.Semantics <> c:110 var
+R18352:18353 SF.Semantics <> st:111 var
+R18359:18361 SF.Semantics <> st':112 var
+R18372:18378 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18380:18381 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18379:18379 <> i:113
+R18399:18401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18382:18391 SF.Imp <> ceval_step def
+R18393:18394 SF.Semantics <> st:111 var
+R18396:18396 SF.Semantics <> c:110 var
+R18398:18398 SF.Semantics <> i:113 var
+R18402:18405 Coq.Init.Datatypes <> Some constr
+R18407:18409 SF.Semantics <> st':112 var
+prf 18531:18554 <> ceval__ceval_step_either
+binder 18566:18566 <> n:114
+binder 18568:18568 <> c:115
+binder 18570:18571 <> st:116
+binder 18573:18575 <> st':117
+R18592:18595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18579:18581 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18584:18588 SF.Imp <> :::x_'/'_x_'==>'_x not
+R18578:18578 SF.Semantics <> c:115 var
+R18582:18583 SF.Semantics <> st:116 var
+R18589:18591 SF.Semantics <> st':117 var
+R18620:18623 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18613:18615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18596:18605 SF.Imp <> ceval_step def
+R18607:18608 SF.Semantics <> st:116 var
+R18610:18610 SF.Semantics <> c:115 var
+R18612:18612 SF.Semantics <> n:114 var
+R18616:18619 Coq.Init.Datatypes <> None constr
+R18641:18643 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18624:18633 SF.Imp <> ceval_step def
+R18635:18636 SF.Semantics <> st:116 var
+R18638:18638 SF.Semantics <> c:115 var
+R18640:18640 SF.Semantics <> n:114 var
+R18644:18647 Coq.Init.Datatypes <> Some constr
+R18649:18651 SF.Semantics <> st':117 var
+R18684:18700 SF.Semantics <> ceval__ceval_step prfax
+R18684:18700 SF.Semantics <> ceval__ceval_step prfax
+R18736:18745 SF.Imp <> ceval_step def
+R18736:18745 SF.Imp <> ceval_step def
+R18793:18796 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18788:18791 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18798:18801 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18793:18796 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18788:18791 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18798:18801 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18856:18858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18839:18848 SF.Imp <> ceval_step def
+R18859:18862 Coq.Init.Datatypes <> Some constr
+R18856:18858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18839:18848 SF.Imp <> ceval_step def
+R18859:18862 Coq.Init.Datatypes <> Some constr
+R18881:18895 SF.Imp <> ceval_step_more thm
+R18881:18895 SF.Imp <> ceval_step_more thm
+R18952:18954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18935:18944 SF.Imp <> ceval_step def
+R18955:18958 Coq.Init.Datatypes <> Some constr
+R18952:18954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18935:18944 SF.Imp <> ceval_step def
+R18955:18958 Coq.Init.Datatypes <> Some constr
+R18974:18988 SF.Imp <> ceval_step_more thm
+R18974:18988 SF.Imp <> ceval_step_more thm
+prf 19222:19248 <> cevalinf__ceval_step_bottom
+binder 19260:19260 <> n:118
+binder 19262:19262 <> c:119
+binder 19264:19265 <> st:120
+R19282:19286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19269:19271 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R19274:19281 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R19268:19268 SF.Semantics <> c:119 var
+R19272:19273 SF.Semantics <> st:120 var
+R19304:19306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19287:19296 SF.Imp <> ceval_step def
+R19298:19299 SF.Semantics <> st:120 var
+R19301:19301 SF.Semantics <> c:119 var
+R19303:19303 SF.Semantics <> n:118 var
+R19307:19310 Coq.Init.Datatypes <> None constr
+R19468:19491 SF.Semantics <> ceval__ceval_step_either thm
+R19468:19491 SF.Semantics <> ceval__ceval_step_either thm
+R19766:19789 SF.Semantics <> ceval__ceval_step_either thm
+R19766:19789 SF.Semantics <> ceval__ceval_step_either thm
+R20108:20116 Coq.Logic.Classical <> <> lib
+R20134:20136 Coq.Arith.Max <> <> lib
+prf 20146:20161 <> ceval_step_limit
+binder 20173:20174 <> st:121
+binder 20176:20176 <> c:122
+R20181:20187 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20191:20192 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20188:20190 <> res:123
+R20193:20199 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20201:20202 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20200:20200 <> m:124
+binder 20210:20210 <> n:125
+R20219:20222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20214:20217 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20213:20213 SF.Semantics <> m:124 var
+R20218:20218 SF.Semantics <> n:125 var
+R20240:20242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20223:20232 SF.Imp <> ceval_step def
+R20234:20235 SF.Semantics <> st:121 var
+R20237:20237 SF.Semantics <> c:122 var
+R20239:20239 SF.Semantics <> n:125 var
+R20243:20245 SF.Semantics <> res:123 var
+R20277:20283 Coq.Logic.Classical_Prop <> classic prfax
+binder 20293:20293 <> n:126
+R20313:20315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20296:20305 SF.Imp <> ceval_step def
+R20312:20312 SF.Semantics <> n:126 var
+R20316:20319 Coq.Init.Datatypes <> None constr
+R20277:20283 Coq.Logic.Classical_Prop <> classic prfax
+binder 20293:20293 <> n:127
+R20313:20315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20296:20305 SF.Imp <> ceval_step def
+R20312:20312 SF.Semantics <> n:127 var
+R20316:20319 Coq.Init.Datatypes <> None constr
+R20354:20357 Coq.Init.Datatypes <> None constr
+R20359:20363 SF.Imp <> state def
+R20354:20357 Coq.Init.Datatypes <> None constr
+R20359:20363 SF.Imp <> state def
+R20417:20423 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20425:20426 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20424:20424 <> m:128
+R20444:20447 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20427:20436 SF.Imp <> ceval_step def
+R20443:20443 SF.Semantics <> m:128 var
+R20448:20451 Coq.Init.Datatypes <> None constr
+R20417:20423 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20425:20426 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20424:20424 <> m:129
+R20444:20447 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20427:20436 SF.Imp <> ceval_step def
+R20443:20443 SF.Semantics <> m:129 var
+R20448:20451 Coq.Init.Datatypes <> None constr
+R20465:20478 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R20465:20478 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R20526:20535 SF.Imp <> ceval_step def
+R20526:20535 SF.Imp <> ceval_step def
+R20592:20595 Coq.Init.Datatypes <> Some constr
+R20592:20595 Coq.Init.Datatypes <> Some constr
+R20629:20643 SF.Imp <> ceval_step_more thm
+R20629:20643 SF.Imp <> ceval_step_more thm
+prf 20878:20904 <> ceval_step_bottom__cevalinf
+binder 20916:20916 <> c:130
+binder 20918:20919 <> st:131
+binder 20921:20921 <> m:132
+R20926:20926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20971:20977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 20934:20934 <> n:133
+R20943:20946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20938:20941 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20937:20937 SF.Semantics <> m:132 var
+R20942:20942 SF.Semantics <> n:133 var
+R20964:20966 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20947:20956 SF.Imp <> ceval_step def
+R20958:20959 SF.Semantics <> st:131 var
+R20961:20961 SF.Semantics <> c:130 var
+R20963:20963 SF.Semantics <> n:133 var
+R20967:20970 Coq.Init.Datatypes <> None constr
+R20979:20981 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R20984:20991 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R20978:20978 SF.Semantics <> c:130 var
+R20982:20983 SF.Semantics <> st:131 var
+R21088:21090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21064:21073 SF.Imp <> ceval_step def
+R21078:21081 SF.Imp <> :::'SKIP' not
+R21084:21084 Coq.Init.Datatypes <> S constr
+R21091:21094 Coq.Init.Datatypes <> None constr
+R21088:21090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21064:21073 SF.Imp <> ceval_step def
+R21078:21081 SF.Imp <> :::'SKIP' not
+R21084:21084 Coq.Init.Datatypes <> S constr
+R21091:21094 Coq.Init.Datatypes <> None constr
+R21194:21196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21165:21174 SF.Imp <> ceval_step def
+R21181:21185 SF.Imp <> :::x_'::='_x not
+R21190:21190 Coq.Init.Datatypes <> S constr
+R21197:21200 Coq.Init.Datatypes <> None constr
+R21194:21196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21165:21174 SF.Imp <> ceval_step def
+R21181:21185 SF.Imp <> :::x_'::='_x not
+R21190:21190 Coq.Init.Datatypes <> S constr
+R21197:21200 Coq.Init.Datatypes <> None constr
+R21270:21285 SF.Semantics <> ceval_step_limit thm
+R21270:21285 SF.Semantics <> ceval_step_limit thm
+R21376:21385 SF.Semantics <> Einf_Seq_2 constr
+R21376:21385 SF.Semantics <> Einf_Seq_2 constr
+R21405:21421 SF.Semantics <> ceval_step__ceval prfax
+R21405:21421 SF.Semantics <> ceval_step__ceval prfax
+R21475:21477 Coq.Arith.Max <> max syndef
+R21475:21477 Coq.Arith.Max <> max syndef
+R21532:21534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21504:21513 SF.Imp <> ceval_step def
+R21521:21522 SF.Imp <> :::x_';'_x not
+R21528:21528 Coq.Init.Datatypes <> S constr
+R21535:21538 Coq.Init.Datatypes <> None constr
+R21532:21534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21504:21513 SF.Imp <> ceval_step def
+R21521:21522 SF.Imp <> :::x_';'_x not
+R21528:21528 Coq.Init.Datatypes <> S constr
+R21535:21538 Coq.Init.Datatypes <> None constr
+R21576:21578 Coq.Arith.Max <> max syndef
+R21561:21568 Coq.Arith.Le <> le_trans syndef
+R21576:21578 Coq.Arith.Max <> max syndef
+R21561:21568 Coq.Arith.Le <> le_trans syndef
+R21593:21600 Coq.Arith.Max <> le_max_l def
+R21593:21600 Coq.Arith.Max <> le_max_l def
+R21670:21672 Coq.Arith.Max <> max syndef
+R21655:21662 Coq.Arith.Le <> le_trans syndef
+R21670:21672 Coq.Arith.Max <> max syndef
+R21655:21662 Coq.Arith.Le <> le_trans syndef
+R21687:21694 Coq.Arith.Max <> le_max_r def
+R21687:21694 Coq.Arith.Max <> le_max_r def
+R21734:21743 SF.Semantics <> Einf_Seq_1 constr
+R21734:21743 SF.Semantics <> Einf_Seq_1 constr
+R21799:21803 SF.Imp <> beval def
+R21799:21803 SF.Imp <> beval def
+R21852:21862 SF.Semantics <> Einf_IfTrue constr
+R21852:21862 SF.Semantics <> Einf_IfTrue constr
+R21959:21961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21913:21922 SF.Imp <> ceval_step def
+R21928:21931 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21933:21938 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21941:21946 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21949:21951 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21955:21955 Coq.Init.Datatypes <> S constr
+R21962:21965 Coq.Init.Datatypes <> None constr
+R21959:21961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21913:21922 SF.Imp <> ceval_step def
+R21928:21931 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21933:21938 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21941:21946 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21949:21951 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21955:21955 Coq.Init.Datatypes <> S constr
+R21962:21965 Coq.Init.Datatypes <> None constr
+R22060:22071 SF.Semantics <> Einf_IfFalse constr
+R22060:22071 SF.Semantics <> Einf_IfFalse constr
+R22168:22170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22122:22131 SF.Imp <> ceval_step def
+R22137:22140 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22142:22147 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22150:22155 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22158:22160 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22164:22164 Coq.Init.Datatypes <> S constr
+R22171:22174 Coq.Init.Datatypes <> None constr
+R22168:22170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22122:22131 SF.Imp <> ceval_step def
+R22137:22140 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22142:22147 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22150:22155 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22158:22160 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R22164:22164 Coq.Init.Datatypes <> S constr
+R22171:22174 Coq.Init.Datatypes <> None constr
+R22267:22271 SF.Imp <> beval def
+R22267:22271 SF.Imp <> beval def
+R22305:22320 SF.Semantics <> ceval_step_limit thm
+R22305:22320 SF.Semantics <> ceval_step_limit thm
+R22412:22425 SF.Semantics <> Einf_WhileLoop constr
+R22412:22425 SF.Semantics <> Einf_WhileLoop constr
+R22451:22467 SF.Semantics <> ceval_step__ceval prfax
+R22451:22467 SF.Semantics <> ceval_step__ceval prfax
+R22521:22523 Coq.Arith.Max <> max syndef
+R22521:22523 Coq.Arith.Max <> max syndef
+R22588:22590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22550:22559 SF.Imp <> ceval_step def
+R22565:22570 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22572:22575 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22577:22580 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22584:22584 Coq.Init.Datatypes <> S constr
+R22591:22594 Coq.Init.Datatypes <> None constr
+R22588:22590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22550:22559 SF.Imp <> ceval_step def
+R22565:22570 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22572:22575 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22577:22580 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22584:22584 Coq.Init.Datatypes <> S constr
+R22591:22594 Coq.Init.Datatypes <> None constr
+R22632:22634 Coq.Arith.Max <> max syndef
+R22617:22624 Coq.Arith.Le <> le_trans syndef
+R22632:22634 Coq.Arith.Max <> max syndef
+R22617:22624 Coq.Arith.Le <> le_trans syndef
+R22649:22656 Coq.Arith.Max <> le_max_l def
+R22649:22656 Coq.Arith.Max <> le_max_l def
+R22750:22752 Coq.Arith.Max <> max syndef
+R22735:22742 Coq.Arith.Le <> le_trans syndef
+R22750:22752 Coq.Arith.Max <> max syndef
+R22735:22742 Coq.Arith.Le <> le_trans syndef
+R22767:22774 Coq.Arith.Max <> le_max_r def
+R22767:22774 Coq.Arith.Max <> le_max_r def
+R22816:22829 SF.Semantics <> Einf_WhileBody constr
+R22816:22829 SF.Semantics <> Einf_WhileBody constr
+R22946:22948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22908:22917 SF.Imp <> ceval_step def
+R22923:22928 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22930:22933 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22935:22938 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22942:22942 Coq.Init.Datatypes <> S constr
+R22949:22952 Coq.Init.Datatypes <> None constr
+R22946:22948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22908:22917 SF.Imp <> ceval_step def
+R22923:22928 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22930:22933 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22935:22938 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R22942:22942 Coq.Init.Datatypes <> S constr
+R22949:22952 Coq.Init.Datatypes <> None constr
+R23601:23620 Coq.Logic.ClassicalDescription <> <> lib
+def 23635:23650 <> interp_limit_dep
+R23657:23661 SF.Imp <> state def
+binder 23653:23654 <> st:134
+R23668:23670 SF.Imp <> com ind
+binder 23665:23665 <> c:135
+R23677:23678 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23682:23683 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23696:23698 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23752:23752 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R23684:23689 Coq.Init.Datatypes <> option ind
+R23691:23695 SF.Imp <> state def
+binder 23679:23681 <> res:136
+R23699:23705 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23707:23708 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23706:23706 <> m:137
+binder 23716:23716 <> n:138
+R23725:23728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23720:23723 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23719:23719 SF.Semantics <> m:137 var
+R23724:23724 SF.Semantics <> n:138 var
+R23746:23748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23729:23738 SF.Imp <> ceval_step def
+R23740:23741 SF.Semantics <> st:134 var
+R23743:23743 SF.Semantics <> c:135 var
+R23745:23745 SF.Semantics <> n:138 var
+R23749:23751 SF.Semantics <> res:136 var
+R23778:23810 Coq.Logic.Description <> constructive_definite_description prfax
+R23778:23810 Coq.Logic.Description <> constructive_definite_description prfax
+R23826:23841 SF.Semantics <> ceval_step_limit thm
+R23826:23841 SF.Semantics <> ceval_step_limit thm
+R23975:23984 SF.Imp <> ceval_step def
+R23992:23994 Coq.Arith.Max <> max syndef
+R23975:23984 SF.Imp <> ceval_step def
+R23992:23994 Coq.Arith.Max <> max syndef
+R24031:24038 Coq.Arith.Max <> le_max_l def
+R24031:24038 Coq.Arith.Max <> le_max_l def
+R24059:24066 Coq.Arith.Max <> le_max_r def
+R24059:24066 Coq.Arith.Max <> le_max_r def
+def 24086:24090 <> denot
+R24097:24101 SF.Imp <> state def
+binder 24093:24094 <> st:139
+R24108:24110 SF.Imp <> com ind
+binder 24105:24105 <> c:140
+R24115:24120 Coq.Init.Datatypes <> option ind
+R24122:24126 SF.Imp <> state def
+R24133:24141 Coq.Init.Specif <> proj1_sig def
+R24144:24159 SF.Semantics <> interp_limit_dep def
+R24161:24162 SF.Semantics <> st:139 var
+R24164:24164 SF.Semantics <> c:140 var
+prf 24175:24185 <> denot_limit
+binder 24197:24198 <> st:141
+binder 24200:24200 <> c:142
+R24205:24211 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24213:24214 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24212:24212 <> m:143
+binder 24222:24222 <> n:144
+R24231:24234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24226:24229 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24225:24225 SF.Semantics <> m:143 var
+R24230:24230 SF.Semantics <> n:144 var
+R24252:24254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24235:24244 SF.Imp <> ceval_step def
+R24246:24247 SF.Semantics <> st:141 var
+R24249:24249 SF.Semantics <> c:142 var
+R24251:24251 SF.Semantics <> n:144 var
+R24255:24259 SF.Semantics <> denot def
+R24261:24262 SF.Semantics <> st:141 var
+R24264:24264 SF.Semantics <> c:142 var
+R24291:24295 SF.Semantics <> denot def
+R24304:24312 Coq.Init.Specif <> proj2_sig def
+R24304:24312 Coq.Init.Specif <> proj2_sig def
+prf 24327:24339 <> denot_charact
+binder 24351:24352 <> st:145
+binder 24354:24354 <> c:146
+binder 24356:24356 <> m:147
+binder 24358:24360 <> res:148
+R24365:24365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24409:24415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 24373:24373 <> n:149
+R24382:24385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24377:24380 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24376:24376 SF.Semantics <> m:147 var
+R24381:24381 SF.Semantics <> n:149 var
+R24403:24405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24386:24395 SF.Imp <> ceval_step def
+R24397:24398 SF.Semantics <> st:145 var
+R24400:24400 SF.Semantics <> c:146 var
+R24402:24402 SF.Semantics <> n:149 var
+R24406:24408 SF.Semantics <> res:148 var
+R24426:24428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24416:24420 SF.Semantics <> denot def
+R24422:24423 SF.Semantics <> st:145 var
+R24425:24425 SF.Semantics <> c:146 var
+R24429:24431 SF.Semantics <> res:148 var
+R24461:24471 SF.Semantics <> denot_limit thm
+R24461:24471 SF.Semantics <> denot_limit thm
+R24526:24528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24500:24509 SF.Imp <> ceval_step def
+R24517:24519 Coq.Arith.Max <> max syndef
+R24526:24528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24500:24509 SF.Imp <> ceval_step def
+R24517:24519 Coq.Arith.Max <> max syndef
+R24554:24561 Coq.Arith.Max <> le_max_l def
+R24554:24561 Coq.Arith.Max <> le_max_l def
+R24600:24602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24574:24583 SF.Imp <> ceval_step def
+R24591:24593 Coq.Arith.Max <> max syndef
+R24603:24607 SF.Semantics <> denot def
+R24600:24602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24574:24583 SF.Imp <> ceval_step def
+R24591:24593 Coq.Arith.Max <> max syndef
+R24603:24607 SF.Semantics <> denot def
+R24635:24642 Coq.Arith.Max <> le_max_r def
+R24635:24642 Coq.Arith.Max <> le_max_r def
+prf 24671:24686 <> denot_terminates
+binder 24698:24699 <> st:150
+binder 24701:24701 <> c:151
+binder 24703:24703 <> n:152
+binder 24705:24707 <> st':153
+R24738:24741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24727:24729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24710:24719 SF.Imp <> ceval_step def
+R24721:24722 SF.Semantics <> st:150 var
+R24724:24724 SF.Semantics <> c:151 var
+R24726:24726 SF.Semantics <> n:152 var
+R24730:24733 Coq.Init.Datatypes <> Some constr
+R24735:24737 SF.Semantics <> st':153 var
+R24752:24754 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24742:24746 SF.Semantics <> denot def
+R24748:24749 SF.Semantics <> st:150 var
+R24751:24751 SF.Semantics <> c:151 var
+R24755:24758 Coq.Init.Datatypes <> Some constr
+R24760:24762 SF.Semantics <> st':153 var
+R24790:24802 SF.Semantics <> denot_charact thm
+R24790:24802 SF.Semantics <> denot_charact thm
+R24826:24840 SF.Imp <> ceval_step_more thm
+R24826:24840 SF.Imp <> ceval_step_more thm
+prf 24994:25003 <> denot_skip
+binder 25015:25016 <> st:154
+R25032:25034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25019:25023 SF.Semantics <> denot def
+R25025:25026 SF.Semantics <> st:154 var
+R25028:25031 SF.Imp <> :::'SKIP' not
+R25035:25038 Coq.Init.Datatypes <> Some constr
+R25040:25041 SF.Semantics <> st:154 var
+R25067:25082 SF.Semantics <> denot_terminates thm
+R25067:25082 SF.Semantics <> denot_terminates thm
+prf 25117:25128 <> denot_assign
+binder 25140:25140 <> v:155
+binder 25142:25142 <> a:156
+binder 25144:25145 <> st:157
+R25166:25168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25148:25152 SF.Semantics <> denot def
+R25154:25155 SF.Semantics <> st:157 var
+R25159:25163 SF.Imp <> :::x_'::='_x not
+R25158:25158 SF.Semantics <> v:155 var
+R25164:25164 SF.Semantics <> a:156 var
+R25169:25172 Coq.Init.Datatypes <> Some constr
+R25175:25180 SF.Imp <> update def
+R25182:25183 SF.Semantics <> st:157 var
+R25185:25185 SF.Semantics <> v:155 var
+R25188:25192 SF.Imp <> aeval def
+R25194:25195 SF.Semantics <> st:157 var
+R25197:25197 SF.Semantics <> a:156 var
+R25225:25240 SF.Semantics <> denot_terminates thm
+R25225:25240 SF.Semantics <> denot_terminates thm
+prf 25275:25283 <> denot_seq
+binder 25295:25296 <> c1:158
+binder 25298:25299 <> c2:159
+binder 25301:25302 <> st:160
+R25324:25326 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25308:25312 SF.Semantics <> denot def
+R25314:25315 SF.Semantics <> st:160 var
+R25320:25320 SF.Imp <> :::x_';'_x not
+R25318:25319 SF.Semantics <> c1:158 var
+R25321:25322 SF.Semantics <> c2:159 var
+R25327:25337 SF.Imp <> bind_option def
+binder 25358:25360 <> st':161
+R25365:25369 SF.Semantics <> denot def
+R25371:25373 SF.Semantics <> st':161 var
+R25375:25376 SF.Semantics <> c2:159 var
+R25340:25344 SF.Semantics <> denot def
+R25346:25347 SF.Semantics <> st:160 var
+R25349:25350 SF.Semantics <> c1:158 var
+R25407:25417 SF.Semantics <> denot_limit thm
+R25407:25417 SF.Semantics <> denot_limit thm
+R25452:25456 SF.Semantics <> denot def
+R25452:25456 SF.Semantics <> denot def
+R25519:25529 SF.Semantics <> denot_limit thm
+R25519:25529 SF.Semantics <> denot_limit thm
+R25581:25581 Coq.Init.Datatypes <> S constr
+R25584:25586 Coq.Arith.Max <> max syndef
+R25561:25573 SF.Semantics <> denot_charact thm
+R25581:25581 Coq.Init.Datatypes <> S constr
+R25584:25586 Coq.Arith.Max <> max syndef
+R25561:25573 SF.Semantics <> denot_charact thm
+R25629:25633 Coq.Init.Logic <> False ind
+R25708:25710 Coq.Arith.Max <> max syndef
+R25693:25700 Coq.Arith.Le <> le_trans syndef
+R25708:25710 Coq.Arith.Max <> max syndef
+R25693:25700 Coq.Arith.Le <> le_trans syndef
+R25726:25733 Coq.Arith.Max <> le_max_r def
+R25726:25733 Coq.Arith.Max <> le_max_r def
+R25764:25766 Coq.Arith.Max <> max syndef
+R25749:25756 Coq.Arith.Le <> le_trans syndef
+R25764:25766 Coq.Arith.Max <> max syndef
+R25749:25756 Coq.Arith.Le <> le_trans syndef
+R25782:25789 Coq.Arith.Max <> le_max_l def
+R25782:25789 Coq.Arith.Max <> le_max_l def
+R25845:25845 Coq.Init.Datatypes <> S constr
+R25825:25837 SF.Semantics <> denot_charact thm
+R25845:25845 Coq.Init.Datatypes <> S constr
+R25825:25837 SF.Semantics <> denot_charact thm
+R25883:25887 Coq.Init.Logic <> False ind
+prf 25949:25964 <> denot_ifthenelse
+binder 25976:25976 <> b:162
+binder 25978:25979 <> c1:163
+binder 25981:25982 <> c2:164
+binder 25984:25985 <> st:165
+R26025:26029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25990:25994 SF.Semantics <> denot def
+R25996:25997 SF.Semantics <> st:165 var
+R26000:26003 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R26005:26010 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R26013:26018 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R26021:26023 SF.Imp <> :::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R26004:26004 SF.Semantics <> b:162 var
+R26011:26012 SF.Semantics <> c1:163 var
+R26019:26020 SF.Semantics <> c2:164 var
+R26033:26037 SF.Imp <> beval def
+R26039:26040 SF.Semantics <> st:165 var
+R26042:26042 SF.Semantics <> b:162 var
+R26066:26070 SF.Semantics <> denot def
+R26072:26073 SF.Semantics <> st:165 var
+R26075:26076 SF.Semantics <> c2:164 var
+R26049:26053 SF.Semantics <> denot def
+R26055:26056 SF.Semantics <> st:165 var
+R26058:26059 SF.Semantics <> c1:163 var
+R26109:26113 SF.Imp <> beval def
+R26109:26113 SF.Imp <> beval def
+R26165:26175 SF.Semantics <> denot_limit thm
+R26165:26175 SF.Semantics <> denot_limit thm
+R26224:26224 Coq.Init.Datatypes <> S constr
+R26204:26216 SF.Semantics <> denot_charact thm
+R26224:26224 Coq.Init.Datatypes <> S constr
+R26204:26216 SF.Semantics <> denot_charact thm
+R26261:26265 Coq.Init.Logic <> False ind
+R26348:26358 SF.Semantics <> denot_limit thm
+R26348:26358 SF.Semantics <> denot_limit thm
+R26407:26407 Coq.Init.Datatypes <> S constr
+R26387:26399 SF.Semantics <> denot_charact thm
+R26407:26407 Coq.Init.Datatypes <> S constr
+R26387:26399 SF.Semantics <> denot_charact thm
+R26444:26448 Coq.Init.Logic <> False ind
+prf 26512:26522 <> denot_while
+binder 26534:26534 <> b:166
+binder 26536:26536 <> c:167
+binder 26538:26539 <> st:168
+R26571:26575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26544:26548 SF.Semantics <> denot def
+R26550:26551 SF.Semantics <> st:168 var
+R26554:26559 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26561:26564 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26566:26569 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26560:26560 SF.Semantics <> b:166 var
+R26565:26565 SF.Semantics <> c:167 var
+R26579:26583 SF.Imp <> beval def
+R26585:26586 SF.Semantics <> st:168 var
+R26588:26588 SF.Semantics <> b:166 var
+R26671:26674 Coq.Init.Datatypes <> Some constr
+R26676:26677 SF.Semantics <> st:168 var
+R26597:26607 SF.Imp <> bind_option def
+binder 26627:26629 <> st':169
+R26634:26638 SF.Semantics <> denot def
+R26640:26642 SF.Semantics <> st':169 var
+R26645:26650 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26652:26655 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26657:26660 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26651:26651 SF.Semantics <> b:166 var
+R26656:26656 SF.Semantics <> c:167 var
+R26610:26614 SF.Semantics <> denot def
+R26616:26617 SF.Semantics <> st:168 var
+R26619:26619 SF.Semantics <> c:167 var
+R26707:26711 SF.Imp <> beval def
+R26707:26711 SF.Imp <> beval def
+R26763:26773 SF.Semantics <> denot_limit thm
+R26763:26773 SF.Semantics <> denot_limit thm
+R26807:26811 SF.Semantics <> denot def
+R26807:26811 SF.Semantics <> denot def
+R26873:26883 SF.Semantics <> denot_limit thm
+R26890:26895 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26897:26900 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26902:26905 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26873:26883 SF.Semantics <> denot_limit thm
+R26890:26895 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26897:26900 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26902:26905 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R26951:26951 Coq.Init.Datatypes <> S constr
+R26954:26956 Coq.Arith.Max <> max syndef
+R26931:26943 SF.Semantics <> denot_charact thm
+R26951:26951 Coq.Init.Datatypes <> S constr
+R26954:26956 Coq.Arith.Max <> max syndef
+R26931:26943 SF.Semantics <> denot_charact thm
+R26999:27003 Coq.Init.Logic <> False ind
+R27096:27098 Coq.Arith.Max <> max syndef
+R27081:27088 Coq.Arith.Le <> le_trans syndef
+R27096:27098 Coq.Arith.Max <> max syndef
+R27081:27088 Coq.Arith.Le <> le_trans syndef
+R27114:27121 Coq.Arith.Max <> le_max_r def
+R27114:27121 Coq.Arith.Max <> le_max_r def
+R27152:27154 Coq.Arith.Max <> max syndef
+R27137:27144 Coq.Arith.Le <> le_trans syndef
+R27152:27154 Coq.Arith.Max <> max syndef
+R27137:27144 Coq.Arith.Le <> le_trans syndef
+R27170:27177 Coq.Arith.Max <> le_max_l def
+R27170:27177 Coq.Arith.Max <> le_max_l def
+R27233:27233 Coq.Init.Datatypes <> S constr
+R27213:27225 SF.Semantics <> denot_charact thm
+R27233:27233 Coq.Init.Datatypes <> S constr
+R27213:27225 SF.Semantics <> denot_charact thm
+R27271:27275 Coq.Init.Logic <> False ind
+R27370:27385 SF.Semantics <> denot_terminates thm
+R27370:27385 SF.Semantics <> denot_terminates thm
+def 27536:27554 <> result_less_defined
+R27564:27569 Coq.Init.Datatypes <> option ind
+R27571:27575 SF.Imp <> state def
+binder 27557:27558 <> r1:170
+binder 27560:27561 <> r2:171
+R27599:27602 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27592:27594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27590:27591 SF.Semantics <> r1:170 var
+R27595:27598 Coq.Init.Datatypes <> None constr
+R27605:27607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27603:27604 SF.Semantics <> r1:170 var
+R27608:27609 SF.Semantics <> r2:171 var
+prf 27619:27644 <> denot_while_least_fixpoint
+binder 27656:27656 <> b:172
+binder 27658:27658 <> c:173
+R27669:27672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27664:27668 SF.Imp <> state def
+R27673:27678 Coq.Init.Datatypes <> option ind
+R27680:27684 SF.Imp <> state def
+binder 27661:27661 <> f:174
+R27690:27690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27770:27777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27848:27848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 27698:27699 <> st:175
+R27709:27711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27705:27705 SF.Semantics <> f:174 var
+R27707:27708 SF.Semantics <> st:175 var
+R27715:27719 SF.Imp <> beval def
+R27721:27722 SF.Semantics <> st:175 var
+R27724:27724 SF.Semantics <> b:172 var
+R27763:27766 Coq.Init.Datatypes <> Some constr
+R27768:27769 SF.Semantics <> st:175 var
+R27731:27741 SF.Imp <> bind_option def
+R27756:27756 SF.Semantics <> f:174 var
+R27744:27748 SF.Semantics <> denot def
+R27750:27751 SF.Semantics <> st:175 var
+R27753:27753 SF.Semantics <> c:173 var
+binder 27785:27786 <> st:176
+R27792:27810 SF.Semantics <> result_less_defined def
+R27813:27817 SF.Semantics <> denot def
+R27819:27820 SF.Semantics <> st:176 var
+R27823:27828 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27830:27833 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27835:27838 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27829:27829 SF.Semantics <> b:172 var
+R27834:27834 SF.Semantics <> c:173 var
+R27843:27843 SF.Semantics <> f:174 var
+R27845:27846 SF.Semantics <> st:176 var
+binder 27886:27886 <> n:177
+binder 27888:27889 <> st:178
+R27892:27910 SF.Semantics <> result_less_defined def
+R27913:27922 SF.Imp <> ceval_step def
+R27924:27925 SF.Semantics <> st:178 var
+R27928:27933 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27935:27938 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27940:27943 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27946:27946 SF.Semantics <> n:177 var
+R27952:27953 SF.Semantics <> st:178 var
+binder 27886:27886 <> n:179
+binder 27888:27889 <> st:180
+R27892:27910 SF.Semantics <> result_less_defined def
+R27913:27922 SF.Imp <> ceval_step def
+R27924:27925 SF.Semantics <> st:180 var
+R27928:27933 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27935:27938 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27940:27943 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R27946:27946 SF.Semantics <> n:179 var
+R27952:27953 SF.Semantics <> st:180 var
+R28036:28040 SF.Imp <> beval def
+R28036:28040 SF.Imp <> beval def
+R28065:28074 SF.Imp <> ceval_step def
+R28065:28074 SF.Imp <> ceval_step def
+R28118:28122 SF.Semantics <> denot def
+R28137:28140 Coq.Init.Datatypes <> Some constr
+R28118:28122 SF.Semantics <> denot def
+R28137:28140 Coq.Init.Datatypes <> Some constr
+R28178:28193 SF.Semantics <> denot_terminates thm
+R28178:28193 SF.Semantics <> denot_terminates thm
+R28246:28256 SF.Semantics <> denot_limit thm
+R28262:28267 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28269:28272 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28274:28277 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28246:28256 SF.Semantics <> denot_limit thm
+R28262:28267 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28269:28272 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28274:28277 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+prf 28443:28467 <> denot_while_compositional
+binder 28479:28479 <> b:181
+binder 28481:28482 <> c1:182
+binder 28484:28485 <> c2:183
+R28490:28490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28527:28534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28605:28605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 28498:28499 <> st:184
+R28513:28515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28502:28506 SF.Semantics <> denot def
+R28508:28509 SF.Semantics <> st:184 var
+R28511:28512 SF.Semantics <> c1:182 var
+R28516:28520 SF.Semantics <> denot def
+R28522:28523 SF.Semantics <> st:184 var
+R28525:28526 SF.Semantics <> c2:183 var
+binder 28542:28543 <> st:185
+R28574:28576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28546:28550 SF.Semantics <> denot def
+R28552:28553 SF.Semantics <> st:185 var
+R28556:28561 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28563:28566 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28569:28572 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28562:28562 SF.Semantics <> b:181 var
+R28567:28568 SF.Semantics <> c1:182 var
+R28577:28581 SF.Semantics <> denot def
+R28583:28584 SF.Semantics <> st:185 var
+R28587:28592 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28594:28597 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28600:28603 SF.Imp <> :::'WHILE'_x_'DO'_x_'END' not
+R28593:28593 SF.Semantics <> b:181 var
+R28598:28599 SF.Semantics <> c2:183 var
+prf 28802:28812 <> denot_ceval
+binder 28824:28824 <> c:186
+binder 28826:28827 <> st:187
+binder 28829:28831 <> st':188
+R28850:28856 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R28837:28839 SF.Imp <> :::x_'/'_x_'==>'_x not
+R28842:28846 SF.Imp <> :::x_'/'_x_'==>'_x not
+R28836:28836 SF.Semantics <> c:186 var
+R28840:28841 SF.Semantics <> st:187 var
+R28847:28849 SF.Semantics <> st':188 var
+R28867:28869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28857:28861 SF.Semantics <> denot def
+R28863:28864 SF.Semantics <> st:187 var
+R28866:28866 SF.Semantics <> c:186 var
+R28870:28873 Coq.Init.Datatypes <> Some constr
+R28875:28877 SF.Semantics <> st':188 var
+R28935:28951 SF.Semantics <> ceval__ceval_step prfax
+R28935:28951 SF.Semantics <> ceval__ceval_step prfax
+R28983:28998 SF.Semantics <> denot_terminates thm
+R28983:28998 SF.Semantics <> denot_terminates thm
+R29037:29047 SF.Semantics <> denot_limit thm
+R29037:29047 SF.Semantics <> denot_limit thm
+R29077:29093 SF.Semantics <> ceval_step__ceval prfax
+R29077:29093 SF.Semantics <> ceval_step__ceval prfax
+prf 29151:29164 <> denot_cevalinf
+binder 29176:29176 <> c:189
+binder 29178:29179 <> st:190
+R29198:29203 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R29185:29187 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R29190:29197 SF.Semantics <> :::x_'/'_x_'==>'_'∞' not
+R29184:29184 SF.Semantics <> c:189 var
+R29188:29189 SF.Semantics <> st:190 var
+R29214:29216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29204:29208 SF.Semantics <> denot def
+R29210:29211 SF.Semantics <> st:190 var
+R29213:29213 SF.Semantics <> c:189 var
+R29217:29220 Coq.Init.Datatypes <> None constr
+R29274:29286 SF.Semantics <> denot_charact thm
+R29274:29286 SF.Semantics <> denot_charact thm
+R29310:29336 SF.Semantics <> cevalinf__ceval_step_bottom thm
+R29310:29336 SF.Semantics <> cevalinf__ceval_step_bottom thm
+R29368:29378 SF.Semantics <> denot_limit thm
+R29368:29378 SF.Semantics <> denot_limit thm
+R29409:29435 SF.Semantics <> ceval_step_bottom__cevalinf thm
+R29409:29435 SF.Semantics <> ceval_step_bottom__cevalinf thm
